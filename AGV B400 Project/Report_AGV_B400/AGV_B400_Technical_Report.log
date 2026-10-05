@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  5 OCT 2026 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  5 OCT 2026 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1664,6 +1664,7 @@ Overfull \hbox (26.675pt too wide) in paragraph at lines 744--745
 
 {C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fr
 ee1.enc}] [21] [22] (seq_diagrams.tex [23] [24] [25] [26]) [27] [28]
+[29]
 Overfull \hbox (15.98907pt too wide) in paragraph at lines 928--929
 \T5/ptm/m/n/13 LiFePO4 (^^_¤t $\OT1/ztmcm/m/n/13 25\OML/ztmcm/m/it/13 :\OT1/ztm
 cm/m/n/13 6[]$\T5/ptm/m/n/13 ), ^^_i»n ¡p ngã ra LM2596 (^^_¤t $\OT1/ztmcm/m/n/
@@ -1677,17 +1678,17 @@ Overfull \hbox (1.32611pt too wide) in paragraph at lines 935--936
  ùng nhªn dú li»u qu²t 500Kbps.
  []
 
-[29
+[30
 
-] [30]
+] [31]
 Overfull \hbox (8.77354pt too wide) in paragraph at lines 964--965
 []\T5/ptm/m/n/13 Thi¸t k¸ v  l m chõ bo m¤ch ^^_i·u khiºn nhóng trung t¥m sû dö
 ng \T5/ptm/b/n/13 STM32F407ZGT6
  []
 
-[31
+[32
 
-] [32]
+] [33]
 Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
 []|\T5/ptm/m/n/11.86258 Chån MCU STM32F407,
  []
@@ -1707,20 +1708,24 @@ Underfull \hbox (badness 5091) in paragraph at lines 1027--1027
 \T5/ptm/m/n/11.86258 5V, 3.3V, ^^_o t½n hi»u bus
  []
 
-[33] (AGV_B400_Technical_Report.aux)
+[34] (AGV_B400_Technical_Report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `AGV_B400_Technical_Report.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: DC503C6FAC004BCAE0D02C3E237B33AE;13169.
  ) 
 Here is how much of TeX's memory you used:
  45019 strings out of 467871
- 1027901 string characters out of 5418861
- 1698567 words of memory out of 5000000
- 73021 multiletter control sequences out of 15000+600000
+ 1027841 string characters out of 5418861
+ 1644385 words of memory out of 5000000
+ 73020 multiletter control sequences out of 15000+600000
  713294 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,131p,754b,1137s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1737,9 +1742,9 @@ rams/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/asus/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/asus/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb><C:/Users/asus/AppData/Local/P
 rograms/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on AGV_B400_Technical_Report.pdf (34 pages, 352027 bytes).
+Output written on AGV_B400_Technical_Report.pdf (35 pages, 347446 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
+ 603 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
  514 words of extra memory for PDF output out of 10000 (max. 10000000)
 

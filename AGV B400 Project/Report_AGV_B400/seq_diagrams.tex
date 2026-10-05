@@ -22,7 +22,7 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     \node[participant] (p5) at (18,0) {Motor Driver};
     
     % Lifelines and Bottom Participants
-    \def\len{-8.5}
+    \def\len{-14.5}
     \draw[lifeline] (p1) -- +(0,\len) node[participant, below] {HMI/Server};
     \draw[lifeline] (p2) -- +(0,\len) node[participant, below] {AGV\_RunTask};
     \draw[lifeline] (p3) -- +(0,\len) node[participant, below] {MGS-16};
@@ -32,21 +32,21 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     % Group 1
     \draw[thick] (-1.5,-1) -- (19.5,-1);
     \node[divider] at (9,-1) {Khởi động};
-    \draw[msg] (0,-2) -- node[above, font=\small] {Lệnh Khởi động (0x01)} (4.5,-2);
+    \draw[msg] (0,-2.5) -- node[above, font=\small] {Lệnh Khởi động (0x01)} (4.5,-2.5);
     
     % Group 2
-    \draw[thick] (-1.5,-3) -- (19.5,-3);
-    \node[divider] at (9,-3) {Chu kỳ Dẫn đường (10ms)};
-    \draw[msg] (4.5,-4) -- node[above, font=\small] {Đọc từ trường 16-bit} (9,-4);
-    \draw[reply] (4.5,-4.7) -- node[above, font=\small] {Giá trị lệch (Trái/Phải)} (9,-4.7);
-    \draw[msg] (4.5,-5.5) -- node[above, font=\small] {Lệnh vận tốc vi sai (Modbus TX)} (18,-5.5);
-    \draw[reply] (4.5,-6.2) -- node[above, font=\small] {ACK \& Encoder (Modbus RX)} (18,-6.2);
+    \draw[thick] (-1.5,-4) -- (19.5,-4);
+    \node[divider] at (9,-4) {Chu kỳ Dẫn đường (10ms)};
+    \draw[msg] (4.5,-5.5) -- node[above, font=\small] {Đọc từ trường 16-bit} (9,-5.5);
+    \draw[reply] (4.5,-6.7) -- node[above, font=\small] {Giá trị lệch (Trái/Phải)} (9,-6.7);
+    \draw[msg] (4.5,-7.9) -- node[above, font=\small] {Lệnh vận tốc vi sai (Modbus TX)} (18,-7.9);
+    \draw[reply] (4.5,-9.1) -- node[above, font=\small] {ACK \& Encoder (Modbus RX)} (18,-9.1);
     
     % Group 3
-    \draw[thick] (-1.5,-7) -- (19.5,-7);
-    \node[divider] at (9,-7) {Định vị Trạm đích};
-    \draw[msg] (4.5,-8) -- node[above, font=\small] {Quét mã thẻ từ} (13.5,-8);
-    \draw[reply] (4.5,-8.7) -- node[above, font=\small] {Trả về RFID Tag ID} (13.5,-8.7);
+    \draw[thick] (-1.5,-10.6) -- (19.5,-10.6);
+    \node[divider] at (9,-10.6) {Định vị Trạm đích};
+    \draw[msg] (4.5,-12.1) -- node[above, font=\small] {Quét mã thẻ từ} (13.5,-12.1);
+    \draw[reply] (4.5,-13.3) -- node[above, font=\small] {Trả về RFID Tag ID} (13.5,-13.3);
 \end{tikzpicture}%
 }
 \caption{Sơ đồ tuần tự quá trình dẫn đường và nhận dạng trạm RFID.}
@@ -65,7 +65,7 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     \node[participant] (p5) at (18,0) {Speak.c (Loa MP3)};
     
     % Lifelines and Bottom Participants
-    \def\len{-8}
+    \def\len{-14.5}
     \draw[lifeline] (p1) -- +(0,\len) node[participant, below] {Lidar/Bumper};
     \draw[lifeline] (p2) -- +(0,\len) node[participant, below] {StartTask04};
     \draw[lifeline] (p3) -- +(0,\len) node[participant, below] {AGV\_RunTask};
@@ -75,18 +75,18 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     % Group 1
     \draw[thick] (-1.5,-1) -- (19.5,-1);
     \node[divider] at (9,-1) {Cảnh báo nguy hiểm (Vật cản Vùng 2)};
-    \draw[msg] (0,-2) -- node[above, font=\small] {Cảnh báo vật cản (CAN 500Kbps)} (4.5,-2);
-    \draw[msg] (4.5,-2.8) -- node[above, font=\small] {Gửi Event: Cảnh báo Lidar (0x02)} (9,-2.8);
-    \draw[msg] (9,-3.6) -- node[above, font=\small] {Giảm 50\% tốc độ} (13.5,-3.6);
-    \draw[msg] (4.5,-4.4) -- node[above, font=\small] {Kích hoạt cảnh báo âm thanh} (18,-4.4);
+    \draw[msg] (0,-2.5) -- node[above, font=\small] {Cảnh báo vật cản (CAN 500Kbps)} (4.5,-2.5);
+    \draw[msg] (4.5,-3.7) -- node[above, font=\small] {Gửi Event: Cảnh báo Lidar (0x02)} (9,-3.7);
+    \draw[msg] (9,-4.9) -- node[above, font=\small] {Giảm 50\% tốc độ} (13.5,-4.9);
+    \draw[msg] (4.5,-6.1) -- node[above, font=\small] {Kích hoạt cảnh báo âm thanh} (18,-6.1);
     
     % Group 2
-    \draw[thick] (-1.5,-5.2) -- (19.5,-5.2);
-    \node[divider] at (9,-5.2) {Dừng Khẩn cấp (Vùng 3 / Chạm Bumper)};
-    \draw[msg] (0,-6.2) -- node[above, font=\small] {Ngắt phần cứng EXTI} (4.5,-6.2);
-    \draw[msg] (4.5,-7) -- node[above, font=\small] {Gửi Event: Sự Cố Khẩn Cấp (0x03)} (9,-7);
-    \draw[msg] (9,-7.8) -- node[above, font=\small] {Ngắt lệnh chạy, Kích hoạt Phanh từ} (13.5,-7.8);
-    \draw[msg] (4.5,-8.6) -- node[above, font=\small] {Phát âm thanh ''Có sự cố''} (18,-8.6);
+    \draw[thick] (-1.5,-7.6) -- (19.5,-7.6);
+    \node[divider] at (9,-7.6) {Dừng Khẩn cấp (Vùng 3 / Chạm Bumper)};
+    \draw[msg] (0,-9.1) -- node[above, font=\small] {Ngắt phần cứng EXTI} (4.5,-9.1);
+    \draw[msg] (4.5,-10.3) -- node[above, font=\small] {Gửi Event: Sự Cố Khẩn Cấp (0x03)} (9,-10.3);
+    \draw[msg] (9,-11.5) -- node[above, font=\small] {Ngắt lệnh chạy, Kích hoạt Phanh từ} (13.5,-11.5);
+    \draw[msg] (4.5,-12.7) -- node[above, font=\small] {Phát âm thanh ''Có sự cố''} (18,-12.7);
 \end{tikzpicture}%
 }
 \caption{Sơ đồ tuần tự luồng giám sát an toàn và xử lý sự cố khẩn cấp.}
@@ -104,7 +104,7 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     \node[participant] (p4) at (13.5,0) {Trạm PLC (Modbus)};
     
     % Lifelines and Bottom Participants
-    \def\len{-7}
+    \def\len{-11.5}
     \draw[lifeline] (p1) -- +(0,\len) node[participant, below] {AGV\_RunTask};
     \draw[lifeline] (p2) -- +(0,\len) node[participant, below] {Tool\_OUT (Rơ-le)};
     \draw[lifeline] (p3) -- +(0,\len) node[participant, below] {Xi-lanh \& Cảm biến};
@@ -113,16 +113,16 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     % Group 1
     \draw[thick] (-1.5,-1) -- (15,-1);
     \node[divider] at (6.75,-1) {Kích hoạt Cơ cấu Nâng/Hạ};
-    \draw[msg] (0,-2) -- node[above, font=\small] {Kích hoạt OUT1 (Nâng móc kéo)} (4.5,-2);
-    \draw[msg] (4.5,-2.8) -- node[above, font=\small] {Cấp nguồn 24V} (9,-2.8);
-    \draw[reply] (0,-3.8) -- node[above, font=\small] {Chạm cảm biến hành trình trên (Tool\_IN1)} (9,-3.8);
+    \draw[msg] (0,-2.5) -- node[above, font=\small] {Kích hoạt OUT1 (Nâng móc kéo)} (4.5,-2.5);
+    \draw[msg] (4.5,-3.7) -- node[above, font=\small] {Cấp nguồn 24V} (9,-3.7);
+    \draw[reply] (0,-4.9) -- node[above, font=\small] {Chạm cảm biến hành trình trên (Tool\_IN1)} (9,-4.9);
     
     % Group 2
-    \draw[thick] (-1.5,-4.8) -- (15,-4.8);
-    \node[divider] at (6.75,-4.8) {Cập nhật trạng thái};
-    \draw[msg] (0,-5.8) -- node[above, font=\small] {Ngắt OUT1 (Dừng xi-lanh)} (4.5,-5.8);
-    \draw[msg] (0,-6.6) -- node[above, font=\small] {Gửi cờ ''Đã khóa xe hàng thành công''} (13.5,-6.6);
-    \draw[reply] (0,-7.4) -- node[above, font=\small] {Xác nhận ACK} (13.5,-7.4);
+    \draw[thick] (-1.5,-6.4) -- (15,-6.4);
+    \node[divider] at (6.75,-6.4) {Cập nhật trạng thái};
+    \draw[msg] (0,-7.9) -- node[above, font=\small] {Ngắt OUT1 (Dừng xi-lanh)} (4.5,-7.9);
+    \draw[msg] (0,-9.1) -- node[above, font=\small] {Gửi cờ ''Đã khóa xe hàng thành công''} (13.5,-9.1);
+    \draw[reply] (0,-10.3) -- node[above, font=\small] {Xác nhận ACK} (13.5,-10.3);
 \end{tikzpicture}%
 }
 \caption{Sơ đồ tuần tự hoạt động của cơ cấu móc kéo xe hàng.}
@@ -141,7 +141,7 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     \node[participant] (p5) at (18,0) {DK\_Sac\_Pin (Rơ-le)};
     
     % Lifelines and Bottom Participants
-    \def\len{-8}
+    \def\len{-13.5}
     \draw[lifeline] (p1) -- +(0,\len) node[participant, below] {ADC3 \& Kalman};
     \draw[lifeline] (p2) -- +(0,\len) node[participant, below] {AGV\_ReadTask};
     \draw[lifeline] (p3) -- +(0,\len) node[participant, below] {AGV\_RunTask};
@@ -151,20 +151,20 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     % Group 1
     \draw[thick] (-1.5,-1) -- (19.5,-1);
     \node[divider] at (9,-1) {Giám sát dung lượng Pin};
-    \draw[reply] (4.5,-2) -- node[above, font=\small] {Cung cấp điện áp đã lọc ($V_{kalman}$)} (0,-2);
-    \draw[msg] (4.5,-2.8) -- node[above, font=\small] {Báo cáo Pin yếu ($<23.0V$)} (9,-2.8);
+    \draw[reply] (4.5,-2.5) -- node[above, font=\small] {Cung cấp điện áp đã lọc ($V_{kalman}$)} (0,-2.5);
+    \draw[msg] (4.5,-3.7) -- node[above, font=\small] {Báo cáo Pin yếu ($<23.0V$)} (9,-3.7);
     
     % Group 2
-    \draw[thick] (-1.5,-3.8) -- (19.5,-3.8);
-    \node[divider] at (9,-3.8) {Tiến trình Sạc Pin};
-    \draw[msg] (9,-4.8) -- node[above, font=\small] {Đóng Contactor sạc} (18,-4.8);
-    \draw[msg] (9,-5.6) -- node[above, font=\small] {Lệnh kích hoạt sạc (Modbus)} (13.5,-5.6);
+    \draw[thick] (-1.5,-5.2) -- (19.5,-5.2);
+    \node[divider] at (9,-5.2) {Tiến trình Sạc Pin};
+    \draw[msg] (9,-6.7) -- node[above, font=\small] {Đóng Contactor sạc} (18,-6.7);
+    \draw[msg] (9,-7.9) -- node[above, font=\small] {Lệnh kích hoạt sạc (Modbus)} (13.5,-7.9);
     
     % Group 3
-    \draw[thick] (-1.5,-6.6) -- (19.5,-6.6);
-    \node[divider] at (9,-6.6) {Hoàn thành sạc};
-    \draw[msg] (4.5,-7.6) -- node[above, font=\small] {Báo cáo Pin đầy ($\ge28.4V$)} (9,-7.6);
-    \draw[msg] (9,-8.4) -- node[above, font=\small] {Ngừng sạc \& Mở Contactor} (18,-8.4);
+    \draw[thick] (-1.5,-9.4) -- (19.5,-9.4);
+    \node[divider] at (9,-9.4) {Hoàn thành sạc};
+    \draw[msg] (4.5,-10.9) -- node[above, font=\small] {Báo cáo Pin đầy ($\ge28.4V$)} (9,-10.9);
+    \draw[msg] (9,-12.1) -- node[above, font=\small] {Ngừng sạc \& Mở Contactor} (18,-12.1);
 \end{tikzpicture}%
 }
 \caption{Sơ đồ tuần tự quá trình giám sát Pin và sạc tự động.}
@@ -183,7 +183,7 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     \node[participant] (p5) at (18,0) {UART6 DMA (TX)};
     
     % Lifelines and Bottom Participants
-    \def\len{-7}
+    \def\len{-10.5}
     \draw[lifeline] (p1) -- +(0,\len) node[participant, below] {HMI Server};
     \draw[lifeline] (p2) -- +(0,\len) node[participant, below] {UART6 DMA (RX)};
     \draw[lifeline] (p3) -- +(0,\len) node[participant, below] {StartTask05};
@@ -193,15 +193,15 @@ Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần t�
     % Group 1
     \draw[thick] (-1.5,-1) -- (19.5,-1);
     \node[divider] at (9,-1) {Tiếp nhận \& Xử lý Lệnh};
-    \draw[msg] (0,-2) -- node[above, font=\small] {Gửi khung Modbus (Ghi Start)} (4.5,-2);
-    \draw[msg] (4.5,-2.8) -- node[above, font=\small] {Ngắt IDLE (Nhận xong khung)} (9,-2.8);
-    \draw[msg] (9,-3.6) -- node[above, font=\small] {Ghi giá trị (AGV\_Running=0x01)} (13.5,-3.6);
+    \draw[msg] (0,-2.5) -- node[above, font=\small] {Gửi khung Modbus (Ghi Start)} (4.5,-2.5);
+    \draw[msg] (4.5,-3.7) -- node[above, font=\small] {Ngắt IDLE (Nhận xong khung)} (9,-3.7);
+    \draw[msg] (9,-4.9) -- node[above, font=\small] {Ghi giá trị (AGV\_Running=0x01)} (13.5,-4.9);
     
     % Group 2
-    \draw[thick] (-1.5,-4.6) -- (19.5,-4.6);
-    \node[divider] at (9,-4.6) {Phản hồi Trạng thái};
-    \draw[msg] (9,-5.6) -- node[above, font=\small] {Đóng gói phản hồi Modbus} (18,-5.6);
-    \draw[reply] (0,-6.4) -- node[above, font=\small] {Trả về trạng thái hiện tại (TX DMA)} (18,-6.4);
+    \draw[thick] (-1.5,-6.4) -- (19.5,-6.4);
+    \node[divider] at (9,-6.4) {Phản hồi Trạng thái};
+    \draw[msg] (9,-7.9) -- node[above, font=\small] {Đóng gói phản hồi Modbus} (18,-7.9);
+    \draw[reply] (0,-9.1) -- node[above, font=\small] {Trả về trạng thái hiện tại (TX DMA)} (18,-9.1);
 \end{tikzpicture}%
 }
 \caption{Sơ đồ tuần tự giao thức truyền thông Modbus RTU.}
