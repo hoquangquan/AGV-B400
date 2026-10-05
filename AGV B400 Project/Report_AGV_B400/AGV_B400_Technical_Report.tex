@@ -610,7 +610,7 @@ Trạng thái di chuyển toàn cục của xe được quản lý qua biến m�
 
 \begin{figure}[H]
 \centering
-\resizebox{\linewidth}{!}{%
+\scalebox{0.75}{%
 \begin{tikzpicture}[node distance=2cm, auto, >=stealth']
     \node [process, fill=gray!20] (s0) {\textbf{0x00: AGV\_Stop}\\Dừng / Chờ lệnh};
     \node [process, fill=green!20, right=of s0] (s1) {\textbf{0x01: AGV\_Run}\\Chạy tự động dò từ};
@@ -639,7 +639,7 @@ Luồng điều khiển di chuyển tự động từ khi nhận lệnh di chuy�
 
 \begin{figure}[H]
 \centering
-\resizebox{\linewidth}{!}{%
+\scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
     \node [startstop] (start) {Bắt đầu di chuyển (\texttt{AGV\_Running = 0x01})};
     \node [process, below=of start] (mgs) {Đọc cảm biến từ \texttt{MGS\_F} / \texttt{MGS\_R}};
@@ -670,7 +670,7 @@ Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar 
 
 \begin{figure}[H]
 \centering
-\resizebox{\linewidth}{!}{%
+\scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
     \node [process, fill=gray!10] (poll) {Giám sát cảm biến an toàn 24/7};
     \node [decision, below=of poll] (chk_emc) {Nhấn nút EMC / Bumper?};
@@ -695,7 +695,7 @@ Quá trình kéo và giải phóng xe hàng (Trolley) tại trạm dừng:
 
 \begin{figure}[H]
 \centering
-\resizebox{\linewidth}{!}{%
+\scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
     \node [startstop] (start) {Vào trạm (\texttt{AGV\_Running = 0x04})};
     \node [process, below=of start] (out) {Bật ngõ ra \texttt{Tool\_OUT1} / \texttt{Tool\_OUT2} (Kích nâng/hạ)};
@@ -719,7 +719,7 @@ Quy trình đo điện áp pin qua bộ lọc Kalman và điều khiển kết n
 
 \begin{figure}[H]
 \centering
-\resizebox{\linewidth}{!}{%
+\scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
     \node [process] (adc) {Đọc ADC3\_IN14 qua DMA};
     \node [process, below=of adc] (kalman) {Lọc nhiễu bằng thuật toán Kalman (\texttt{kalman\_update})};
@@ -752,7 +752,7 @@ Luồng xử lý dữ liệu giữa AGV B400 với Hệ thống trung tâm HMI (
 
 \begin{figure}[H]
 \centering
-\resizebox{\linewidth}{!}{%
+\scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
     \node [process] (rx) {Ngắt DMA nhận chuỗi Modbus RTU};
     \node [decision, below=of rx] (crc) {Kiểm tra CRC-16 chuẩn?};
@@ -770,6 +770,8 @@ Luồng xử lý dữ liệu giữa AGV B400 với Hệ thống trung tâm HMI (
 \caption{Sơ đồ luồng xử lý giao thức Modbus RTU trên các cổng truyền thông.}
 \label{fig:seq_modbus}
 \end{figure}
+
+\input{seq_diagrams.tex}
 
 \newpage
 
