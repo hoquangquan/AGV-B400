@@ -147,22 +147,23 @@ Dự án tập trung nghiên cứu, thiết kế phần cứng và xây dựng c
 \end{itemize}
 
 \subsection{Tóm tắt cấu trúc dự án}
-Báo cáo được trình bày theo cấu trúc chuẩn 5 chương:
+Báo cáo được trình bày theo cấu trúc chuẩn 6 chương:
 \begin{itemize}
     \item \textbf{Chương 1 - Chương mở đầu:} Tổng quan bối cảnh, mục tiêu và phạm vi ứng dụng của dự án AGV B400.
-    \item \textbf{Chương 2 - Phân tích yêu cầu kỹ thuật:} Phân tích chi tiết cơ sở lý thuyết (STM32F4, FreeRTOS, Modbus, CAN Bus, MGS, RFID, Kalman) cùng các yêu cầu chức năng và phi chức năng.
-    \item \textbf{Chương 3 - Thiết kế chi tiết hệ thống:} Chi tiết thiết kế tổng thể, sơ đồ khối, bảng thông số linh kiện, tính toán công suất nguồn, thiết kế Schematic, PCB layout, kiến trúc Firmware đa nhiệm và các sơ đồ tuần tự luồng hoạt động.
-    \item \textbf{Chương 4 - Kiểm thử hệ thống và lấy dữ liệu:} Quy trình thử nghiệm đo kiểm nguồn, kiểm tra từng module phần cứng và kiểm thử vận hành thực tế hệ thống xe hoàn chỉnh.
-    \item \textbf{Chương 5 - Kết luận và hướng phát triển:} Tổng kết các kết quả đạt được, khuyến nghị kỹ thuật cách ly chống nhiễu công nghiệp và hướng nâng cấp phát triển trong tương lai.
+    \item \textbf{Chương 2 - Cơ sở lý thuyết và phân tích yêu cầu:} Phân tích chi tiết cơ sở lý thuyết (STM32F4, FreeRTOS, Modbus, CAN Bus, MGS, RFID, Kalman) cùng các yêu cầu chức năng và phi chức năng.
+    \item \textbf{Chương 3 - Thiết kế chi tiết hệ thống:} Chi tiết thiết kế tổng thể, sơ đồ khối, bảng thông số linh kiện, tính toán công suất nguồn, thiết kế Schematic và PCB layout.
+    \item \textbf{Chương 4 - Kiến trúc phần mềm và luồng hoạt động:} Kiến trúc Firmware đa nhiệm trên FreeRTOS, các máy trạng thái, sơ đồ thuật toán và sơ đồ tuần tự hoạt động.
+    \item \textbf{Chương 5 - Kiểm thử hệ thống và lấy dữ liệu:} Quy trình thử nghiệm đo kiểm nguồn, kiểm tra từng module phần cứng và kiểm thử vận hành thực tế hệ thống xe hoàn chỉnh.
+    \item \textbf{Chương 6 - Kết luận và hướng phát triển:} Tổng kết các kết quả đạt được, khuyến nghị kỹ thuật cách ly chống nhiễu công nghiệp và hướng nâng cấp phát triển trong tương lai.
 \end{itemize}
 
 \newpage
 
 % ==========================================
-% CHƯƠNG 2. PHÂN TÍCH YÊU CẦU KĨ THUẬT
+% CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ PHÂN TÍCH YÊU CẦU
 % ==========================================
-\section*{CHƯƠNG 2. PHÂN TÍCH YÊU CẦU KĨ THUẬT}
-\addcontentsline{toc}{section}{\numberline{}CHƯƠNG 2. PHÂN TÍCH YÊU CẦU KĨ THUẬT}
+\section*{CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ PHÂN TÍCH YÊU CẦU}
+\addcontentsline{toc}{section}{\numberline{}CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ PHÂN TÍCH YÊU CẦU}
 \setcounter{section}{2}
 \setcounter{subsection}{0}
 \setcounter{figure}{0}
@@ -550,7 +551,19 @@ Mạch in PCB được thiết kế trên 2 lớp (Double-sided PCB) đáp ứng
     \item Điện trở bù kết thúc bus $120\Omega$ được đặt ngay tại cổng kết nối bus CAN và RS485.
 \end{itemize}
 
-\subsubsection{Thiết kế Firmware}
+\newpage
+
+% ==========================================
+% CHƯƠNG 4. KIẾN TRÚC PHẦN MỀM VÀ LUỒNG HOẠT ĐỘNG
+% ==========================================
+\section*{CHƯƠNG 4. KIẾN TRÚC PHẦN MỀM VÀ LUỒNG HOẠT ĐỘNG}
+\addcontentsline{toc}{section}{\numberline{}CHƯƠNG 4. KIẾN TRÚC PHẦN MỀM VÀ LUỒNG HOẠT ĐỘNG}
+\setcounter{section}{4}
+\setcounter{subsection}{0}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+
+\subsection{Thiết kế Firmware}
 Firmware nhúng được tổ chức theo kiến trúc phân lớp (Layered Architecture) trên nền FreeRTOS:
 
 \begin{figure}[H]
@@ -619,9 +632,9 @@ Trạng thái di chuyển toàn cục của xe được quản lý qua biến m�
 \label{fig:state_machine}
 \end{figure}
 
-\subsubsection{Thiết kế Software và Luồng hoạt động}
+\subsection{Thiết kế Software và Các Luồng Hoạt Động}
 
-\paragraph{Phần 1: Sơ đồ Tuần tự Dẫn đường từ \& Nhận diện Trạm RFID}
+\subsubsection{Sơ đồ Luồng Dẫn đường từ \& Nhận diện Trạm RFID}
 Luồng điều khiển di chuyển tự động từ khi nhận lệnh di chuyển cho đến khi nhận diện chính xác thẻ từ RFID tại trạm đích:
 
 \begin{figure}[H]
@@ -652,7 +665,7 @@ Luồng điều khiển di chuyển tự động từ khi nhận lệnh di chuy�
 \label{fig:seq_navigation}
 \end{figure}
 
-\paragraph{Phần 2: Sơ đồ Tuần tự Giám sát An toàn \& Xử lý Ngắt khẩn}
+\subsubsection{Sơ đồ Luồng Giám sát An toàn \& Xử lý Ngắt khẩn}
 Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar CAN, Bumper và Nút EMC:
 
 \begin{figure}[H]
@@ -677,7 +690,7 @@ Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar 
 \label{fig:seq_safety}
 \end{figure}
 
-\paragraph{Phần 3: Sơ đồ Tuần tự Thực thi Cơ cấu Nâng/Hạ hàng}
+\subsubsection{Sơ đồ Luồng Thực thi Cơ cấu Nâng/Hạ hàng}
 Quá trình kéo và giải phóng xe hàng (Trolley) tại trạm dừng:
 
 \begin{figure}[H]
@@ -701,7 +714,7 @@ Quá trình kéo và giải phóng xe hàng (Trolley) tại trạm dừng:
 \label{fig:seq_tool}
 \end{figure}
 
-\paragraph{Phần 4: Sơ đồ Tuần tự Đo Pin \& Tự động Sạc Pin}
+\subsubsection{Sơ đồ Luồng Đo Pin \& Tự động Sạc Pin}
 Quy trình đo điện áp pin qua bộ lọc Kalman và điều khiển kết nối sạc tự động:
 
 \begin{figure}[H]
@@ -734,7 +747,7 @@ Quy trình đo điện áp pin qua bộ lọc Kalman và điều khiển kết n
 \label{fig:seq_charge}
 \end{figure}
 
-\paragraph{Phần 5: Sơ đồ Giao tiếp Truyền thông Modbus HMI \& PLC}
+\subsubsection{Sơ đồ Giao tiếp Truyền thông Modbus HMI \& PLC}
 Luồng xử lý dữ liệu giữa AGV B400 với Hệ thống trung tâm HMI (\texttt{System\_Port}) và PLC trạm (\texttt{PLC\_Port}):
 
 \begin{figure}[H]
@@ -761,11 +774,11 @@ Luồng xử lý dữ liệu giữa AGV B400 với Hệ thống trung tâm HMI (
 \newpage
 
 % ==========================================
-% CHƯƠNG 4. KIỂM THỬ HỆ THỐNG VÀ LẤY DỮ LIỆU
+% CHƯƠNG 5. KIỂM THỬ HỆ THỐNG VÀ LẤY DỮ LIỆU
 % ==========================================
-\section*{CHƯƠNG 4. KIỂM THỬ HỆ THỐNG VÀ LẤY DỮ LIỆU}
-\addcontentsline{toc}{section}{\numberline{}CHƯƠNG 4. KIỂM THỬ HỆ THỐNG VÀ LẤY DỮ LIỆU}
-\setcounter{section}{4}
+\section*{CHƯƠNG 5. KIỂM THỬ HỆ THỐNG VÀ LẤY DỮ LIỆU}
+\addcontentsline{toc}{section}{\numberline{}CHƯƠNG 5. KIỂM THỬ HỆ THỐNG VÀ LẤY DỮ LIỆU}
+\setcounter{section}{5}
 \setcounter{subsection}{0}
 \setcounter{figure}{0}
 \setcounter{table}{0}
@@ -799,11 +812,11 @@ Trước khi cấp nguồn vận hành toàn bộ xe, các bước kiểm tra ng
 \newpage
 
 % ==========================================
-% CHƯƠNG 5. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+% CHƯƠNG 6. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
 % ==========================================
-\section*{CHƯƠNG 5. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN}
-\addcontentsline{toc}{section}{\numberline{}CHƯƠNG 5. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN}
-\setcounter{section}{5}
+\section*{CHƯƠNG 6. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN}
+\addcontentsline{toc}{section}{\numberline{}CHƯƠNG 6. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN}
+\setcounter{section}{6}
 \setcounter{subsection}{0}
 \setcounter{figure}{0}
 \setcounter{table}{0}
