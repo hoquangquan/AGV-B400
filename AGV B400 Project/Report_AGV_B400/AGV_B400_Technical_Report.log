@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  5 OCT 2026 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  5 OCT 2026 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,8 +1328,8 @@ Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
 Package: forloop 2023/05/03 v3.0 For Loops for LaTeX
 )
 \c@loopcntr=\count367
-LaTeX Font Info:    Trying to load font information for T5+ptm on input line 93
-.
+LaTeX Font Info:    Trying to load font information for T5+ptm on input line 10
+4.
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ptm.fd
 File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
@@ -1343,26 +1343,26 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ))
 \openout1 = `AGV_B400_Technical_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1430,7 +1430,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 93.
+Package hyperref Info: Link coloring OFF on input line 104.
 (AGV_B400_Technical_Report.out) (AGV_B400_Technical_Report.out)
 \@outlinefile=\write4
 \openout4 = `AGV_B400_Technical_Report.out'.
@@ -1505,13 +1505,13 @@ l.39 ... l√Ω (Schematic)}{18}{subsubsection.3.2.2}
  [5]
 (Abbreviations.tex) [6] [7]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-55.
+66.
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 1
-57.
+68.
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -1523,139 +1523,139 @@ File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 
 ]
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <13> not available
-(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 226.
+(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 237.
  [11] [12]
-Overfull \hbox (28.10472pt too wide) in paragraph at lines 279--280
+Overfull \hbox (28.10472pt too wide) in paragraph at lines 290--291
  [][] 
  []
 
 
-Overfull \hbox (3.81807pt too wide) in paragraph at lines 380--381
+Overfull \hbox (3.81807pt too wide) in paragraph at lines 391--392
  [][] 
  []
 
 [13
 
 ] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 []|\T5/ptm/m/n/11.86258 ARM Cortex-M4
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 568--568
+Underfull \hbox (badness 1303) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 192KB RAM. X˚ l˛
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 568--568
+Underfull \hbox (badness 3343) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 nguÁn cho MCU &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 DMA ri∂ng biªt
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 568--568
+Underfull \hbox (badness 7576) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 (Driver, HMI, PLC,
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 568--568
+Underfull \hbox (badness 2343) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 c£n v† chuy∫n vÚng
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 568--568
+Underfull \hbox (badness 1755) in paragraph at lines 579--579
 []|\T5/ptm/m/n/11.86258 C£m bi∏n d· d£i t¯
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 []|\T5/ptm/m/n/11.86258 N•ng/h§ m‚c k≤o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 xe h†ng, ph£n hÁi
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 568--568
+Underfull \hbox (badness 1867) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 c£m bi∏n h†nh trºnh
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 568--568
+Underfull \hbox (badness 7796) in paragraph at lines 579--579
 []|\T5/ptm/m/n/11.86258 NÛt ng≠t kh©n cßp
  []
 
 
-Underfull \hbox (badness 6575) in paragraph at lines 568--568
+Underfull \hbox (badness 6575) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 22mm v† thanh va
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 568--568
+Underfull \hbox (badness 1117) in paragraph at lines 579--579
 []|\T5/ptm/m/n/11.86258 M§ch ph°t •m thanh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 c£nh b°o qua 5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 \T5/ptm/m/n/11.86258 ng„ v†o Dig-i-tal
  []
 
 
-LaTeX Warning: Float too large for page by 196.37865pt on input line 571.
+LaTeX Warning: Float too large for page by 196.37865pt on input line 582.
 
 
-Overfull \hbox (42.95677pt too wide) in alignment at lines 617--617
+Overfull \hbox (42.95677pt too wide) in alignment at lines 628--628
 [][][][] 
  []
 
 [16] [17] [18] [19]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 712.
+nput line 723.
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesom
 efree1.fd)
-Underfull \hbox (badness 7925) in paragraph at lines 712--712
-[][]\U/fontawesomefree1/solid/n/11.86258 g 
+Underfull \hbox (badness 7925) in paragraph at lines 723--723
+[][][][]\U/fontawesomefree1/solid/n/11.86258 g[] 
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 728--728
+Underfull \hbox (badness 1533) in paragraph at lines 739--739
 []|\T5/ptm/m/n/11.86258 ^^^o ^^_iªn °p Pin (ADC3
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 728--728
+Underfull \hbox (badness 1960) in paragraph at lines 739--739
 \T5/ptm/m/n/11.86258 & ^^_Âc ph£n hÁi Driver
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--728
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
 []|\T5/ptm/m/n/11.86258 Gi°m s°t Li-dar CAN,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--728
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
 \T5/ptm/m/n/11.86258 Bumper, EMC but-ton,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--728
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
 []|\T5/ptm/m/n/11.86258 Giao ti∏p Mod-bus
  []
 
 
-Overfull \hbox (26.675pt too wide) in paragraph at lines 733--734
+Overfull \hbox (26.675pt too wide) in paragraph at lines 744--745
 []\T5/ptm/m/n/13 Tr§ng th°i di chuy∫n to†n cˆc cıa xe ^^_˜Òc qu£n l˛ qua bi∏n m
 °y tr§ng th°i \T5/cmtt/m/n/13 AGV_Running\T5/ptm/m/n/13 : 
  []
@@ -1664,7 +1664,7 @@ Overfull \hbox (26.675pt too wide) in paragraph at lines 733--734
 
 {C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fr
 ee1.enc}] [21] [22] (seq_diagrams.tex [23] [24] [25] [26]) [27] [28]
-Overfull \hbox (15.98907pt too wide) in paragraph at lines 917--918
+Overfull \hbox (15.98907pt too wide) in paragraph at lines 928--929
 \T5/ptm/m/n/13 LiFePO4 (^^_§t $\OT1/ztmcm/m/n/13 25\OML/ztmcm/m/it/13 :\OT1/ztm
 cm/m/n/13 6[]$\T5/ptm/m/n/13 ), ^^_iªn °p ng„ ra LM2596 (^^_§t $\OT1/ztmcm/m/n/
 13 5\OML/ztmcm/m/it/13 :\OT1/ztmcm/m/n/13 02[]$\T5/ptm/m/n/13 ) v† ng„ ra AMS11
@@ -1672,7 +1672,7 @@ cm/m/n/13 6[]$\T5/ptm/m/n/13 ), ^^_iªn °p ng„ ra LM2596 (^^_§t $\OT1/ztmcm/m/n/
  []
 
 
-Overfull \hbox (1.32611pt too wide) in paragraph at lines 924--925
+Overfull \hbox (1.32611pt too wide) in paragraph at lines 935--936
 []\T5/ptm/b/n/13 Th˚ nghiªm bus CAN Li-dar Wanji: \T5/ptm/m/n/13 Ki∫m tra ^^_°p
  ˘ng nh™n d˙ liªu qu≤t 500Kbps.
  []
@@ -1680,7 +1680,7 @@ Overfull \hbox (1.32611pt too wide) in paragraph at lines 924--925
 [29
 
 ] [30]
-Overfull \hbox (8.77354pt too wide) in paragraph at lines 953--954
+Overfull \hbox (8.77354pt too wide) in paragraph at lines 964--965
 []\T5/ptm/m/n/13 Thi∏t k∏ v† l†m chı bo m§ch ^^_i∑u khi∫n nhÛng trung t•m s˚ dˆ
 ng \T5/ptm/b/n/13 STM32F407ZGT6
  []
@@ -1688,22 +1688,22 @@ ng \T5/ptm/b/n/13 STM32F407ZGT6
 [31
 
 ] [32]
-Underfull \hbox (badness 10000) in paragraph at lines 1016--1016
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
 []|\T5/ptm/m/n/11.86258 ChÂn MCU STM32F407,
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 1016--1016
+Underfull \hbox (badness 7888) in paragraph at lines 1027--1027
 \T5/ptm/m/n/11.86258 Driver BLDC, Li-dar CAN,
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 1016--1016
+Underfull \hbox (badness 1019) in paragraph at lines 1027--1027
 []|\T5/ptm/m/n/11.86258 L™p trºnh 5 Task FreeR-TOS,
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 1016--1016
+Underfull \hbox (badness 5091) in paragraph at lines 1027--1027
 \T5/ptm/m/n/11.86258 5V, 3.3V, ^^_o tΩn hiªu bus
  []
 
@@ -1717,10 +1717,10 @@ ed.
 (rerunfilecheck)             Checksum: DC503C6FAC004BCAE0D02C3E237B33AE;13169.
  ) 
 Here is how much of TeX's memory you used:
- 45008 strings out of 467871
- 1027721 string characters out of 5418861
- 1696625 words of memory out of 5000000
- 73010 multiletter control sequences out of 15000+600000
+ 45019 strings out of 467871
+ 1027901 string characters out of 5418861
+ 1698567 words of memory out of 5000000
+ 73021 multiletter control sequences out of 15000+600000
  713294 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,131p,754b,1137s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1737,7 +1737,7 @@ rams/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/asus/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/asus/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb><C:/Users/asus/AppData/Local/P
 rograms/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on AGV_B400_Technical_Report.pdf (34 pages, 352020 bytes).
+Output written on AGV_B400_Technical_Report.pdf (34 pages, 352027 bytes).
 PDF statistics:
  599 PDF objects out of 1000 (max. 8388607)
  135 named destinations out of 1000 (max. 500000)

@@ -23,6 +23,17 @@
 \usepackage{fontawesome5}
 \usepackage{tikz}
 \usetikzlibrary{calc,shapes.geometric,arrows,positioning,fit,chains,backgrounds,shadows}
+\definecolor{tw_badgebg}{HTML}{0F172A}
+\definecolor{tw_badgetext}{HTML}{FACC15}
+\definecolor{tw_folderbg}{HTML}{EFF6FF}
+\definecolor{tw_folderborder}{HTML}{BFDBFE}
+\definecolor{tw_foldericon}{HTML}{3B82F6}
+\definecolor{tw_foldertext}{HTML}{334155}
+\definecolor{tw_filebg}{HTML}{F0FDF4}
+\definecolor{tw_fileborder}{HTML}{BBF7D0}
+\definecolor{tw_fileicon}{HTML}{22C55E}
+\definecolor{tw_filetext}{HTML}{166534}
+\definecolor{tw_line}{HTML}{CBD5E1}
 \definecolor{ui_blue}{HTML}{E3F2FD}
 \definecolor{ui_darkblue}{HTML}{1565C0}
 \definecolor{ui_green}{HTML}{E8F5E9}
@@ -667,32 +678,32 @@ Firmware nhúng được tổ chức theo cấu trúc cây thư mục (Folder Tr
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[
-    badge/.style={rectangle, rounded corners=6pt, fill=ui_darkblue, text=white, thick, minimum width=6cm, minimum height=0.8cm, align=center, font=\bfseries\small, drop shadow={opacity=0.2, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
-    folder/.style={rectangle, rounded corners=4pt, draw=ui_darkblue!40, fill=ui_blue, thick, minimum width=4.5cm, minimum height=0.7cm, text width=4cm, align=left, font=\small, drop shadow={opacity=0.1, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
-    file/.style={rectangle, rounded corners=4pt, draw=ui_darkgreen!40, fill=ui_green, thick, minimum width=4.5cm, minimum height=0.7cm, text width=4cm, align=left, font=\small, drop shadow={opacity=0.1, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
-    line/.style={draw=ui_darkgrey!70, thick, rounded corners=3pt},
-    dot/.style={circle, fill=ui_darkgrey!70, inner sep=1.2pt}
+    badge/.style={rectangle, rounded corners=6pt, fill=tw_badgebg, text=white, thick, minimum width=6cm, minimum height=0.8cm, align=center, font=\bfseries\small, drop shadow={opacity=0.1, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    folder/.style={rectangle, rounded corners=4pt, draw=tw_folderborder, fill=tw_folderbg, thick, minimum width=4.5cm, minimum height=0.7cm, text width=4cm, align=left, font=\color{tw_foldertext}\small, drop shadow={opacity=0.05, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    file/.style={rectangle, rounded corners=4pt, draw=tw_fileborder, fill=tw_filebg, thick, minimum width=4.5cm, minimum height=0.7cm, text width=4cm, align=left, font=\color{tw_filetext}\small, drop shadow={opacity=0.05, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    line/.style={draw=tw_line, thick, rounded corners=3pt},
+    dot/.style={circle, fill=tw_line, inner sep=1.2pt}
 ]
 
 % Badge
-\node[badge] (badge) at (6, 2) {\faFolderOpen\ Folder Tree - Firmware AGV B400};
+\node[badge] (badge) at (6, 2) {\textcolor{tw_badgetext}{\faFolder}\ Folder Tree - Overview};
 
 % Root
-\node[folder] (root) at (0, -2) {\faFolder\ AGV\_B400\_Firmware};
+\node[folder] (root) at (0, -2) {\textcolor{tw_foldericon}{\faFolder}\ AGV\_B400\_Firmware};
 
 % Level 1
-\node[folder] (core) at (6, 0.5) {\faFolder\ Core};
-\node[folder] (drivers) at (6, -0.5) {\faFolder\ Drivers};
-\node[folder] (mid) at (6, -1.5) {\faFolder\ Middlewares};
-\node[folder] (user) at (6, -2.5) {\faFolder\ User};
-\node[file] (ioc) at (6, -3.5) {\faFile\ AGV\_B400.ioc};
-\node[file] (readme) at (6, -4.5) {\faFile\ README.md};
+\node[folder] (core) at (6, 0.5) {\textcolor{tw_foldericon}{\faFolder}\ Core};
+\node[folder] (drivers) at (6, -0.5) {\textcolor{tw_foldericon}{\faFolder}\ Drivers};
+\node[folder] (mid) at (6, -1.5) {\textcolor{tw_foldericon}{\faFolder}\ Middlewares};
+\node[folder] (user) at (6, -2.5) {\textcolor{tw_foldericon}{\faFolder}\ User};
+\node[file] (ioc) at (6, -3.5) {\textcolor{tw_fileicon}{\faFile}\ AGV\_B400.ioc};
+\node[file] (readme) at (6, -4.5) {\textcolor{tw_fileicon}{\faFile}\ README.md};
 
 % Level 2 (User)
-\node[folder] (charge) at (12, -1.0) {\faFolder\ Charge};
-\node[folder] (esa) at (12, -2.0) {\faFolder\ ESA\_Driver};
-\node[folder] (lidar) at (12, -3.0) {\faFolder\ Lidar\_ME4341};
-\node[folder] (modbus) at (12, -4.0) {\faFolder\ Modbus\_Protocol};
+\node[folder] (charge) at (12, -1.0) {\textcolor{tw_foldericon}{\faFolder}\ Charge};
+\node[folder] (esa) at (12, -2.0) {\textcolor{tw_foldericon}{\faFolder}\ ESA\_Driver};
+\node[folder] (lidar) at (12, -3.0) {\textcolor{tw_foldericon}{\faFolder}\ Lidar\_ME4341};
+\node[folder] (modbus) at (12, -4.0) {\textcolor{tw_foldericon}{\faFolder}\ Modbus\_Protocol};
 
 % Lines Root -> L1
 \draw[line] (root.east) -- +(0.5,0) coordinate (j1) node[dot] {} |- (readme.west);
