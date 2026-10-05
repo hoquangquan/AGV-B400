@@ -1,0 +1,12 @@
+\babel@toc {vietnamese}{}\relax 
+\babel@toc {vietnamese}{}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cấu trúc tổng quan của hệ thống xe tự hành AGV B400.}}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sơ đồ khối kết nối hệ thống phần cứng xe tự hành AGV B400.}}{12}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sơ đồ khối hệ thống nguồn điện xe AGV B400.}}{18}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sơ đồ kiến trúc phần mềm nhúng STM32F4.}}{20}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sơ đồ chuyển trạng thái di chuyển toàn cục của xe AGV B400.}}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sơ đồ thuật toán dẫn đường từ và định vị vị trí trạm bằng thẻ RFID.}}{23}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sơ đồ tuần tự xử lý an toàn Lidar, Bumper và Nút khẩn cấp.}}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sơ đồ tuần tự quy trình nâng/hạ móc kéo hàng tự động.}}{25}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sơ đồ tuần tự đo điện áp pin Kalman và chu trình sạc tự động.}}{27}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Sơ đồ luồng xử lý giao thức Modbus RTU trên các cổng truyền thông.}}{29}{figure.caption.29}%
