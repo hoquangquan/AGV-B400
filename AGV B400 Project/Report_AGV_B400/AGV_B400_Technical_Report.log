@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  5 OCT 2026 11:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  5 OCT 2026 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1450,7 +1450,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 ... lý (Schematic)}{19}{subsubsection.3.2.2}
+l.39 ... lý (Schematic)}{20}{subsubsection.3.2.2}
                                                   % [1
 
 
@@ -1648,20 +1648,16 @@ Underfull \hbox (badness 5091) in paragraph at lines 892--892
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `AGV_B400_Technical_Report.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: DC503C6FAC004BCAE0D02C3E237B33AE;13169.
  ) 
 Here is how much of TeX's memory you used:
- 41438 strings out of 467871
- 947211 string characters out of 5418861
- 1552576 words of memory out of 5000000
- 69470 multiletter control sequences out of 15000+600000
- 703934 words of font info for 142 fonts, out of 8000000 for 9000
+ 41461 strings out of 467871
+ 947673 string characters out of 5418861
+ 1566118 words of memory out of 5000000
+ 69493 multiletter control sequences out of 15000+600000
+ 706198 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,131p,754b,968s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
@@ -1676,7 +1672,7 @@ ntex/urwvn/utmr8v.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmri8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/
 vntex/urwvn/utmri8v.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type
 1/vntex/vnr/vntt12.pfb>
-Output written on AGV_B400_Technical_Report.pdf (35 pages, 294963 bytes).
+Output written on AGV_B400_Technical_Report.pdf (35 pages, 298352 bytes).
 PDF statistics:
  573 PDF objects out of 1000 (max. 8388607)
  136 named destinations out of 1000 (max. 500000)
