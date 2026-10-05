@@ -326,18 +326,30 @@ Sơ đồ khối thể hiện chi tiết sự kết nối tương tác giữa MC
     \draw[arrow_power] (pwr) -- node[right, font=\scriptsize] {3.3V} (mcu);
     
     % Sens -> MCU
-    \draw[arrow_data_1] (lidar.east) -- +(1,0) |- node[pos=0.85, above, font=\scriptsize] {CAN1} (mcu.150);
-    \draw[arrow_data_1] (mgs.east) -- +(2,0) |- node[pos=0.6, above, font=\scriptsize] {Modbus/UART2} (mcu.170);
-    \draw[arrow_data_1] (rfid.east) -- node[above, font=\scriptsize, pos=0.4] {Modbus/UART3} (mcu.190);
+    \path (lidar.east) -- +(3,0) coordinate (c_lidar);
+    \draw[arrow_data_1] (lidar.east) -- node[above, font=\scriptsize] {CAN1} (c_lidar) |- (mcu.150);
+    
+    \path (mgs.east) -- +(3,0) coordinate (c_mgs);
+    \draw[arrow_data_1] (mgs.east) -- node[above, font=\scriptsize] {Modbus/UART2} (c_mgs) |- (mcu.170);
+    
+    \path (rfid.east) -- +(3,0) coordinate (c_rfid);
+    \draw[arrow_data_1] (rfid.east) -- node[above, font=\scriptsize] {Modbus/UART3} (c_rfid) |- (mcu.190);
     
     % MCU -> Actuator
     \draw[arrow_power] (battery.west) -- node[above, font=\scriptsize] {24V} (pwr.east);
-    \draw[arrow_data] (mcu.10) -- +(2,0) |- node[pos=0.8, above, font=\scriptsize] {Modbus/UART4} (driver.west);
-    \draw[arrow_data] (mcu.350) -- node[below, font=\scriptsize, pos=0.4] {I/O (Relay/ADC)} (tool.west);
+    
+    \path (mcu.10) -- +(3,0) coordinate (c_drv);
+    \draw[arrow_data] (mcu.10) -- node[above, font=\scriptsize] {Modbus/UART4} (c_drv) |- (driver.west);
+    
+    \path (mcu.350) -- +(3,0) coordinate (c_tool);
+    \draw[arrow_data] (mcu.350) -- node[below, font=\scriptsize] {I/O (Relay/ADC)} (c_tool) |- (tool.west);
     
     % MCU -> Comms
-    \draw[arrow_data] (mcu.210) -| node[pos=0.25, below, font=\scriptsize] {Modbus/UART6} (hmi.north);
-    \draw[arrow_data] (mcu.330) -| node[pos=0.25, below, font=\scriptsize] {Modbus/UART5} (plc.north);
+    \path (mcu.210) -- +(0,-1.5) coordinate (c_hmi);
+    \draw[arrow_data] (mcu.210) -- (c_hmi) -- node[above, font=\scriptsize] {Modbus/UART6} (hmi.north |- c_hmi) -- (hmi.north);
+    
+    \path (mcu.330) -- +(0,-1.5) coordinate (c_plc);
+    \draw[arrow_data] (mcu.330) -- (c_plc) -- node[above, font=\scriptsize] {Modbus/UART5} (plc.north |- c_plc) -- (plc.north);
     
     % Legend
     \node[draw=gray!50, rounded corners=3pt, fill=white, minimum width=15cm, minimum height=1.2cm, anchor=north] (legend) at (0, -6.5) {};
