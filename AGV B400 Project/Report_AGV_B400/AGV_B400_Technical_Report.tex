@@ -126,6 +126,7 @@ Báo cáo trình bày chi tiết toàn bộ quá trình phân tích yêu cầu k
 % ==========================================
 % CHƯƠNG 1. CHƯƠNG MỞ ĐẦU
 % ==========================================
+\clearpage
 \section*{CHƯƠNG 1. CHƯƠNG MỞ ĐẦU}
 \addcontentsline{toc}{section}{\numberline{}CHƯƠNG 1. CHƯƠNG MỞ ĐẦU}
 
@@ -162,6 +163,7 @@ Báo cáo được trình bày theo cấu trúc chuẩn 6 chương:
 % ==========================================
 % CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ PHÂN TÍCH YÊU CẦU
 % ==========================================
+\clearpage
 \section*{CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ PHÂN TÍCH YÊU CẦU}
 \addcontentsline{toc}{section}{\numberline{}CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ PHÂN TÍCH YÊU CẦU}
 \setcounter{section}{2}
@@ -229,6 +231,7 @@ Từ phân tích thực tế nhà máy sản xuất, hệ thống AGV B400 phả
 % ==========================================
 % CHƯƠNG 3. THIẾT KẾ CHI TIẾT HỆ THỐNG
 % ==========================================
+\clearpage
 \section*{CHƯƠNG 3. THIẾT KẾ CHI TIẾT HỆ THỐNG}
 \addcontentsline{toc}{section}{\numberline{}CHƯƠNG 3. THIẾT KẾ CHI TIẾT HỆ THỐNG}
 \setcounter{section}{3}
@@ -241,7 +244,7 @@ Từ phân tích thực tế nhà máy sản xuất, hệ thống AGV B400 phả
 \subsubsection{Tổng quan hệ thống}
 Hệ thống phần cứng AGV B400 được thiết kế dạng module hóa xoay quanh Bo mạch trung tâm STM32F407ZGT6, kết nối với 6 khối chức năng chính bao gồm Khối Nguồn, Khối Truyền thông, Khối Cảm biến, Khối Động cơ \& Cơ cấu, Khối Pin \& Sạc tự động và Khối An toàn báo hiệu.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \scalebox{0.8}{%
 \begin{tikzpicture}[
@@ -270,7 +273,7 @@ Hệ thống phần cứng AGV B400 được thiết kế dạng module hóa xoa
 \subsubsection{Sơ đồ khối hệ thống}
 Sơ đồ khối thể hiện chi tiết sự kết nối tương tác giữa MCU trung tâm với các khối thiết bị:
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[
@@ -323,14 +326,14 @@ Sơ đồ khối thể hiện chi tiết sự kết nối tương tác giữa MC
     \draw[arrow_power] (pwr) -- node[right, font=\scriptsize] {3.3V} (mcu);
     
     % Sens -> MCU
-    \draw[arrow_data_1] (lidar.east) -- +(1,0) |- node[pos=0.75, above, font=\scriptsize] {CAN1} (mcu.150);
-    \draw[arrow_data_1] (mgs.east) -- +(2,0) |- node[pos=0.75, above, font=\scriptsize] {Modbus/UART2} (mcu.170);
-    \draw[arrow_data_1] (rfid.east) -- node[above, font=\scriptsize] {Modbus/UART3} (mcu.190);
+    \draw[arrow_data_1] (lidar.east) -- +(1,0) |- node[pos=0.85, above, font=\scriptsize] {CAN1} (mcu.150);
+    \draw[arrow_data_1] (mgs.east) -- +(2,0) |- node[pos=0.6, above, font=\scriptsize] {Modbus/UART2} (mcu.170);
+    \draw[arrow_data_1] (rfid.east) -- node[above, font=\scriptsize, pos=0.4] {Modbus/UART3} (mcu.190);
     
     % MCU -> Actuator
     \draw[arrow_power] (battery.west) -- node[above, font=\scriptsize] {24V} (pwr.east);
-    \draw[arrow_data] (mcu.10) -- +(2,0) |- node[pos=0.75, above, font=\scriptsize] {Modbus/UART4} (driver.west);
-    \draw[arrow_data] (mcu.350) -- node[below, font=\scriptsize] {I/O (Relay/ADC)} (tool.west);
+    \draw[arrow_data] (mcu.10) -- +(2,0) |- node[pos=0.8, above, font=\scriptsize] {Modbus/UART4} (driver.west);
+    \draw[arrow_data] (mcu.350) -- node[below, font=\scriptsize, pos=0.4] {I/O (Relay/ADC)} (tool.west);
     
     % MCU -> Comms
     \draw[arrow_data] (mcu.210) -| node[pos=0.25, below, font=\scriptsize] {Modbus/UART6} (hmi.north);
@@ -361,7 +364,7 @@ Sơ đồ khối thể hiện chi tiết sự kết nối tương tác giữa MC
 \paragraph{a) Vi điều khiển STM32F407ZGT6}
 Vi điều khiển trung tâm đảm nhận toàn bộ việc tính toán dẫn đường, điều khiển giao thức truyền thông và máy trạng thái.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -380,7 +383,7 @@ Bộ điều khiển DMA & 2x DMA controllers (16 streams) \\ \hline
 \paragraph{b) Cảm biến Laser Lidar 2D Wanji ME-4341}
 Cảm biến quét laser an toàn phát hiện vật cản 2D, kết nối trực tiếp qua bus CAN.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -397,7 +400,7 @@ Cơ chế bảo vệ & 3 vùng quét động (\texttt{Smart\_channel}) theo vậ
 \paragraph{c) Cảm biến đường từ MGS-16}
 Mảng cảm biến từ tính 16 bit đặt ở phía Trước (\texttt{MGS\_F}) và Phía Sau (\texttt{MGS\_R}) dò dải từ dán sàn.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -413,7 +416,7 @@ Số điểm cảm ứng & 16 phần tử Hall độ nhạy cao \\ \hline
 \paragraph{d) Đầu đọc RFID \& Thẻ từ RFID}
 Đầu đọc RFID giao tiếp Modbus/Serial đọc mã thẻ từ dán dưới sàn định vị trạm dừng.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -429,7 +432,7 @@ Khoảng cách đọc & 20mm -- 50mm \\ \hline
 \paragraph{e) Bộ điều khiển Driver Động cơ BLDC kép}
 Driver điều khiển 2 động cơ di chuyển vi sai qua giao thức Modbus RTU Master.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -445,7 +448,7 @@ Phản hồi & Tốc độ quay Encoder, dòng điện động cơ, mã lỗi \\
 \paragraph{f) Động cơ di chuyển BLDC 24V 400W}
 2 động cơ BLDC công suất cao tích hợp hộp số giảm tốc 1:20 và Encoder phản hồi góc quay.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -461,7 +464,7 @@ Tích hợp & Hộp số vi sai 1:20 \& Phanh từ an toàn \\ \hline
 \paragraph{g) Cơ cấu Nâng/Móc kéo xe hàng (Tool)}
 Xi-lanh điện 24V đóng cắt qua Relay (\texttt{Tool\_OUT1/OUT2}), phản hồi cảm biến hành trình (\texttt{Tool\_IN1/IN2}).
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -476,7 +479,7 @@ Cảm biến phản hồi & 2x Cảm biến tiệm cận hành trình trên/dư�
 \paragraph{h) Mạch phát âm thanh Speak.c \& Loa}
 Module MP3 Trigger 5 ngõ vào Digital (\texttt{Speak1}..\texttt{Speak5}) + Loa $4\Omega$ 5W phát tiếng nói cảnh báo Tiếng Việt.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -491,7 +494,7 @@ Công suất loa & $4\Omega$ 5W âm lượng công nghiệp \\ \hline
 \paragraph{i) Pin LiFePO4 24V, BMS \& Chấu sạc tự động}
 Pack Pin Lithium LiFePO4 24V 50Ah/100Ah tích hợp BMS RS485 và rơ-le sạc tự động (\texttt{DK\_Sac\_Pin}).
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -507,7 +510,7 @@ Chấu sạc tự động & Chấu tiếp xúc đồng khí nén/lò xo công su
 \paragraph{j) Mạch hạ áp Buck LM2596 \& LDO AMS1117-3.3V}
 IC hạ áp Buck 24V $\rightarrow$ 5V/3A và LDO 3.3V cấp nguồn vi điều khiển và các mạch logic giao tiếp.
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|}
 \hline
@@ -521,7 +524,7 @@ Bảo vệ & Chống ngược cực Diode, lọc nhiễu tụ điện $10\mu\tex
 
 \paragraph{Bảng tổng hợp danh mục toàn bộ linh kiện phần cứng AGV B400}
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|l|X|}
 \hline
@@ -549,7 +552,7 @@ Pin \& Sạc Tự động & Pin LiFePO4 24V + Contactor & Khối Pin Lithium có
 \subsubsection{Tính toán đáp ứng công suất nguồn}
 Hệ thống xe AGV B400 được cấp nguồn từ khối Pin LiFePO4 24V (Điện áp danh định 25.6V, điện áp đầy 28.4V, khi cạn 21.6V). Điện áp 24V được hạ xuống 5VDC qua LM2596 và 3.3VDC qua AMS1117 cấp nguồn cho MCU STM32F4 và các linh kiện logic.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \resizebox{\linewidth}{!}{%
 \begin{tikzpicture}[node distance=1.2cm and 1.6cm, auto, >=stealth']
@@ -574,7 +577,7 @@ Hệ thống xe AGV B400 được cấp nguồn từ khối Pin LiFePO4 24V (Đi
 \label{fig:power_block}
 \end{figure}
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|c|c|c|}
 \hline
@@ -622,7 +625,7 @@ Mạch in PCB được thiết kế trên 2 lớp (Double-sided PCB) đáp ứng
     \item Điện trở bù kết thúc bus $120\Omega$ được đặt ngay tại cổng kết nối bus CAN và RS485.
 \end{itemize}
 
-\newpage
+\clearpage
 
 % ==========================================
 % CHƯƠNG 4. KIẾN TRÚC PHẦN MỀM VÀ LUỒNG HOẠT ĐỘNG
@@ -637,7 +640,7 @@ Mạch in PCB được thiết kế trên 2 lớp (Double-sided PCB) đáp ứng
 \subsection{Thiết kế Firmware}
 Firmware nhúng được tổ chức theo kiến trúc phân lớp (Layered Architecture) trên nền FreeRTOS:
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \resizebox{\linewidth}{!}{%
 \begin{tikzpicture}[node distance=0.7cm, auto, >=stealth']
@@ -661,7 +664,7 @@ Firmware nhúng được tổ chức theo kiến trúc phân lớp (Layered Arch
 \label{fig:firmware_arch}
 \end{figure}
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|c|l|X|}
 \hline
@@ -679,7 +682,7 @@ TIM9 IRQ & Hardware & HAL\_TIM\_PeriodElapsed & Đếm thời gian thực 1ms, T
 
 Trạng thái di chuyển toàn cục của xe được quản lý qua biến máy trạng thái \texttt{AGV\_Running}:
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[node distance=2cm, auto, >=stealth']
@@ -708,7 +711,7 @@ Trạng thái di chuyển toàn cục của xe được quản lý qua biến m�
 \subsubsection{Sơ đồ Luồng Dẫn đường từ \& Nhận diện Trạm RFID}
 Luồng điều khiển di chuyển tự động từ khi nhận lệnh di chuyển cho đến khi nhận diện chính xác thẻ từ RFID tại trạm đích:
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
@@ -739,7 +742,7 @@ Luồng điều khiển di chuyển tự động từ khi nhận lệnh di chuy�
 \subsubsection{Sơ đồ Luồng Giám sát An toàn \& Xử lý Ngắt khẩn}
 Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar CAN, Bumper và Nút EMC:
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
@@ -764,7 +767,7 @@ Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar 
 \subsubsection{Sơ đồ Luồng Thực thi Cơ cấu Nâng/Hạ hàng}
 Quá trình kéo và giải phóng xe hàng (Trolley) tại trạm dừng:
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
@@ -788,7 +791,7 @@ Quá trình kéo và giải phóng xe hàng (Trolley) tại trạm dừng:
 \subsubsection{Sơ đồ Luồng Đo Pin \& Tự động Sạc Pin}
 Quy trình đo điện áp pin qua bộ lọc Kalman và điều khiển kết nối sạc tự động:
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
@@ -821,7 +824,7 @@ Quy trình đo điện áp pin qua bộ lọc Kalman và điều khiển kết n
 \subsubsection{Sơ đồ Giao tiếp Truyền thông Modbus HMI \& PLC}
 Luồng xử lý dữ liệu giữa AGV B400 với Hệ thống trung tâm HMI (\texttt{System\_Port}) và PLC trạm (\texttt{PLC\_Port}):
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
@@ -844,7 +847,7 @@ Luồng xử lý dữ liệu giữa AGV B400 với Hệ thống trung tâm HMI (
 
 \input{seq_diagrams.tex}
 
-\newpage
+\clearpage
 
 % ==========================================
 % CHƯƠNG 5. KIỂM THỬ HỆ THỐNG VÀ LẤY DỮ LIỆU
@@ -882,7 +885,7 @@ Trước khi cấp nguồn vận hành toàn bộ xe, các bước kiểm tra ng
     \item Xe tự động kiểm tra điện áp Pin; khi Pin sụt dưới ngưỡng $22.5\text{V}$, xe tự rời tuyến chính di chuyển về Trạm Sạc, chạm chấu sạc đồng và đóng rơ-le sạc tự động \texttt{DK\_Sac\_Pin}.
 \end{enumerate}
 
-\newpage
+\clearpage
 
 % ==========================================
 % CHƯƠNG 6. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
@@ -942,7 +945,7 @@ Dự án nghiên cứu, thiết kế và chế tạo xe tự hành công nghiệ
 
 \subsection*{Bảng phân công công việc thực hiện dự án AGV B400}
 
-\begin{table}[H]
+\begin{table}[!htbp]
 \centering
 \begin{tabularx}{\textwidth}{|>{\bfseries}l|X|c|}
 \hline
