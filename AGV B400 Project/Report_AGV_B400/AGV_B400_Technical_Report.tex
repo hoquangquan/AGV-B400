@@ -21,7 +21,7 @@
 \usepackage{float}
 \usepackage{subcaption}
 \usepackage{tikz}
-\usetikzlibrary{calc,shapes.geometric,arrows,positioning,fit,chains}
+\usetikzlibrary{calc,shapes.geometric,arrows,positioning,fit,chains,backgrounds}
 \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=black, fill=red!20]
 \tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=black, fill=blue!20]
 \tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=black, fill=orange!10]
@@ -244,16 +244,23 @@ Hệ thống phần cứng AGV B400 được thiết kế dạng module hóa xoa
 \begin{figure}[H]
 \centering
 \resizebox{\linewidth}{!}{%
-\begin{tikzpicture}[node distance=1.5cm and 2.5cm, auto, >=stealth']
-    \node [process, fill=blue!15, minimum width=3.5cm, minimum height=1.2cm] (sen) {\textbf{Khối Lấy mẫu \& Cảm biến}\\(MGS-16, RFID, Lidar 2D)};
-    \node [process, fill=orange!20, right=of sen, minimum width=3.8cm, minimum height=1.2cm] (mcu) {\textbf{Khối Xử lý Trung tâm}\\(STM32F4 + FreeRTOS)};
-    \node [process, fill=red!15, right=of mcu, minimum width=3.5cm, minimum height=1.2cm] (act) {\textbf{Khối Chấp hành \& Động cơ}\\(BLDC 400W, Tool 24V)};
+\begin{tikzpicture}[
+    >=stealth',
+    font=\small,
+    comp/.style={draw=blue!80, fill=blue!5, thick, rounded corners=3pt, minimum width=3cm, minimum height=1.2cm, align=center},
+    mcucomp/.style={draw=orange!80!black, fill=orange!5, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=1.2cm, align=center},
+    sensorcomp/.style={draw=green!60!black, fill=green!5, thick, rounded corners=3pt, minimum width=3cm, minimum height=1.2cm, align=center},
+    actcomp/.style={draw=red!80!black, fill=red!5, thick, rounded corners=3pt, minimum width=3cm, minimum height=1.2cm, align=center},
+    arrow_data/.style={<->, thick, red!70!black}
+]
+    \node[sensorcomp] (sen) at (0,0) {\textbf{Khối Lấy mẫu \& Cảm biến}\\(MGS-16, RFID, Lidar)};
+    \node[mcucomp] (mcu) at (6,0) {\textbf{Khối Xử lý Trung tâm}\\(STM32F4 + FreeRTOS)};
+    \node[actcomp] (act) at (12,0) {\textbf{Khối Chấp hành \& Động cơ}\\(BLDC 400W, Tool 24V)};
+    \node[comp] (com) at (6, 3) {\textbf{Hệ thống Server / HMI / PLC}\\(5x Modbus RS485 DMA)};
     
-    \node [process, fill=purple!15, above=of mcu, minimum width=4cm, minimum height=1.1cm] (com) {\textbf{Hệ thống Server / HMI / PLC}\\(5x Modbus RS485 DMA)};
-
-    \draw [->, thick] (sen) -- (mcu);
-    \draw [->, thick] (mcu) -- (act);
-    \draw [<->, thick] (com) -- (mcu);
+    \draw[->, thick, red!70!black] (sen) -- node[above, font=\scriptsize] {Dữ liệu} (mcu);
+    \draw[->, thick, red!70!black] (mcu) -- node[above, font=\scriptsize] {Lệnh Điều khiển} (act);
+    \draw[arrow_data] (com) -- node[right, font=\scriptsize] {Giao tiếp Trạng thái/Lệnh} (mcu);
 \end{tikzpicture}%
 }
 \caption{Cấu trúc tổng quan của hệ thống xe tự hành AGV B400.}
@@ -261,24 +268,86 @@ Hệ thống phần cứng AGV B400 được thiết kế dạng module hóa xoa
 \end{figure}
 
 \subsubsection{Sơ đồ khối hệ thống}
-Sơ đồ khối thể hiện sự kết nối tương tác giữa MCU trung tâm với các khối thiết bị:
+Sơ đồ khối thể hiện chi tiết sự kết nối tương tác giữa MCU trung tâm với các khối thiết bị:
 
 \begin{figure}[H]
 \centering
-\resizebox{\linewidth}{!}{%
-\begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
-    \node [process, fill=blue!20, minimum width=4cm, minimum height=1.2cm] (mcu) {\textbf{MCU TRUNG TÂM}\\STM32F407ZGT6};
-    \node [process, fill=green!20, above=of mcu, minimum width=3.5cm] (pwr) {\textbf{Khối Nguồn}\\Buck 24V-5V / LDO 3.3V};
-    \node [process, fill=orange!20, left=of mcu, minimum width=3.5cm] (com) {\textbf{Khối Truyền thông}\\5x RS485 + 1x CAN};
-    \node [process, fill=yellow!20, right=of mcu, minimum width=3.5cm] (sen) {\textbf{Khối Cảm biến}\\Lidar CAN, MGS, RFID};
-    \node [process, fill=red!20, below left=of mcu, minimum width=3.5cm] (act) {\textbf{Động cơ \& Cơ cấu}\\BLDC 400W \& Tool 24V};
-    \node [process, fill=purple!20, below right=of mcu, minimum width=3.5cm] (chg) {\textbf{Pin \& Sạc tự động}\\Pin LiFePO4 \& Chấu sạc};
+\scalebox{0.75}{%
+\begin{tikzpicture}[
+    >=stealth',
+    font=\small,
+    comp/.style={draw=blue!80, fill=white, thick, rounded corners=3pt, minimum width=3cm, minimum height=1cm, align=center},
+    servercomp/.style={draw=purple!80, fill=white, thick, rounded corners=3pt, minimum width=3cm, minimum height=1cm, align=center},
+    sensorcomp/.style={draw=green!60!black, fill=white, thick, rounded corners=3pt, minimum width=3cm, minimum height=1cm, align=center},
+    extcomp/.style={draw=gray!80, fill=white, thick, rounded corners=3pt, minimum width=3cm, minimum height=1cm, align=center},
+    cluster/.style={draw=#1, thick, rounded corners=5pt, fill=#1!4, inner sep=14pt},
+    arrow_data/.style={<->, thick, red!70!black},
+    arrow_data_1/.style={->, thick, red!70!black},
+    arrow_power/.style={->, thick, dashed, orange!80!black},
+    note/.style={draw=orange!60, fill=yellow!10, rounded corners=2pt, font=\scriptsize, align=left, inner sep=4pt}
+]
+
+    % MCU Cluster (Center)
+    \node[servercomp] (mcu) at (0,0) {\textbf{Vi điều khiển STM32F4}\\(FreeRTOS)};
+    \node[servercomp] (pwr) at (0, 2.2) {\textbf{Khối Nguồn}\\(Buck 24V-5V, LDO 3.3V)};
     
-    \draw [<->, thick] (pwr) -- (mcu);
-    \draw [<->, thick] (com) -- (mcu);
-    \draw [<->, thick] (sen) -- (mcu);
-    \draw [<->, thick] (act) -- (mcu);
-    \draw [<->, thick] (chg) -- (mcu);
+    % Sensor Cluster (Left)
+    \node[sensorcomp] (mgs) at (-6.5, 0) {\textbf{Cảm biến MGS-16}\\(RS485/Modbus)};
+    \node[sensorcomp] (rfid) at (-6.5, -2) {\textbf{Đầu đọc RFID}\\(RS485/Modbus)};
+    \node[sensorcomp] (lidar) at (-6.5, 2.2) {\textbf{Lidar Wanji 2D}\\(CAN Bus 500Kbps)};
+    
+    % Actuator Cluster (Right)
+    \node[comp] (driver) at (6.5, 0) {\textbf{Driver Động cơ BLDC}\\(RS485/Modbus)};
+    \node[comp] (tool) at (6.5, -2) {\textbf{Cơ cấu Móc Kéo}\\(Relay 24V, IN/OUT)};
+    \node[comp] (battery) at (6.5, 2.2) {\textbf{Pin LiFePO4 24V}\\(Sạc tự động)};
+    
+    % External Systems (Bottom)
+    \node[extcomp] (hmi) at (-3, -5.5) {\textbf{HMI Server}\\(Modbus RTU)};
+    \node[extcomp] (plc) at (3, -5.5) {\textbf{PLC Trạm/Sạc}\\(Modbus RTU)};
+    
+    % Draw Backgrounds
+    \begin{scope}[on background layer]
+        \node[cluster=purple, fit=(mcu) (pwr)] (mcu_box) {};
+        \node[anchor=north west, font=\bfseries\footnotesize, text=purple!80!black] at (mcu_box.north west) {Bo Mạch Trung Tâm};
+        
+        \node[cluster=green, fit=(mgs) (rfid) (lidar)] (sensor_box) {};
+        \node[anchor=north west, font=\bfseries\footnotesize, text=green!60!black] at (sensor_box.north west) {Khối Cảm Biến};
+        
+        \node[cluster=blue, fit=(driver) (tool) (battery)] (act_box) {};
+        \node[anchor=north west, font=\bfseries\footnotesize, text=blue!80!black] at (act_box.north west) {Khối Chấp Hành \& Pin};
+        
+        \node[cluster=gray, fit=(hmi) (plc)] (net_box) {};
+        \node[anchor=north west, font=\bfseries\footnotesize, text=gray!80!black] at (net_box.north west) {Hệ Thống Trạm / HMI};
+    \end{scope}
+
+    % Connections
+    \draw[arrow_power] (pwr) -- node[right, font=\scriptsize] {3.3V} (mcu);
+    \draw[arrow_data_1] (mgs) -- node[above, font=\scriptsize] {Modbus/UART2} (mcu);
+    \draw[arrow_data_1] (rfid) -- node[below, font=\scriptsize, sloped] {Modbus/UART3} (mcu);
+    \draw[arrow_data_1] (lidar) -- node[above, font=\scriptsize, sloped] {CAN1} (mcu);
+    
+    \draw[arrow_data] (mcu) -- node[above, font=\scriptsize] {Modbus/UART4} (driver);
+    \draw[arrow_data] (mcu) -- node[below, font=\scriptsize, sloped] {I/O (Relay/ADC)} (tool);
+    \draw[arrow_power] (battery) -- node[above, font=\scriptsize] {24V} (pwr);
+    
+    \draw[arrow_data] (mcu) -- node[left, font=\scriptsize, near end, sloped] {Modbus/UART6} (hmi);
+    \draw[arrow_data] (mcu) -- node[right, font=\scriptsize, near end, sloped] {Modbus/UART5} (plc);
+    
+    % Legend
+    \node[draw=gray!50, rounded corners=3pt, fill=white, minimum width=15cm, minimum height=1.2cm, anchor=north] (legend) at (0, -7.5) {};
+    \node[anchor=north west, font=\bfseries\small] at (legend.north west) {Chú giải (Legend):};
+    \draw[arrow_data_1] (-5.5, -8.2) -- (-4.5, -8.2) node[right, text=black, font=\small] {Luồng dữ liệu / Lệnh};
+    \draw[arrow_power] (0, -8.2) -- (1, -8.2) node[right, text=black, font=\small] {Đường Nguồn (Power)};
+    \node[note] at (6, -8.2) {Note/Config};
+    
+    % Sticky Note
+    \node[note, right=of plc, xshift=1cm, yshift=0.5cm] {
+        \textbf{Cấu hình MCU:}\\
+        - 5 cổng UART chạy ngắt DMA\\
+        - Lidar CAN ngắt RX\\
+        - Vòng lặp RTOS định thời 10ms
+    };
+    
 \end{tikzpicture}%
 }
 \caption{Sơ đồ khối kết nối hệ thống phần cứng xe tự hành AGV B400.}
