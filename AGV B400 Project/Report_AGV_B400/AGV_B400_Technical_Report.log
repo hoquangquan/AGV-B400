@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  5 OCT 2026 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  5 OCT 2026 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1456,7 +1456,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 ... lÃ½ (Schematic)}{20}{subsubsection.3.2.2}
+l.39 ... lÃ½ (Schematic)}{21}{subsubsection.3.2.2}
                                                   % [1
 
 
@@ -1495,127 +1495,132 @@ File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <13> not available
 (Font)              Font shape `T5/cmtt/m/n' tried instead on input line 213.
  [11] [12]
-Overfull \hbox (9.94574pt too wide) in paragraph at lines 265--266
+Overfull \hbox (28.10472pt too wide) in paragraph at lines 265--266
  [][] 
  []
 
-[13] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+
+Overfull \hbox (3.81807pt too wide) in paragraph at lines 354--355
+ [][] 
+ []
+
+[13] [14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T5/ptm/m/n/11.86258 ARM Cortex-M4
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 543--543
+Underfull \hbox (badness 1303) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 192KB RAM. Xû lþ
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 543--543
+Underfull \hbox (badness 3343) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 nguçn cho MCU &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 DMA ri¶ng bi»t
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 543--543
+Underfull \hbox (badness 7576) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 (Driver, HMI, PLC,
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 543--543
+Underfull \hbox (badness 2343) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 c£n v  chuyºn vòng
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 543--543
+Underfull \hbox (badness 1755) in paragraph at lines 542--542
 []|\T5/ptm/m/n/11.86258 C£m bi¸n dá d£i tø
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T5/ptm/m/n/11.86258 N¥ng/h¤ mâc k²o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 xe h ng, ph£n hçi
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 543--543
+Underfull \hbox (badness 1867) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 c£m bi¸n h nh tr¼nh
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 543--543
+Underfull \hbox (badness 7796) in paragraph at lines 542--542
 []|\T5/ptm/m/n/11.86258 Nót ng­t kh©n c§p
  []
 
 
-Underfull \hbox (badness 6575) in paragraph at lines 543--543
+Underfull \hbox (badness 6575) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 22mm v  thanh va
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 543--543
+Underfull \hbox (badness 1117) in paragraph at lines 542--542
 []|\T5/ptm/m/n/11.86258 M¤ch ph¡t ¥m thanh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 c£nh b¡o qua 5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T5/ptm/m/n/11.86258 ngã v o Dig-i-tal
  []
 
-[16] [17]
+[17] [18]
 Overfull \vbox (196.37865pt too high) has occurred while \output is active []
 
 
-[18]
-Overfull \hbox (42.95677pt too wide) in alignment at lines 592--592
+[19]
+Overfull \hbox (42.95677pt too wide) in alignment at lines 591--591
 [][][][] 
  []
 
-[19] [20]
-Underfull \hbox (badness 1533) in paragraph at lines 676--676
+[20] [21]
+Underfull \hbox (badness 1533) in paragraph at lines 675--675
 []|\T5/ptm/m/n/11.86258 ^^^o ^^_i»n ¡p Pin (ADC3
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 676--676
+Underfull \hbox (badness 1960) in paragraph at lines 675--675
 \T5/ptm/m/n/11.86258 & ^^_åc ph£n hçi Driver
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
+Underfull \hbox (badness 10000) in paragraph at lines 675--675
 []|\T5/ptm/m/n/11.86258 Gi¡m s¡t Li-dar CAN,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
+Underfull \hbox (badness 10000) in paragraph at lines 675--675
 \T5/ptm/m/n/11.86258 Bumper, EMC but-ton,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--676
+Underfull \hbox (badness 10000) in paragraph at lines 675--675
 []|\T5/ptm/m/n/11.86258 Giao ti¸p Mod-bus
  []
 
-[21]
-Overfull \hbox (26.675pt too wide) in paragraph at lines 681--682
+[22]
+Overfull \hbox (26.675pt too wide) in paragraph at lines 680--681
 []\T5/ptm/m/n/13 Tr¤ng th¡i di chuyºn to n cöc cõa xe ^^_÷ñc qu£n lþ qua bi¸n m
 ¡y tr¤ng th¡i \T5/cmtt/m/n/13 AGV_Running\T5/ptm/m/n/13 : 
  []
 
-[22] [23] [24] [25] [26] (seq_diagrams.tex [27] [28]) [29]
-Overfull \hbox (15.98907pt too wide) in paragraph at lines 865--866
+[23] [24] [25] [26] [27] (seq_diagrams.tex [28] [29]) [30]
+Overfull \hbox (15.98907pt too wide) in paragraph at lines 864--865
 \T5/ptm/m/n/13 LiFePO4 (^^_¤t $\OT1/ztmcm/m/n/13 25\OML/ztmcm/m/it/13 :\OT1/ztm
 cm/m/n/13 6[]$\T5/ptm/m/n/13 ), ^^_i»n ¡p ngã ra LM2596 (^^_¤t $\OT1/ztmcm/m/n/
 13 5\OML/ztmcm/m/it/13 :\OT1/ztmcm/m/n/13 02[]$\T5/ptm/m/n/13 ) v  ngã ra AMS11
@@ -1623,38 +1628,38 @@ cm/m/n/13 6[]$\T5/ptm/m/n/13 ), ^^_i»n ¡p ngã ra LM2596 (^^_¤t $\OT1/ztmcm/m/n/
  []
 
 
-Overfull \hbox (1.32611pt too wide) in paragraph at lines 872--873
+Overfull \hbox (1.32611pt too wide) in paragraph at lines 871--872
 []\T5/ptm/b/n/13 Thû nghi»m bus CAN Li-dar Wanji: \T5/ptm/m/n/13 Kiºm tra ^^_¡p
  ùng nhªn dú li»u qu²t 500Kbps.
  []
 
-[30] [31]
-Overfull \hbox (8.77354pt too wide) in paragraph at lines 901--902
+[31] [32]
+Overfull \hbox (8.77354pt too wide) in paragraph at lines 900--901
 []\T5/ptm/m/n/13 Thi¸t k¸ v  l m chõ bo m¤ch ^^_i·u khiºn nhóng trung t¥m sû dö
 ng \T5/ptm/b/n/13 STM32F407ZGT6
  []
 
-[32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 964--964
+[33] [34]
+Underfull \hbox (badness 10000) in paragraph at lines 963--963
 []|\T5/ptm/m/n/11.86258 Chån MCU STM32F407,
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 964--964
+Underfull \hbox (badness 7888) in paragraph at lines 963--963
 \T5/ptm/m/n/11.86258 Driver BLDC, Li-dar CAN,
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 964--964
+Underfull \hbox (badness 1019) in paragraph at lines 963--963
 []|\T5/ptm/m/n/11.86258 Lªp tr¼nh 5 Task FreeR-TOS,
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 964--964
+Underfull \hbox (badness 5091) in paragraph at lines 963--963
 \T5/ptm/m/n/11.86258 5V, 3.3V, ^^_o t½n hi»u bus
  []
 
-[34] (AGV_B400_Technical_Report.aux)
+[35] (AGV_B400_Technical_Report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1664,10 +1669,10 @@ ed.
 (rerunfilecheck)             Checksum: DC503C6FAC004BCAE0D02C3E237B33AE;13169.
  ) 
 Here is how much of TeX's memory you used:
- 41687 strings out of 467871
- 952974 string characters out of 5418861
- 1568063 words of memory out of 5000000
- 69716 multiletter control sequences out of 15000+600000
+ 41691 strings out of 467871
+ 953048 string characters out of 5418861
+ 1569072 words of memory out of 5000000
+ 69719 multiletter control sequences out of 15000+600000
  712989 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,131p,754b,1136s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1683,9 +1688,9 @@ ntex/urwvn/utmr8v.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/times/utmri8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/
 vntex/urwvn/utmri8v.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type
 1/vntex/vnr/vntt12.pfb>
-Output written on AGV_B400_Technical_Report.pdf (35 pages, 302081 bytes).
+Output written on AGV_B400_Technical_Report.pdf (36 pages, 303420 bytes).
 PDF statistics:
- 573 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
+ 577 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
  418 words of extra memory for PDF output out of 10000 (max. 10000000)
 
