@@ -3,8 +3,8 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Cấu trúc tổng quan của hệ thống xe tự hành AGV B400.}}{13}{figure.caption.7}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Sơ đồ khối kết nối hệ thống phần cứng xe tự hành AGV B400.}}{14}{figure.caption.8}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Sơ đồ khối hệ thống nguồn điện xe AGV B400.}}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Sơ đồ kiến trúc phần mềm nhúng STM32F4.}}{20}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Sơ đồ chuyển trạng thái di chuyển toàn cục của xe AGV B400.}}{21}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Sơ đồ cây thư mục mã nguồn phần mềm nhúng AGV B400.}}{20}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Sơ đồ chuyển trạng thái di chuyển toàn cục của xe AGV B400.}}{20}{figure.caption.24}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Sơ đồ thuật toán dẫn đường từ và định vị vị trí trạm bằng thẻ RFID.}}{22}{figure.caption.25}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Sơ đồ tuần tự xử lý an toàn Lidar, Bumper và Nút khẩn cấp.}}{23}{figure.caption.26}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Sơ đồ tuần tự quy trình nâng/hạ móc kéo hàng tự động.}}{24}{figure.caption.27}%

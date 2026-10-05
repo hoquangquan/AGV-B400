@@ -20,13 +20,24 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{subcaption}
+\usepackage{fontawesome5}
 \usepackage{tikz}
-\usetikzlibrary{calc,shapes.geometric,arrows,positioning,fit,chains,backgrounds}
-\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=black, fill=red!20]
-\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=black, fill=blue!20]
-\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=black, fill=orange!10]
-\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=black, fill=green!20]
-\tikzstyle{arrow} = [thick,->,>=stealth]
+\usetikzlibrary{calc,shapes.geometric,arrows,positioning,fit,chains,backgrounds,shadows}
+\definecolor{ui_blue}{HTML}{E3F2FD}
+\definecolor{ui_darkblue}{HTML}{1565C0}
+\definecolor{ui_green}{HTML}{E8F5E9}
+\definecolor{ui_darkgreen}{HTML}{2E7D32}
+\definecolor{ui_yellow}{HTML}{FFF9C4}
+\definecolor{ui_orange}{HTML}{F57F17}
+\definecolor{ui_red}{HTML}{FFEBEE}
+\definecolor{ui_darkred}{HTML}{C62828}
+\definecolor{ui_grey}{HTML}{F5F5F5}
+\definecolor{ui_darkgrey}{HTML}{424242}
+\tikzstyle{startstop} = [rectangle, rounded corners=6pt, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=ui_darkblue!50, fill=ui_blue, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=ui_darkgreen!50, fill=ui_green, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}]
+\tikzstyle{process} = [rectangle, rounded corners=4pt, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=ui_orange!50, fill=ui_yellow, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}]
+\tikzstyle{decision} = [diamond, aspect=1.5, minimum width=3cm, minimum height=1cm, text centered, align=center, draw=ui_darkred!50, fill=ui_red, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}]
+\tikzstyle{arrow} = [thick,->,>=stealth, ui_darkgrey]
 \usepackage{indentfirst}
 \usepackage{booktabs}
 \renewcommand{\baselinestretch}{1.2}
@@ -250,19 +261,19 @@ Hệ thống phần cứng AGV B400 được thiết kế dạng module hóa xoa
 \begin{tikzpicture}[
     >=stealth',
     font=\small,
-    comp/.style={draw=blue!80, fill=blue!5, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=1.2cm, align=center},
-    mcucomp/.style={draw=orange!80!black, fill=orange!5, thick, rounded corners=3pt, minimum width=4cm, minimum height=1.2cm, align=center},
-    sensorcomp/.style={draw=green!60!black, fill=green!5, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=1.2cm, align=center},
-    actcomp/.style={draw=red!80!black, fill=red!5, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=1.2cm, align=center},
-    arrow_data/.style={<->, thick, red!70!black}
+    comp/.style={draw=ui_darkblue!50, fill=ui_blue, thick, rounded corners=4pt, minimum width=3.5cm, minimum height=1.2cm, align=center, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    mcucomp/.style={draw=ui_orange!50, fill=ui_yellow, thick, rounded corners=4pt, minimum width=4cm, minimum height=1.2cm, align=center, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    sensorcomp/.style={draw=ui_darkgreen!50, fill=ui_green, thick, rounded corners=4pt, minimum width=3.5cm, minimum height=1.2cm, align=center, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    actcomp/.style={draw=ui_darkred!50, fill=ui_red, thick, rounded corners=4pt, minimum width=3.5cm, minimum height=1.2cm, align=center, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    arrow_data/.style={<->, thick, ui_darkgrey}
 ]
     \node[mcucomp] (mcu) at (0,0) {\textbf{Khối Xử lý Trung tâm}\\(STM32F4 + FreeRTOS)};
     \node[sensorcomp] (sen) at (-8,0) {\textbf{Khối Lấy mẫu \& Cảm biến}\\(MGS-16, RFID, Lidar)};
     \node[actcomp] (act) at (8,0) {\textbf{Khối Chấp hành \& Động cơ}\\(BLDC 400W, Tool 24V)};
     \node[comp] (com) at (0, 3.5) {\textbf{Hệ thống Server / HMI / PLC}\\(5x Modbus RS485 DMA)};
     
-    \draw[->, thick, red!70!black] (sen) -- node[above, font=\scriptsize] {Dữ liệu Cảm biến} (mcu);
-    \draw[->, thick, red!70!black] (mcu) -- node[above, font=\scriptsize] {Lệnh Điều khiển} (act);
+    \draw[->, thick, ui_darkgrey] (sen) -- node[above, font=\scriptsize] {Dữ liệu Cảm biến} (mcu);
+    \draw[->, thick, ui_darkgrey] (mcu) -- node[above, font=\scriptsize] {Lệnh Điều khiển} (act);
     \draw[arrow_data] (com) -- node[right, font=\scriptsize] {Giao tiếp Trạng thái/Lệnh} (mcu);
 \end{tikzpicture}%
 }
@@ -279,14 +290,14 @@ Sơ đồ khối thể hiện chi tiết sự kết nối tương tác giữa MC
 \begin{tikzpicture}[
     >=stealth',
     font=\small,
-    comp/.style={draw=blue!80, fill=white, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=1cm, align=center},
-    servercomp/.style={draw=purple!80, fill=white, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=1cm, align=center},
-    sensorcomp/.style={draw=green!60!black, fill=white, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=1cm, align=center},
-    extcomp/.style={draw=gray!80, fill=white, thick, rounded corners=3pt, minimum width=3.5cm, minimum height=1cm, align=center},
-    cluster/.style={draw=#1, thick, rounded corners=5pt, fill=#1!4, inner sep=20pt},
-    arrow_data/.style={<->, thick, red!70!black},
-    arrow_data_1/.style={->, thick, red!70!black},
-    arrow_power/.style={->, thick, dashed, orange!80!black},
+    comp/.style={draw=ui_darkblue!50, fill=ui_blue, thick, rounded corners=4pt, minimum width=3.5cm, minimum height=1cm, align=center, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    servercomp/.style={draw=ui_orange!50, fill=ui_yellow, thick, rounded corners=4pt, minimum width=3.5cm, minimum height=1cm, align=center, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    sensorcomp/.style={draw=ui_darkgreen!50, fill=ui_green, thick, rounded corners=4pt, minimum width=3.5cm, minimum height=1cm, align=center, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    extcomp/.style={draw=ui_darkgrey!50, fill=ui_grey, thick, rounded corners=4pt, minimum width=3.5cm, minimum height=1cm, align=center, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    cluster/.style={draw=#1!50, thick, rounded corners=6pt, fill=#1!4, inner sep=20pt},
+    arrow_data/.style={<->, thick, ui_darkgrey},
+    arrow_data_1/.style={->, thick, ui_darkgrey},
+    arrow_power/.style={->, thick, dashed, ui_orange},
     note/.style={draw=orange!60, fill=yellow!10, rounded corners=2pt, font=\scriptsize, align=left, inner sep=6pt}
 ]
 
@@ -568,21 +579,21 @@ Hệ thống xe AGV B400 được cấp nguồn từ khối Pin LiFePO4 24V (Đi
 \centering
 \resizebox{\linewidth}{!}{%
 \begin{tikzpicture}[node distance=1.2cm and 1.6cm, auto, >=stealth']
-    \node [process, fill=purple!20, minimum width=3.6cm] (bat) {\textbf{Pack Pin LiFePO4 24V}\\(50Ah/100Ah + BMS)};
-    \node [process, fill=red!20, right=of bat, minimum width=3.2cm] (sw) {\textbf{Contactor \& Sạc}\\DK\_Sac\_Pin};
-    \node [process, fill=green!20, right=of sw, minimum width=3.2cm] (lm) {\textbf{Buck LM2596}\\(24V $\rightarrow$ 5VDC / 3A)};
-    \node [process, fill=yellow!20, right=of lm, minimum width=3.2cm] (ams) {\textbf{LDO AMS1117}\\(5V $\rightarrow$ 3.3VDC / 1A)};
+    \node [process, fill=ui_blue, draw=ui_darkblue!50, minimum width=3.6cm] (bat) {\textbf{Pack Pin LiFePO4 24V}\\(50Ah/100Ah + BMS)};
+    \node [process, fill=ui_red, draw=ui_darkred!50, right=of bat, minimum width=3.2cm] (sw) {\textbf{Contactor \& Sạc}\\DK\_Sac\_Pin};
+    \node [process, fill=ui_green, draw=ui_darkgreen!50, right=of sw, minimum width=3.2cm] (lm) {\textbf{Buck LM2596}\\(24V $\rightarrow$ 5VDC / 3A)};
+    \node [process, fill=ui_yellow, draw=ui_orange!50, right=of lm, minimum width=3.2cm] (ams) {\textbf{LDO AMS1117}\\(5V $\rightarrow$ 3.3VDC / 1A)};
 
-    \node [process, fill=red!10, below=of sw, minimum width=3.2cm] (t24) {\textbf{Tải 24VDC}\\Driver BLDC, Lidar, Tool};
-    \node [process, fill=orange!10, below=of lm, minimum width=3.2cm] (t5) {\textbf{Tải 5VDC}\\Speak.c, Còi báo};
-    \node [process, fill=blue!10, below=of ams, minimum width=3.2cm] (t3) {\textbf{Tải 3.3VDC}\\MCU STM32F4, RS485, CAN};
+    \node [process, fill=ui_grey, draw=ui_darkgrey!50, below=of sw, minimum width=3.2cm] (t24) {\textbf{Tải 24VDC}\\Driver BLDC, Lidar, Tool};
+    \node [process, fill=ui_grey, draw=ui_darkgrey!50, below=of lm, minimum width=3.2cm] (t5) {\textbf{Tải 5VDC}\\Speak.c, Còi báo};
+    \node [process, fill=ui_grey, draw=ui_darkgrey!50, below=of ams, minimum width=3.2cm] (t3) {\textbf{Tải 3.3VDC}\\MCU STM32F4, RS485, CAN};
 
-    \draw [->, thick] (bat) -- (sw);
-    \draw [->, thick] (sw) -- (lm);
-    \draw [->, thick] (lm) -- (ams);
-    \draw [->, thick] (sw) -- (t24);
-    \draw [->, thick] (lm) -- (t5);
-    \draw [->, thick] (ams) -- (t3);
+    \draw [->, thick, ui_darkgrey] (bat) -- (sw);
+    \draw [->, thick, ui_darkgrey] (sw) -- (lm);
+    \draw [->, thick, ui_darkgrey] (lm) -- (ams);
+    \draw [->, thick, ui_darkgrey] (sw) -- (t24);
+    \draw [->, thick, ui_darkgrey] (lm) -- (t5);
+    \draw [->, thick, ui_darkgrey] (ams) -- (t3);
 \end{tikzpicture}%
 }
 \caption{Sơ đồ khối hệ thống nguồn điện xe AGV B400.}
@@ -650,29 +661,56 @@ Mạch in PCB được thiết kế trên 2 lớp (Double-sided PCB) đáp ứng
 \setcounter{table}{0}
 
 \subsection{Thiết kế Firmware}
-Firmware nhúng được tổ chức theo kiến trúc phân lớp (Layered Architecture) trên nền FreeRTOS:
+Firmware nhúng được tổ chức theo cấu trúc cây thư mục (Folder Tree) mô-đun hóa trên nền FreeRTOS:
 
 \begin{figure}[!htbp]
 \centering
-\resizebox{\linewidth}{!}{%
-\begin{tikzpicture}[node distance=0.7cm, auto, >=stealth']
-    \node [process, fill=cyan!20, text width=14cm, align=center, minimum height=0.9cm] (app) {\textbf{Tầng Application (Tầng ứng dụng)}\\\texttt{AGV\_RunTask()}, \texttt{AGV\_ReadTask()}, \texttt{StartTask03()}, \texttt{StartTask04()}, \texttt{StartTask05()}, \texttt{TIM9\_IRQ()}};
-    
-    \node [process, fill=blue!20, text width=14cm, align=center, below=of app, minimum height=0.9cm] (rtos) {\textbf{Tầng FreeRTOS Kernel Layer}\\Preemptive Scheduler, Context Switch, Task Priorities, Queues, Semaphores, Mutexes};
-    
-    \node [process, fill=green!20, text width=14cm, align=center, below=of rtos, minimum height=0.9cm] (lib) {\textbf{Tầng Library (Tầng thư viện)}\\\texttt{ESA\_Control.h}, \texttt{MGS\_Driver.h}, \texttt{RFID\_Protocol.h}, \texttt{Lidar\_Wanji.h}, \texttt{Modbus\_DMA.h}, \texttt{Kalman.h}};
-    
-    \node [process, fill=orange!20, text width=14cm, align=center, below=of lib, minimum height=0.9cm] (drv) {\textbf{Tầng Driver (Tầng driver ngoại vi)}\\\texttt{<stm32f4xx\_hal\_usart.h>}, \texttt{<stm32f4xx\_hal\_can.h>}, \texttt{<stm32f4xx\_hal\_adc.h>}, \texttt{<stm32f4xx\_hal\_gpio.h>}};
-    
-    \node [process, fill=gray!20, text width=14cm, align=center, below=of drv, minimum height=0.9cm] (hw) {\textbf{Tầng Physical (Tầng phần cứng vật lý)}\\STM32F4 MCU, Wanji Lidar 2D, MGS-16, RFID Reader, BLDC Driver, Tool Relay, Speak.c, BMS Pin};
+\scalebox{0.75}{%
+\begin{tikzpicture}[
+    badge/.style={rectangle, rounded corners=6pt, fill=ui_darkblue, text=white, thick, minimum width=6cm, minimum height=0.8cm, align=center, font=\bfseries\small, drop shadow={opacity=0.2, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    folder/.style={rectangle, rounded corners=4pt, draw=ui_darkblue!40, fill=ui_blue, thick, minimum width=4.5cm, minimum height=0.7cm, text width=4cm, align=left, font=\small, drop shadow={opacity=0.1, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    file/.style={rectangle, rounded corners=4pt, draw=ui_darkgreen!40, fill=ui_green, thick, minimum width=4.5cm, minimum height=0.7cm, text width=4cm, align=left, font=\small, drop shadow={opacity=0.1, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    line/.style={draw=ui_darkgrey!70, thick, rounded corners=3pt},
+    dot/.style={circle, fill=ui_darkgrey!70, inner sep=1.2pt}
+]
 
-    \draw [<->, thick] (app) -- (rtos);
-    \draw [<->, thick] (rtos) -- (lib);
-    \draw [<->, thick] (lib) -- (drv);
-    \draw [<->, thick] (drv) -- (hw);
+% Badge
+\node[badge] (badge) at (6, 2) {\faFolderOpen\ Folder Tree - Firmware AGV B400};
+
+% Root
+\node[folder] (root) at (0, -2) {\faFolder\ AGV\_B400\_Firmware};
+
+% Level 1
+\node[folder] (core) at (6, 0.5) {\faFolder\ Core};
+\node[folder] (drivers) at (6, -0.5) {\faFolder\ Drivers};
+\node[folder] (mid) at (6, -1.5) {\faFolder\ Middlewares};
+\node[folder] (user) at (6, -2.5) {\faFolder\ User};
+\node[file] (ioc) at (6, -3.5) {\faFile\ AGV\_B400.ioc};
+\node[file] (readme) at (6, -4.5) {\faFile\ README.md};
+
+% Level 2 (User)
+\node[folder] (charge) at (12, -1.0) {\faFolder\ Charge};
+\node[folder] (esa) at (12, -2.0) {\faFolder\ ESA\_Driver};
+\node[folder] (lidar) at (12, -3.0) {\faFolder\ Lidar\_ME4341};
+\node[folder] (modbus) at (12, -4.0) {\faFolder\ Modbus\_Protocol};
+
+% Lines Root -> L1
+\draw[line] (root.east) -- +(0.5,0) coordinate (j1) node[dot] {} |- (readme.west);
+\draw[line] (j1) |- (core.west);
+\draw[line] (j1) |- (drivers.west);
+\draw[line] (j1) |- (mid.west);
+\draw[line] (j1) |- (user.west);
+\draw[line] (j1) |- (ioc.west);
+
+% Lines User -> L2
+\draw[line] (user.east) -- +(0.5,0) coordinate (j2) node[dot] {} |- (modbus.west);
+\draw[line] (j2) |- (charge.west);
+\draw[line] (j2) |- (esa.west);
+\draw[line] (j2) |- (lidar.west);
+
 \end{tikzpicture}%
 }
-\caption{Sơ đồ kiến trúc phần mềm nhúng STM32F4.}
+\caption{Sơ đồ cây thư mục mã nguồn phần mềm nhúng AGV B400.}
 \label{fig:firmware_arch}
 \end{figure}
 
@@ -698,11 +736,11 @@ Trạng thái di chuyển toàn cục của xe được quản lý qua biến m�
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[node distance=2cm, auto, >=stealth']
-    \node [process, fill=gray!20] (s0) {\textbf{0x00: AGV\_Stop}\\Dừng / Chờ lệnh};
-    \node [process, fill=green!20, right=of s0] (s1) {\textbf{0x01: AGV\_Run}\\Chạy tự động dò từ};
-    \node [process, fill=yellow!20, below=of s1] (s2) {\textbf{0x02: AGV\_Wait}\\Cảnh báo Lidar / Giảm tốc};
-    \node [process, fill=red!20, left=of s2] (s3) {\textbf{0x03: AGV\_Emc}\\Lỗi / Dừng khẩn EMC/Bumper};
-    \node [process, fill=blue!20, above=of s1] (s4) {\textbf{0x04: AGV\_Tool}\\Thực thi Nâng/Hạ hàng};
+    \node [process, fill=ui_grey, draw=ui_darkgrey!50] (s0) {\textbf{0x00: AGV\_Stop}\\Dừng / Chờ lệnh};
+    \node [process, fill=ui_green, draw=ui_darkgreen!50, right=of s0] (s1) {\textbf{0x01: AGV\_Run}\\Chạy tự động dò từ};
+    \node [process, fill=ui_yellow, draw=ui_orange!50, below=of s1] (s2) {\textbf{0x02: AGV\_Wait}\\Cảnh báo Lidar / Giảm tốc};
+    \node [process, fill=ui_red, draw=ui_darkred!50, left=of s2] (s3) {\textbf{0x03: AGV\_Emc}\\Lỗi / Dừng khẩn EMC/Bumper};
+    \node [process, fill=ui_blue, draw=ui_darkblue!50, above=of s1] (s4) {\textbf{0x04: AGV\_Tool}\\Thực thi Nâng/Hạ hàng};
 
     \draw [->, thick] (s0) -- node {Start Button / HMI} (s1);
     \draw [->, thick] (s1) -- node [right] {Vật cản xa} (s2);
@@ -758,11 +796,11 @@ Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar 
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
-    \node [process, fill=gray!10] (poll) {Giám sát cảm biến an toàn 24/7};
+    \node [process, fill=ui_grey, draw=ui_darkgrey!50] (poll) {Giám sát cảm biến an toàn 24/7};
     \node [decision, below=of poll] (chk_emc) {Nhấn nút EMC / Bumper?};
     \node [decision, below=of chk_emc] (chk_lidar) {Lidar báo vật cản nguy hiểm?};
-    \node [process, fill=red!30, right=of chk_emc] (stop_emc) {Chuyển \texttt{AGV\_Running = 0x03}\\Ngắt Driver \& Bật \texttt{Led\_Err}\\Phát âm thanh \texttt{Speak\_out(AGV\_Emc)}};
-    \node [process, fill=yellow!30, right=of chk_lidar] (slow) {Chuyển \texttt{AGV\_Running = 0x02}\\Giảm tốc độ \& Bật còi cảnh báo};
+    \node [process, fill=ui_red, draw=ui_darkred!50, right=of chk_emc] (stop_emc) {Chuyển \texttt{AGV\_Running = 0x03}\\Ngắt Driver \& Bật \texttt{Led\_Err}\\Phát âm thanh \texttt{Speak\_out(AGV\_Emc)}};
+    \node [process, fill=ui_yellow, draw=ui_orange!50, right=of chk_lidar] (slow) {Chuyển \texttt{AGV\_Running = 0x02}\\Giảm tốc độ \& Bật còi cảnh báo};
     \node [process, below=of chk_lidar] (normal) {Duy trì trạng thái di chuyển bình thường};
 
     \draw [->, thick] (poll) -- (chk_emc);

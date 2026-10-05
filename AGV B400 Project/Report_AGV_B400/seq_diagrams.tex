@@ -2,11 +2,11 @@
 Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần tự sự kiện giữa các tác nhân phần mềm và phần cứng trong hệ thống AGV B400. Sơ đồ được trình bày theo chuẩn UML trực quan với các tiến trình rõ ràng.
 
 \tikzset{
-    participant/.style={draw=red!70!black, fill=yellow!20, thick, minimum width=2.8cm, minimum height=0.8cm, font=\small},
-    lifeline/.style={thick, dashed, red!70!black},
-    msg/.style={->, thick, draw=red!70!black, >=stealth'},
-    reply/.style={<-, thick, dashed, draw=red!70!black, >=stealth'},
-    divider/.style={fill=gray!20, draw=black, thick, inner sep=3pt, font=\bfseries\small}
+    participant/.style={draw=ui_darkblue!50, fill=ui_blue, thick, rounded corners=4pt, minimum width=2.8cm, minimum height=0.8cm, font=\small, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}},
+    lifeline/.style={thick, dashed, ui_darkgrey},
+    msg/.style={->, thick, draw=ui_darkblue, >=stealth'},
+    reply/.style={<-, thick, dashed, draw=ui_orange, >=stealth'},
+    divider/.style={fill=ui_grey, draw=ui_darkgrey!50, rounded corners=4pt, thick, inner sep=3pt, font=\bfseries\small, drop shadow={opacity=0.15, shadow xshift=1.5pt, shadow yshift=-1.5pt}}
 }
 
 \subsubsection{Sơ đồ tuần tự: Dẫn đường từ tính \& Định vị trạm RFID}

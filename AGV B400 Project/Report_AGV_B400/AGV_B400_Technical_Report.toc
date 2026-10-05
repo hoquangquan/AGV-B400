@@ -40,13 +40,13 @@
 \contentsline {subsubsection}{\numberline {3.2.3}Layout PCB và Bố trí Linh kiện}{19}{subsubsection.3.2.3}%
 \contentsline {section}{\hbox to\@tempdima {\hfil }CHƯƠNG 4. KIẾN TRÚC PHẦN MỀM VÀ LUỒNG HOẠT ĐỘNG}{20}{subsubsection.3.2.3}%
 \contentsline {subsection}{\numberline {4.1}Thiết kế Firmware}{20}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Thiết kế Software và Các Luồng Hoạt Động}{22}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Sơ đồ Luồng Dẫn đường từ \& Nhận diện Trạm RFID}{22}{subsubsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2}Thiết kế Software và Các Luồng Hoạt Động}{20}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Sơ đồ Luồng Dẫn đường từ \& Nhận diện Trạm RFID}{20}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Sơ đồ Luồng Giám sát An toàn \& Xử lý Ngắt khẩn}{23}{subsubsection.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.3}Sơ đồ Luồng Thực thi Cơ cấu Nâng/Hạ hàng}{23}{subsubsection.4.2.3}%
 \contentsline {subsubsection}{\numberline {4.2.4}Sơ đồ Luồng Đo Pin \& Tự động Sạc Pin}{23}{subsubsection.4.2.4}%
 \contentsline {subsubsection}{\numberline {4.2.5}Sơ đồ Giao tiếp Truyền thông Modbus HMI \& PLC}{23}{subsubsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.3}Các Sơ đồ Tuần tự (Sequence Diagrams)}{27}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Các Sơ đồ Tuần tự (Sequence Diagrams)}{23}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}Sơ đồ tuần tự: Dẫn đường từ tính \& Định vị trạm RFID}{27}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}Sơ đồ tuần tự: An toàn đa tầng \& Xử lý dừng khẩn cấp}{27}{subsubsection.4.3.2}%
 \contentsline {subsubsection}{\numberline {4.3.3}Sơ đồ tuần tự: Thực thi Cơ cấu nâng/hạ móc kéo}{27}{subsubsection.4.3.3}%
