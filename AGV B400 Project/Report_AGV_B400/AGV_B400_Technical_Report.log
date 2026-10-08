@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  8 OCT 2026 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  8 OCT 2026 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1664,7 +1664,7 @@ ed.
 Here is how much of TeX's memory you used:
  45070 strings out of 467871
  1028890 string characters out of 5418861
- 1645064 words of memory out of 5000000
+ 1645060 words of memory out of 5000000
  73054 multiletter control sequences out of 15000+600000
  722333 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1683,7 +1683,7 @@ ograms/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/asus/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/asus/AppData/Local/P
 rograms/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb><C:/Users/asus/AppData/Local
 /Programs/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on AGV_B400_Technical_Report.pdf (41 pages, 382618 bytes).
+Output written on AGV_B400_Technical_Report.pdf (41 pages, 382648 bytes).
 PDF statistics:
  637 PDF objects out of 1000 (max. 8388607)
  143 named destinations out of 1000 (max. 500000)
