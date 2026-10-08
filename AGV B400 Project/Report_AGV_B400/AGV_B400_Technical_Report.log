@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  5 OCT 2026 18:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  8 OCT 2026 09:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1477,195 +1477,232 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.80008> not available
 
 {C:/Users/asus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/asus/
 AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc} <./pic/logodhbk.png
->]) (AGV_B400_Technical_Report.toc
+>]) (DanhGia.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 ... lÃ½ (Schematic)}{18}{subsubsection.3.2.2}
-                                                  % [1
+l.67 \newpage
+              [1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+[2] [3
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+[4]) (LoiNoiDau.tex [5
+
+
+]) (LoiCamDoan.tex [6
+
+
+]) (AGV_B400_Technical_Report.toc
+[7
 
 
 ])
 \tf@toc=\write5
 \openout5 = `AGV_B400_Technical_Report.toc'.
 
- [2] [3]
-(AGV_B400_Technical_Report.lof)
+ [8] [9] (AGV_B400_Technical_Report.lof)
 \tf@lof=\write6
 \openout6 = `AGV_B400_Technical_Report.lof'.
 
- [4
+ [10
 
 
-] (AGV_B400_Technical_Report.lot)
+]
+(AGV_B400_Technical_Report.lot)
 \tf@lot=\write7
 \openout7 = `AGV_B400_Technical_Report.lot'.
 
- [5]
-(Abbreviations.tex) [6] [7]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-66.
+ [11] (Abbreviations.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+.
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 1
-68.
+Overfull \hbox (3.32655pt too wide) in paragraph at lines 11--12
+[]\T5/ptm/b/n/13 BMS\T5/ptm/m/n/13 : Bat-tery Man-age-ment Sys-tem (H» thèng qu
+£n lþ v  gi¡m s¡t khèi pin Lithium) 
+ []
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
+) [12{C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+[13]
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 1
+73.
+ (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-[8
+[14
 
-{C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-[9] [10
+] [15] [16
 
 ]
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <13> not available
-(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 237.
- [11] [12]
-Overfull \hbox (28.10472pt too wide) in paragraph at lines 290--291
+(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 242.
+ [17] [18]
+Overfull \hbox (28.10472pt too wide) in paragraph at lines 295--296
  [][] 
  []
 
 
-Overfull \hbox (3.81807pt too wide) in paragraph at lines 391--392
+Overfull \hbox (3.81807pt too wide) in paragraph at lines 396--397
  [][] 
  []
 
-[13
+[19
 
-] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+] [20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 []|\T5/ptm/m/n/11.86258 ARM Cortex-M4
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 579--579
+Underfull \hbox (badness 1303) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 192KB RAM. Xû lþ
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 579--579
+Underfull \hbox (badness 3343) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 nguçn cho MCU &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 DMA ri¶ng bi»t
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 579--579
+Underfull \hbox (badness 7576) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 (Driver, HMI, PLC,
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 579--579
+Underfull \hbox (badness 2343) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 c£n v  chuyºn vòng
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 579--579
+Underfull \hbox (badness 1755) in paragraph at lines 584--584
 []|\T5/ptm/m/n/11.86258 C£m bi¸n dá d£i tø
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 []|\T5/ptm/m/n/11.86258 N¥ng/h¤ mâc k²o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 xe h ng, ph£n hçi
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 579--579
+Underfull \hbox (badness 1867) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 c£m bi¸n h nh tr¼nh
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 579--579
+Underfull \hbox (badness 7796) in paragraph at lines 584--584
 []|\T5/ptm/m/n/11.86258 Nót ng­t kh©n c§p
  []
 
 
-Underfull \hbox (badness 6575) in paragraph at lines 579--579
+Underfull \hbox (badness 6575) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 22mm v  thanh va
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 579--579
+Underfull \hbox (badness 1117) in paragraph at lines 584--584
 []|\T5/ptm/m/n/11.86258 M¤ch ph¡t ¥m thanh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 c£nh b¡o qua 5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 \T5/ptm/m/n/11.86258 ngã v o Dig-i-tal
  []
 
 
-LaTeX Warning: Float too large for page by 196.37865pt on input line 582.
+LaTeX Warning: Float too large for page by 196.37865pt on input line 587.
 
 
-Overfull \hbox (42.95677pt too wide) in alignment at lines 628--628
+Overfull \hbox (42.95677pt too wide) in alignment at lines 633--633
 [][][][] 
  []
 
-[16] [17] [18] [19]
+[22] [23] [24] [25]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 723.
+nput line 728.
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesom
 efree1.fd)
-Underfull \hbox (badness 7925) in paragraph at lines 723--723
+Underfull \hbox (badness 7925) in paragraph at lines 728--728
 [][][][]\U/fontawesomefree1/solid/n/11.86258 g[] 
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 739--739
+Underfull \hbox (badness 1533) in paragraph at lines 744--744
 []|\T5/ptm/m/n/11.86258 ^^^o ^^_i»n ¡p Pin (ADC3
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 739--739
+Underfull \hbox (badness 1960) in paragraph at lines 744--744
 \T5/ptm/m/n/11.86258 & ^^_åc ph£n hçi Driver
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--739
+Underfull \hbox (badness 10000) in paragraph at lines 744--744
 []|\T5/ptm/m/n/11.86258 Gi¡m s¡t Li-dar CAN,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--739
+Underfull \hbox (badness 10000) in paragraph at lines 744--744
 \T5/ptm/m/n/11.86258 Bumper, EMC but-ton,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--739
+Underfull \hbox (badness 10000) in paragraph at lines 744--744
 []|\T5/ptm/m/n/11.86258 Giao ti¸p Mod-bus
  []
 
 
-Overfull \hbox (26.675pt too wide) in paragraph at lines 744--745
+Overfull \hbox (26.675pt too wide) in paragraph at lines 749--750
 []\T5/ptm/m/n/13 Tr¤ng th¡i di chuyºn to n cöc cõa xe ^^_÷ñc qu£n lþ qua bi¸n m
 ¡y tr¤ng th¡i \T5/cmtt/m/n/13 AGV_Running\T5/ptm/m/n/13 : 
  []
 
-[20
+[26
 
 {C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fr
-ee1.enc}] [21] [22] (seq_diagrams.tex [23] [24] [25] [26]) [27] [28]
-[29]
-Overfull \hbox (15.98907pt too wide) in paragraph at lines 928--929
+ee1.enc}] [27] [28] (seq_diagrams.tex [29] [30] [31] [32]) [33] [34]
+[35]
+Overfull \hbox (15.98907pt too wide) in paragraph at lines 933--934
 \T5/ptm/m/n/13 LiFePO4 (^^_¤t $\OT1/ztmcm/m/n/13 25\OML/ztmcm/m/it/13 :\OT1/ztm
 cm/m/n/13 6[]$\T5/ptm/m/n/13 ), ^^_i»n ¡p ngã ra LM2596 (^^_¤t $\OT1/ztmcm/m/n/
 13 5\OML/ztmcm/m/it/13 :\OT1/ztmcm/m/n/13 02[]$\T5/ptm/m/n/13 ) v  ngã ra AMS11
@@ -1673,42 +1710,42 @@ cm/m/n/13 6[]$\T5/ptm/m/n/13 ), ^^_i»n ¡p ngã ra LM2596 (^^_¤t $\OT1/ztmcm/m/n/
  []
 
 
-Overfull \hbox (1.32611pt too wide) in paragraph at lines 935--936
+Overfull \hbox (1.32611pt too wide) in paragraph at lines 940--941
 []\T5/ptm/b/n/13 Thû nghi»m bus CAN Li-dar Wanji: \T5/ptm/m/n/13 Kiºm tra ^^_¡p
  ùng nhªn dú li»u qu²t 500Kbps.
  []
 
-[30
+[36
 
-] [31]
-Overfull \hbox (8.77354pt too wide) in paragraph at lines 964--965
+] [37]
+Overfull \hbox (8.77354pt too wide) in paragraph at lines 969--970
 []\T5/ptm/m/n/13 Thi¸t k¸ v  l m chõ bo m¤ch ^^_i·u khiºn nhóng trung t¥m sû dö
 ng \T5/ptm/b/n/13 STM32F407ZGT6
  []
 
-[32
+[38
 
-] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 1032--1032
 []|\T5/ptm/m/n/11.86258 Chån MCU STM32F407,
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 1027--1027
+Underfull \hbox (badness 7888) in paragraph at lines 1032--1032
 \T5/ptm/m/n/11.86258 Driver BLDC, Li-dar CAN,
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 1027--1027
+Underfull \hbox (badness 1019) in paragraph at lines 1032--1032
 []|\T5/ptm/m/n/11.86258 Lªp tr¼nh 5 Task FreeR-TOS,
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 1027--1027
+Underfull \hbox (badness 5091) in paragraph at lines 1032--1032
 \T5/ptm/m/n/11.86258 5V, 3.3V, ^^_o t½n hi»u bus
  []
 
-[34] (AGV_B400_Technical_Report.aux)
+[40] (AGV_B400_Technical_Report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1717,34 +1754,77 @@ L3 programming layer <2025-12-24>
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `AGV_B400_Technical_Report.out' has not chang
-ed.
-(rerunfilecheck)             Checksum: DC503C6FAC004BCAE0D02C3E237B33AE;13169.
+
+Package rerunfilecheck Warning: File `AGV_B400_Technical_Report.out' has change
+d.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `AGV_B400_Technical_Report.out':
+(rerunfilecheck)             Before: 0E85F873BACC345459774313704EA788;13169
+(rerunfilecheck)             After:  2A9C15255CE6D9E9790E8A8A31811413;13169.
  ) 
 Here is how much of TeX's memory you used:
- 45019 strings out of 467871
- 1027841 string characters out of 5418861
- 1644385 words of memory out of 5000000
- 73020 multiletter control sequences out of 15000+600000
- 713294 words of font info for 147 fonts, out of 8000000 for 9000
+ 45058 strings out of 467871
+ 1028591 string characters out of 5418861
+ 1644425 words of memory out of 5000000
+ 73033 multiletter control sequences out of 15000+600000
+ 722333 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,131p,754b,1137s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/
-FontAwesome5Free-Solid.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/asus/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/asus/AppData/Local/
-Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/asus/AppData/Local/Pr
+
+pdfTeX warning (dest): name{table.caption.37} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.25} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.23} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.21} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.22} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.10} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.8} has been referenced but does not exist,
+ replaced by a fixed one
+
+<C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/Fo
+ntAwesome5Free-Solid.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/asus/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/asus/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/asus/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/asus/AppData/Local/Pro
+rams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/asus/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/asus/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/asus/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/asus/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/asus/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/asus/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb><C:/Users/asus/AppData/Local/P
 rograms/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on AGV_B400_Technical_Report.pdf (35 pages, 347446 bytes).
+Output written on AGV_B400_Technical_Report.pdf (41 pages, 383474 bytes).
 PDF statistics:
- 603 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
+ 649 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
  514 words of extra memory for PDF output out of 10000 (max. 10000000)
 

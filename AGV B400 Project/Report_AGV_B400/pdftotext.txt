@@ -1,0 +1,2310 @@
+ĐẠI HỌC BÁCH KHOA HÀ NỘI
+
+TRƯỜNG ĐIỆN - ĐIỆN TỬ
+
+BÁO CÁO
+
+ĐỒ ÁN TỐT NGHIỆP KỸ SƯ
+Đề tài:
+
+NGHIÊN CỨU VÀ THIẾT KẾ
+HỆ THỐNG ĐIỀU KHIỂN XE TỰ HÀNH AGV B400
+
+Sinh viên thực hiện:
+
+HỒ QUANG QUÂN - 20241848E
+
+Giảng viên hướng dẫn: TS. LÃ ANH TÀI
+
+Hà Nội, Ngày 7 tháng 10 năm 2026
+
+ĐÁNH GIÁ QUYỂN ĐỒ ÁN TỐT NGHIỆP
+(Dùng cho giảng viên hướng dẫn)
+Tên giảng viên đánh giá: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Họ và tên sinh viên: . . . . . . . . . . . . . . . . . . . . . . . . . . . MSSV: . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Tên đồ án: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+................................................................................
+Chọn các mức điểm phù hợp cho sinh viên trình bày theo các tiêu chí dưới đây:
+Rất kém (1); Kém(2); Đạt(3); Giỏi(4); Xuất sắc(5)
+Có sự kết hợp giữa lý thuyết và thực hành (20)
+
+1
+
+Nêu rõ tính cấp thiết và quan trọng của đề tài, các vấn đề và các giả
+thuyết (bao gồm mục đích và tính phù hợp) cũng như phạm vi ứng dụng
+của đồ án
+
+1
+
+2
+
+3
+
+4
+
+5
+
+2
+
+Cập nhật kết quả nghiên cứu gần đây nhất (trong nước/quốc tế)
+
+1
+
+2
+
+3
+
+4
+
+5
+
+3
+
+Nêu rõ và chi tiết phương pháp nghiên cứu/giải quyết vấn đề
+
+1
+
+2
+
+3
+
+4
+
+5
+
+4
+
+Có kết quả mô phỏng/thực nghiệm và trình bày rõ ràng kết quả đạt được
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Có khả năng phân tích và đánh giá kết quả (15)
+
+5
+
+Kế hoạch làm việc rõ ràng bao gồm mục tiêu và phương pháp thực hiện
+dựa trên kết quả nghiên cứu lý thuyết một cách có hệ thống
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Kết quả được trình bày một cách logic và dễ hiểu, tất cả kết quả đều
+được phân tích và đánh giá thỏa đáng
+
+1
+
+2
+
+3
+
+4
+
+5
+
+7
+
+Trong phần kết luận, tác giả chỉ rõ sự khác biệt (nếu có) giữa kết quả
+đạt được và mục tiêu ban đầu đề ra đồng thời cung cấp lập luận để đề
+xuất hướng giải quyết có thể thực hiện trong tương lai
+
+1
+
+2
+
+3
+
+4
+
+5
+
+8
+
+Đồ án trình bày đúng mẫu quy định với cấu trúc các chương logic và
+đẹp mắt (bảng biểu, hình ảnh rõ ràng, có tiêu đề, được đánh số thứ tự và
+được giải thích hay đề cập đến; căn lề thống nhất, có dấu cách sau dấu
+chấm, dấu phảy v.v.), có mở đầu chương và kết luận chương, có liệt kê
+tài liệu tham khảo và có trích dẫn đúng quy định
+
+1
+
+2
+
+3
+
+4
+
+5
+
+9
+
+Kỹ năng viết xuất sắc (cấu trúc câu chuẩn, văn phong khoa học, lập luận
+logic và có cơ sở, từ vựng sử dụng phù hợp v.v.)
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Kỹ năng viết quyển đồ án (10)
+
+Thành tựu nghiên cứu khoa học (5) (chọn 1 trong 3 trường hợp)
+
+10a
+
+Có bài báo khoa học được đăng hoặc chấp nhận đăng/Đạt giải SVNCKH
+giải 3 cấp Viện trở lên/Có giải thưởng khoa học (quốc tế hoặc trong
+nước) từ giải 3 trở lên/Có đăng ký bằng phát minh, sáng chế
+
+5
+
+10b
+
+Được báo cáo tại hội đồng cấp Viện trong hội nghị SVNCKH nhưng
+không đạt giải từ giải 3 trở lên/Đạt giải khuyến khích trong các kỳ thi
+quốc gia và quốc tế khác về chuyên ngành (VD: TI contest)
+
+2
+
+10c
+
+Không có thành tích về nghiên cứu khoa học
+
+0
+
+Điểm tổng
+Điểm tổng quy đổi về thang 10
+
+/50
+
+Nhận xét khác (về thái độ và tinh thần làm việc của sinh viên)
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+
+Ngày: ... / ... / 20...
+Người nhận xét
+(Ký và ghi rõ họ tên)
+
+ĐÁNH GIÁ QUYỂN ĐỒ ÁN TỐT NGHIỆP
+(Dùng cho cán bộ phản biện)
+Giảng viên đánh giá: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Họ và tên sinh viên: . . . . . . . . . . . . . . . . . . . . . . . . . . . MSSV: . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Tên đồ án: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+................................................................................
+Chọn các mức điểm phù hợp cho sinh viên trình bày theo các tiêu chí dưới đây:
+Rất kém (1); Kém(2); Đạt(3); Giỏi(4); Xuất sắc(5)
+Có sự kết hợp giữa lý thuyết và thực hành (20)
+
+1
+
+Nêu rõ tính cấp thiết và quan trọng của đề tài, các vấn đề và các giả
+thuyết (bao gồm mục đích và tính phù hợp) cũng như phạm vi ứng dụng
+của đồ án
+
+1
+
+2
+
+3
+
+4
+
+5
+
+2
+
+Cập nhật kết quả nghiên cứu gần đây nhất (trong nước/quốc tế)
+
+1
+
+2
+
+3
+
+4
+
+5
+
+3
+
+Nêu rõ và chi tiết phương pháp nghiên cứu/giải quyết vấn đề
+
+1
+
+2
+
+3
+
+4
+
+5
+
+4
+
+Có kết quả mô phỏng/thực nghiệm và trình bày rõ ràng kết quả đạt được
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Có khả năng phân tích và đánh giá kết quả (15)
+
+5
+
+Kế hoạch làm việc rõ ràng bao gồm mục tiêu và phương pháp thực hiện
+dựa trên kết quả nghiên cứu lý thuyết một cách có hệ thống
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Kết quả được trình bày một cách logic và dễ hiểu, tất cả kết quả đều
+được phân tích và đánh giá thỏa đáng
+
+1
+
+2
+
+3
+
+4
+
+5
+
+7
+
+Trong phần kết luận, tác giả chỉ rõ sự khác biệt (nếu có) giữa kết quả
+đạt được và mục tiêu ban đầu đề ra đồng thời cung cấp lập luận để đề
+xuất hướng giải quyết có thể thực hiện trong tương lai
+
+1
+
+2
+
+3
+
+4
+
+5
+
+8
+
+Đồ án trình bày đúng mẫu quy định với cấu trúc các chương logic và
+đẹp mắt (bảng biểu, hình ảnh rõ ràng, có tiêu đề, được đánh số thứ tự và
+được giải thích hay đề cập đến; căn lề thống nhất, có dấu cách sau dấu
+chấm, dấu phảy v.v.), có mở đầu chương và kết luận chương, có liệt kê
+tài liệu tham khảo và có trích dẫn đúng quy định
+
+1
+
+2
+
+3
+
+4
+
+5
+
+9
+
+Kỹ năng viết xuất sắc (cấu trúc câu chuẩn, văn phong khoa học, lập luận
+logic và có cơ sở, từ vựng sử dụng phù hợp v.v.)
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Kỹ năng viết quyển đồ án (10)
+
+Thành tựu nghiên cứu khoa học (5) (chọn 1 trong 3 trường hợp)
+
+10a
+
+Có bài báo khoa học được đăng hoặc chấp nhận đăng/Đạt giải SVNCKH
+giải 3 cấp Viện trở lên/Có giải thưởng khoa học (quốc tế hoặc trong
+nước) từ giải 3 trở lên/Có đăng ký bằng phát minh, sáng chế
+
+5
+
+10b
+
+Được báo cáo tại hội đồng cấp Viện trong hội nghị SVNCKH nhưng
+không đạt giải từ giải 3 trở lên/Đạt giải khuyến khích trong các kỳ thi
+quốc gia và quốc tế khác về chuyên ngành (VD: TI contest)
+
+2
+
+10c
+
+Không có thành tích về nghiên cứu khoa học
+
+0
+
+Điểm tổng
+Điểm tổng quy đổi về thang 10
+
+/50
+
+Nhận xét khác của cán bộ phản biện
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+
+Ngày: ... / ... / 20...
+Người nhận xét
+(Ký và ghi rõ họ tên)
+
+LỜI NÓI ĐẦU
+
+Trong những năm gần đây, công nghệ phục hồi chức năng đã có những bước phát
+triển vượt bậc, đóng góp quan trọng trong việc cải thiện chất lượng cuộc sống của những
+người bị tổn thương vận động do tai nạn, đột quỵ hoặc các bệnh lý khác. Việc ứng dụng
+các thiết bị cơ khí kết hợp điều khiển điện tử thông minh không chỉ giúp tăng hiệu quả
+luyện tập mà còn giảm thiểu sự phụ thuộc vào sức lao động của nhân viên y tế.
+Đồ án “Thiết kế và chế tạo thiết bị phục hồi chức năng cánh tay” được thực hiện
+nhằm mục tiêu xây dựng một hệ thống đơn giản, hiệu quả, có khả năng mô phỏng các
+chuyển động nâng hạ và gập duỗi của cánh tay, hỗ trợ quá trình phục hồi vận động cho
+bệnh nhân. Thiết bị sử dụng động cơ bước làm cơ cấu truyền động kết hợp bộ điều khiển
+ESP8266 với các cảm biến đo vị trí và an toàn nhằm đảm bảo sự chính xác và an toàn
+trong quá trình vận hành.
+Đồ án không chỉ mang ý nghĩa thực tiễn trong lĩnh vực y tế và phục hồi chức năng
+mà còn giúp tác giả nâng cao kỹ năng thiết kế cơ khí, lập trình điều khiển nhúng và tích
+hợp hệ thống đa lĩnh vực. Qua đó, góp phần phát triển năng lực chuyên môn, đồng thời
+đáp ứng nhu cầu thực tiễn trong ứng dụng công nghệ hỗ trợ phục hồi sức khỏe.
+Tôi xin chân thành cảm ơn sự hướng dẫn tận tình của thầy NGUYỄN PHAN KIÊN,
+sự hỗ trợ của bạn bè và gia đình trong suốt quá trình thực hiện đề tài này.
+
+LỜI CAM ĐOAN
+
+Tôi tên là HỒ QUANG QUÂN, mã số sinh viên 20214059, sinh viên lớp Điện Tử
+06, khóa 66. Người hướng dẫn là TS. NGUYỄN PHAN KIÊN. Tôi xin cam đoan toàn
+bộ nội dung được trình bày do chính tôi nghiên cứu và thực hiện. Mọi thông tin trích dẫn
+đều tuân thủ các quy định về sở hữu trí tuệ; các tài liệu tham khảo được liệt kê rõ ràng.
+Tôi xin chịu hoàn toàn trách nhiệm với những nội dung được viết trong đồ án này.
+Hà Nội, Ngày 7 tháng 10 năm 2026
+Người cam đoan
+
+HỒ QUANG QUÂN
+
+Mục lục
+
+DANH MỤC HÌNH VẼ
+
+10
+
+DANH MỤC BẢNG BIỂU
+
+11
+
+DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT
+
+12
+
+TÓM TẮT DỰ ÁN
+
+13
+
+CHƯƠNG 1. CHƯƠNG MỞ ĐẦU
+
+14
+
+1.1
+
+Giới thiệu vấn đề và giải pháp . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+1.2
+
+Mục tiêu và phạm vi của dự án . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+1.3
+
+Tóm tắt cấu trúc dự án . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ PHÂN TÍCH YÊU CẦU
+
+16
+
+2.1
+
+Cơ sở lý thuyết và các chỉ số kỹ thuật . . . . . . . . . . . . . . . . . . .
+
+16
+
+2.1.1
+
+Tổng quan về Kiến trúc Vi điều khiển STM32F4 . . . . . . . .
+
+16
+
+2.1.2
+
+Hệ điều hành Thời gian thực FreeRTOS . . . . . . . . . . . . .
+
+16
+
+2.1.3
+
+Truyền thông Công nghiệp Modbus RTU RS485 và CAN Bus .
+
+16
+
+2.1.4
+
+Nguyên lý Dẫn đường Băng từ MGS và Định vị Thẻ từ RFID . .
+
+17
+
+2.1.5
+
+Bộ lọc Kalman cho Tín hiệu Điện áp ADC3 . . . . . . . . . . .
+
+17
+
+2.2
+
+Yêu cầu chức năng . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+17
+
+2.3
+
+Yêu cầu phi chức năng . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+18
+
+CHƯƠNG 3. THIẾT KẾ CHI TIẾT HỆ THỐNG
+
+19
+
+3.1
+
+Thiết kế tổng thể hệ thống . . . . . . . . . . . . . . . . . . . . . . . .
+
+19
+
+3.1.1
+
+Tổng quan hệ thống . . . . . . . . . . . . . . . . . . . . . . . .
+
+19
+
+3.1.2
+
+Sơ đồ khối hệ thống . . . . . . . . . . . . . . . . . . . . . . .
+
+19
+
+3.1.3
+
+Linh kiện sử dụng . . . . . . . . . . . . . . . . . . . . . . . .
+
+19
+
+Thiết kế chi tiết hệ thống . . . . . . . . . . . . . . . . . . . . . . . . .
+
+22
+
+3.2
+
+3.2.1
+
+Tính toán đáp ứng công suất nguồn . . . . . . . . . . . . . . .
+
+22
+
+3.2.2
+
+Thiết kế mạch nguyên lý (Schematic) . . . . . . . . . . . . . .
+
+24
+
+3.2.3
+
+Layout PCB và Bố trí Linh kiện . . . . . . . . . . . . . . . . .
+
+25
+
+CHƯƠNG 4. KIẾN TRÚC PHẦN MỀM VÀ LUỒNG HOẠT ĐỘNG
+
+26
+
+4.1
+
+Thiết kế Firmware . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+26
+
+4.2
+
+Thiết kế Software và Các Luồng Hoạt Động . . . . . . . . . . . . . . .
+
+26
+
+4.2.1
+
+Sơ đồ Luồng Dẫn đường từ & Nhận diện Trạm RFID . . . . . .
+
+26
+
+4.2.2
+
+Sơ đồ Luồng Giám sát An toàn & Xử lý Ngắt khẩn . . . . . . .
+
+29
+
+4.2.3
+
+Sơ đồ Luồng Thực thi Cơ cấu Nâng/Hạ hàng . . . . . . . . . .
+
+29
+
+4.2.4
+
+Sơ đồ Luồng Đo Pin & Tự động Sạc Pin . . . . . . . . . . . . .
+
+29
+
+4.2.5
+
+Sơ đồ Giao tiếp Truyền thông Modbus HMI & PLC . . . . . . .
+
+29
+
+Các Sơ đồ Tuần tự (Sequence Diagrams) . . . . . . . . . . . . . . . . .
+
+29
+
+4.3.1
+
+Sơ đồ tuần tự: Dẫn đường từ tính & Định vị trạm RFID . . . . .
+
+33
+
+4.3.2
+
+Sơ đồ tuần tự: An toàn đa tầng & Xử lý dừng khẩn cấp . . . . .
+
+33
+
+4.3.3
+
+Sơ đồ tuần tự: Thực thi Cơ cấu nâng/hạ móc kéo . . . . . . . .
+
+33
+
+4.3.4
+
+Sơ đồ tuần tự: Đo điện áp Pin & Tự động cập trạm sạc . . . . .
+
+33
+
+4.3.5
+
+Sơ đồ tuần tự: Giao tiếp Modbus HMI & PLC . . . . . . . . . .
+
+33
+
+4.3
+
+CHƯƠNG 5. KIỂM THỬ HỆ THỐNG VÀ LẤY DỮ LIỆU
+
+36
+
+5.1
+
+Quy trình kiểm thử . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+36
+
+5.1.1
+
+Kiểm tra nguồn . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+36
+
+5.1.2
+
+Kiểm tra các module . . . . . . . . . . . . . . . . . . . . . . .
+
+36
+
+5.1.3
+
+Kiểm thử thiết bị hoàn chỉnh . . . . . . . . . . . . . . . . . . .
+
+36
+
+CHƯƠNG 6. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+
+38
+
+6.1
+
+Kết quả đạt được . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+38
+
+6.2
+
+Hướng phát triển và Khuyến nghị kỹ thuật . . . . . . . . . . . . . . . .
+
+38
+
+TÀI LIỆU THAM KHẢO
+
+39
+
+PHỤ LỤC
+
+40
+
+9
+
+Danh sách hình vẽ
+
+Hình 3.1
+
+Cấu trúc tổng quan của hệ thống xe tự hành AGV B400. . . . . . .
+
+19
+
+Hình 3.2
+
+Sơ đồ khối kết nối hệ thống phần cứng xe tự hành AGV B400. . .
+
+20
+
+Hình 3.3
+
+Sơ đồ khối hệ thống nguồn điện xe AGV B400. . . . . . . . . . .
+
+24
+
+Hình 4.1
+
+Sơ đồ cây thư mục mã nguồn phần mềm nhúng AGV B400. . . . .
+
+26
+
+Hình 4.2
+
+Sơ đồ chuyển trạng thái di chuyển toàn cục của xe AGV B400. . .
+
+26
+
+Hình 4.3
+
+Sơ đồ thuật toán dẫn đường từ và định vị vị trí trạm bằng thẻ RFID.
+
+28
+
+Hình 4.4
+
+Sơ đồ tuần tự xử lý an toàn Lidar, Bumper và Nút khẩn cấp. . . . .
+
+29
+
+Hình 4.5
+
+Sơ đồ tuần tự quy trình nâng/hạ móc kéo hàng tự động. . . . . . .
+
+30
+
+Hình 4.6
+
+Sơ đồ tuần tự đo điện áp pin Kalman và chu trình sạc tự động. . .
+
+31
+
+Hình 4.7
+
+Sơ đồ luồng xử lý giao thức Modbus RTU trên các cổng truyền thông. 32
+
+Hình 4.8
+
+Sơ đồ tuần tự quá trình dẫn đường và nhận dạng trạm RFID. . . .
+
+33
+
+Hình 4.9
+
+Sơ đồ tuần tự luồng giám sát an toàn và xử lý sự cố khẩn cấp. . . .
+
+34
+
+Hình 4.10 Sơ đồ tuần tự hoạt động của cơ cấu móc kéo xe hàng. . . . . . . .
+
+34
+
+Hình 4.11 Sơ đồ tuần tự quá trình giám sát Pin và sạc tự động. . . . . . . . .
+
+35
+
+Hình 4.12 Sơ đồ tuần tự giao thức truyền thông Modbus RTU. . . . . . . . .
+
+35
+
+10
+
+Danh sách bảng
+
+Bảng 3.1
+
+Thông số kỹ thuật vi điều khiển STM32F407ZGT6. . . . . . . . .
+
+19
+
+Bảng 3.2
+
+Thông số kỹ thuật cảm biến Lidar an toàn Wanji ME-4341. . . . .
+
+20
+
+Bảng 3.3
+
+Thông số kỹ thuật cảm biến đường từ MGS-16. . . . . . . . . . .
+
+20
+
+Bảng 3.4
+
+Thông số kỹ thuật đầu đọc RFID định vị. . . . . . . . . . . . . .
+
+21
+
+Bảng 3.5
+
+Thông số kỹ thuật Controller Driver động cơ BLDC. . . . . . . .
+
+21
+
+Bảng 3.6
+
+Thông số kỹ thuật Động cơ di chuyển BLDC 400W. . . . . . . . .
+
+21
+
+Bảng 3.7
+
+Thông số kỹ thuật Cơ cấu Nâng/Móc kéo xe hàng. . . . . . . . . .
+
+21
+
+Bảng 3.8
+
+Thông số kỹ thuật Mạch âm thanh báo hiệu Speak.c. . . . . . . .
+
+22
+
+Bảng 3.9
+
+Thông số kỹ thuật Khối Pin & Sạc tự động. . . . . . . . . . . . .
+
+22
+
+Bảng 3.10 Thông số kỹ thuật Mạch nguồn bo mạch. . . . . . . . . . . . . .
+
+22
+
+Bảng 3.11 Bảng tổng hợp danh mục module, thiết bị và linh kiện phần cứng
+AGV B400. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+
+Bảng 3.12 Bảng tính toán công suất nguồn ở kịch bản tải cực đại Peak. . . .
+
+24
+
+Bảng 4.1
+
+Bảng phân chia các Task đa nhiệm trong FreeRTOS. . . . . . . .
+
+27
+
+Bảng 6.1
+
+Bảng phân công nhiệm vụ thực hiện dự án xe tự hành AGV B400.
+
+40
+
+11
+
+DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT
+
+Ký hiệu Chữ viết tắt tiếng Anh
+
+Giải nghĩa tiếng Việt
+
+AGV
+
+Automated Guided Vehicle
+
+Xe tự hành dẫn đường tự động trong nhà
+máy
+
+MCU
+RTOS
+
+Microcontroller Unit
+Real-Time Operating System
+
+CAN
+
+Controller Area Network
+
+Chuẩn mạng truyền thông vùng điều khiển
+công nghiệp
+
+MGS
+
+Magnetic Guide Sensor
+
+Cảm biến từ dò đường dán trên sàn
+
+RFID
+
+Radio Frequency Identification
+
+Hệ thống định vị thẻ từ nhận dạng tần số vô
+tuyến
+
+BMS
+
+Battery Management System
+
+Hệ thống quản lý và giám sát khối pin
+Lithium
+
+HMI
+
+Human-Machine Interface
+
+Màn hình giao diện tương tác Người - Máy
+
+PLC
+
+Programmable Logic Controller
+
+Bộ điều khiển logic lập trình được tại trạm
+hàng
+
+ADC
+
+Analog-to-Digital Converter
+
+Bộ chuyển đổi tín hiệu tương tự sang số
+
+DMA
+
+Direct Memory Access
+
+Cơ chế truy cập bộ nhớ trực tiếp không qua
+CPU
+
+EMC
+
+Emergency Stop
+
+Trạng thái ngắt dừng khẩn cấp an toàn
+
+Lidar
+
+Light Detection and Ranging
+
+Cảm biến quét vật cản và đo khoảng cách
+bằng laser
+
+Bộ vi điều khiển trung tâm
+Hệ điều hành thời gian thực
+
+12
+
+TÓM TẮT DỰ ÁN
+
+Trong bối cảnh tự động hóa nhà máy thông minh (Smart Factory), việc vận chuyển
+hàng hóa, linh kiện tự động giữa các trạm sản xuất đóng vai trò cốt lõi nhằm nâng cao
+năng suất và tối ưu chi phí vận hành. Dự án xe tự hành AGV B400 được nghiên cứu và
+phát triển nhằm cung cấp một giải pháp vận chuyển công nghiệp hiện đại, linh hoạt và
+có độ tin cậy cao.
+Xe AGV B400 hoạt động dựa trên nền tảng vi điều khiển STM32F407ZGT6 kết
+hợp hệ điều hành thời gian thực FreeRTOS. Xe di chuyển tự động bằng thuật toán bám
+dải đường từ (MGS-16) và định vị tọa độ trạm dừng qua đầu đọc thẻ từ RFID thụ động
+dán dưới sàn nhà máy. Hệ thống được trang bị 5 kênh truyền thông công nghiệp Modbus
+RTU RS485 DMA riêng biệt kết nối Driver động cơ, HMI/Server trung tâm, PLC trạm,
+Trạm sạc tự động và khối BMS Pin, cùng 1 kênh CAN Bus tốc độ cao (500Kbps) giao
+tiếp cảm biến Lidar an toàn 2D Wanji ME-4341.
+Báo cáo trình bày chi tiết toàn bộ quá trình phân tích yêu cầu kỹ thuật, thiết kế
+phần cứng bo mạch điều khiển, tính toán công suất nguồn, xây dựng kiến trúc firmware
+đa nhiệm, các máy trạng thái di chuyển toàn cục, thuật toán lọc nhiễu Kalman đo điện
+áp pin, sơ đồ tuần tự (Sequence Diagrams) các luồng hoạt động và quy trình kiểm thử
+đánh giá hệ thống AGV B400 thực tế.
+
+13
+
+CHƯƠNG 1. CHƯƠNG MỞ ĐẦU
+1.1
+
+Giới thiệu vấn đề và giải pháp
+
+Trong xu thế Cách mạng Công nghiệp 4.0, tự động hóa quá trình hậu cần nội bộ
+(Intralogistics) là yêu cầu cấp thiết đối với các doanh nghiệp sản xuất. Phương pháp vận
+chuyển thủ công bằng xe đẩy cơ học tiêu tốn nhiều nhân lực, năng suất không ổn định
+và tiềm ẩn nguy cơ va chạm gây mất an toàn lao động.
+Hệ thống xe tự hành AGV B400 (Automated Guided Vehicle B400) được thiết kế
+nhằm giải quyết triệt để vấn đề này. AGV B400 di chuyển tự động theo dải đường từ dán
+trên sàn, định vị chính xác vị trí trạm dừng bằng thẻ từ RFID, tích hợp cơ cấu nâng/móc
+kéo xe hàng (Trolley) tự động và cảm biến an toàn đa tầng giúp hệ thống vận hành liên
+tục 24/7 với độ tin cậy cao.
+
+1.2
+
+Mục tiêu và phạm vi của dự án
+
+Dự án tập trung nghiên cứu, thiết kế phần cứng và xây dựng chương trình nhúng
+điều khiển cho xe AGV B400 với các mục tiêu cụ thể:
+• Xây dựng hệ thống nhúng thời gian thực: Sử dụng vi điều khiển STM32F4 kết
+hợp hệ điều hành thời gian thực FreeRTOS nhằm đảm bảo tính đáp ứng thời gian
+thực (Real-time determinism).
+• Phát triển đa cổng truyền thông công nghiệp: Tích hợp 1 cổng CAN Bus giao
+tiếp cảm biến Lidar an toàn 2D và 5 cổng Modbus RTU RS485 qua DMA kết nối
+Driver động cơ, HMI/Server, PLC trạm, Trạm sạc tự động và BMS khối Pin.
+• Điều khiển di chuyển & Định vị trạm: Xây dựng thuật toán bám dải từ (MGS)
+kết hợp ma trận mã thẻ RFID (RFID_Point) cho phép xe di chuyển, rẽ nhánh và
+dừng chính xác tại các trạm sản xuất.
+• Tích hợp hệ thống an toàn & Tự động sạc pin: Giám sát an toàn đa tầng qua
+Lidar CAN, Bumper, nút khẩn EMC và ứng dụng bộ lọc Kalman đo điện áp pin
+để tự động cập trạm sạc.
+
+1.3
+
+Tóm tắt cấu trúc dự án
+Báo cáo được trình bày theo cấu trúc chuẩn 6 chương:
+• Chương 1 - Chương mở đầu: Tổng quan bối cảnh, mục tiêu và phạm vi ứng dụng
+của dự án AGV B400.
+
+14
+
+• Chương 2 - Cơ sở lý thuyết và phân tích yêu cầu: Phân tích chi tiết cơ sở lý thuyết
+(STM32F4, FreeRTOS, Modbus, CAN Bus, MGS, RFID, Kalman) cùng các yêu
+cầu chức năng và phi chức năng.
+• Chương 3 - Thiết kế chi tiết hệ thống: Chi tiết thiết kế tổng thể, sơ đồ khối, bảng
+thông số linh kiện, tính toán công suất nguồn, thiết kế Schematic và PCB layout.
+• Chương 4 - Kiến trúc phần mềm và luồng hoạt động: Kiến trúc Firmware đa
+nhiệm trên FreeRTOS, các máy trạng thái, sơ đồ thuật toán và sơ đồ tuần tự hoạt
+động.
+• Chương 5 - Kiểm thử hệ thống và lấy dữ liệu: Quy trình thử nghiệm đo kiểm
+nguồn, kiểm tra từng module phần cứng và kiểm thử vận hành thực tế hệ thống xe
+hoàn chỉnh.
+• Chương 6 - Kết luận và hướng phát triển: Tổng kết các kết quả đạt được, khuyến
+nghị kỹ thuật cách ly chống nhiễu công nghiệp và hướng nâng cấp phát triển trong
+tương lai.
+
+15
+
+CHƯƠNG 2. CƠ SỞ LÝ THUYẾT VÀ PHÂN TÍCH YÊU CẦU
+2.1
+
+Cơ sở lý thuyết và các chỉ số kỹ thuật
+
+2.1.1
+
+Tổng quan về Kiến trúc Vi điều khiển STM32F4
+
+Dòng vi điều khiển STM32F4 (lõi ARM Cortex-M4) là lựa chọn hàng đầu cho các
+ứng dụng điều khiển công nghiệp nhờ hiệu năng cao và ngoại vi phong phú:
+• Lõi ARM Cortex-M4: Tích hợp bộ xử lý dấu phẩy động FPU (Floating Point Unit)
+và tập lệnh DSP giúp tăng tốc các phép toán số học thực tế.
+• Tần số xung nhịp: Đạt tới 168 MHz nhờ bộ nhân xung PLL (Phase-Locked Loop)
+kết hợp thạch anh ngoài 8MHz.
+• Bộ nhớ & Bộ truy cập trực tiếp DMA: Bộ nhớ Flash 1MB, SRAM 192KB cùng
+bộ điều khiển DMA 16 luồng hỗ trợ truyền dữ liệu nối tiếp không tiêu tốn tài
+nguyên CPU.
+2.1.2
+
+Hệ điều hành Thời gian thực FreeRTOS
+
+Khác với mô hình vòng lặp vô hạn đơn thuần (Bare-metal Super-loop), FreeRTOS
+mang lại khả năng quản lý đa nhiệm đáp ứng thời gian thực nghiêm ngặt:
+• Đa nhiệm chiếm ưu thế (Preemptive Multitasking): Lập lịch gán ưu tiên cho
+từng Task, tự động chuyển đổi ngữ cảnh (Context Switching) khi có Task ưu tiên
+cao hơn sẵn sàng.
+• Đồng bộ & Truyền tin: Sử dụng Queue, Semaphore và Mutex giúp các Task trao
+đổi dữ liệu an toàn, chống hiện tượng tranh chấp tài nguyên (Race Condition).
+2.1.3
+
+Truyền thông Công nghiệp Modbus RTU RS485 và CAN Bus
+
+• Chuẩn Modbus RTU trên nền RS485: Sử dụng đường truyền vi sai 2 dây (A,
+B) chống nhiễu điện từ tốt. Khung truyền Modbus RTU bao gồm Mã định danh
+(Slave ID), Mã hàm (Function Code 03, 06, 16), Địa chỉ thanh ghi và Mã kiểm lỗi
+CRC-16.
+• Mạng CAN Bus (Controller Area Network): Chuẩn truyền thông đa Master, tốc
+độ cao (up to 1Mbps), sử dụng tín hiệu vi sai (CAN_H, CAN_L) với cơ chế phân
+xử truy cập bus dựa trên ID thông điệp (Arbitration).
+
+16
+
+2.1.4
+
+Nguyên lý Dẫn đường Băng từ MGS và Định vị Thẻ từ RFID
+
+• Cảm biến đường từ (MGS): Dựa trên mảng các phần tử cảm ứng từ Hall phát
+hiện cường độ từ trường của dải băng từ dán trên sàn. Đầu ra báo độ lệch vạch lệch
+trái/lệch phải để điều chỉnh tốc độ vi sai 2 bánh lái.
+• Định vị thẻ từ RFID: Thẻ RFID thụ động (Passive Tag) dán dưới sàn lưu mã hex
+16-bit. Khi đầu đọc RFID trên xe lướt qua, trường điện từ kích hoạt thẻ gửi lại mã
+ID để xác định trạm dừng.
+2.1.5
+
+Bộ lọc Kalman cho Tín hiệu Điện áp ADC3
+
+Đo điện áp pin bằng ADC thường bị nhiễu do sụt áp khi động cơ khởi động. Bộ lọc
+Kalman tuyến tính 1 chiều được ứng dụng để ước lượng giá trị thực:
+xk = xk−1 + Kk (zk − xk−1 )
+
+(2.1)
+
+Trong đó zk là giá trị đo thô từ ADC3_IN14, Kk là hệ số gain Kalman được cập nhật theo
+phương sai nhiễu đo và nhiễu hệ thống.
+
+2.2
+
+Yêu cầu chức năng
+
+Từ phân tích thực tế nhà máy sản xuất, hệ thống AGV B400 phải đáp ứng đầy đủ
+các yêu cầu chức năng sau:
+• Dẫn đường & Điều khiển vi sai: Xe tự động di chuyển bám dải từ tính, điều chỉnh
+góc lái vi sai 2 bánh chủ động và di chuyển linh hoạt tiến/lùi.
+• Định vị trạm dừng RFID: Tự động nhận diện trạm dừng qua thẻ RFID, tra cứu
+ma trận tọa độ RFID_Point[13][4] để rẽ nhánh hoặc dừng xe.
+• Điều khiển cơ cấu Nâng/Móc hàng (Tool): Tự động kích hoạt nâng/hạ móc kéo xe
+hàng (Trolley) tại trạm giao nhận và phản hồi cảm biến hành trình Tool_IN1/IN2.
+• Giám sát an toàn đa tầng 24/7: Liên tục đọc dữ liệu vùng quét Lidar CAN 2D,
+Bumper cơ học ngắt cứng EXTI và Nút dừng khẩn EMC.
+• Tự động đo Pin & Cập trạm sạc: Tự động đọc điện áp Pin Lithium qua bộ lọc
+Kalman, phát hiện điện áp thấp và điều khiển xe di chuyển về trạm sạc tự động.
+• Truyền thông đa kênh Modbus RTU RS485: Đảm bảo giao tiếp đồng thời 5 cổng
+Modbus RS485 kết nối Driver động cơ, HMI/Server, PLC trạm, Trạm sạc và BMS.
+
+17
+
+2.3
+
+Yêu cầu phi chức năng
+• Tính đáp ứng thời gian thực (Real-time): Chu kỳ ngắt phần cứng 1ms (TIM9
+IRQ), đảm bảo xử lý phản hồi vật cản Lidar/Bumper trong thời gian < 50ms.
+• Độ bền và độ tin cậy công nghiệp: Vận hành ổn định trong môi trường nhà máy
+khắc nghiệt, chống rung xóc cơ học.
+• Khả năng chống nhiễu điện từ (EMC/EMI): Khả năng chống nhiễu từ xung điện
+động cơ công suất 400W và rơ-le công suất lớn.
+• Tối ưu hóa tiêu thụ năng lượng: Khối Pin LiFePO4 24V đảm bảo thời gian hoạt
+động liên tục tối thiểu 8–10 giờ mỗi ca sản xuất.
+
+18
+
+CHƯƠNG 3. THIẾT KẾ CHI TIẾT HỆ THỐNG
+
+3.1
+
+Thiết kế tổng thể hệ thống
+
+3.1.1
+
+Tổng quan hệ thống
+
+Hệ thống phần cứng AGV B400 được thiết kế dạng module hóa xoay quanh Bo
+mạch trung tâm STM32F407ZGT6, kết nối với 6 khối chức năng chính bao gồm Khối
+Nguồn, Khối Truyền thông, Khối Cảm biến, Khối Động cơ & Cơ cấu, Khối Pin & Sạc
+tự động và Khối An toàn báo hiệu.
+Hệ thống Server / HMI / PLC
+(5x Modbus RS485 DMA)
+
+Giao tiếp Trạng thái/Lệnh
+
+Khối Lấy mẫu & Cảm biến
+(MGS-16, RFID, Lidar)
+
+Dữ liệu Cảm biến
+
+Khối Xử lý Trung tâm
+(STM32F4 + FreeRTOS)
+
+Lệnh Điều khiển
+
+Khối Chấp hành & Động cơ
+(BLDC 400W, Tool 24V)
+
+Hình 3.1 Cấu trúc tổng quan của hệ thống xe tự hành AGV B400.
+3.1.2
+
+Sơ đồ khối hệ thống
+
+Sơ đồ khối thể hiện chi tiết sự kết nối tương tác giữa MCU trung tâm với các khối
+thiết bị:
+3.1.3
+
+Linh kiện sử dụng
+
+3.1.3.1 a) Vi điều khiển STM32F407ZGT6Vi điều khiển trung tâm đảm nhận toàn
+bộ việc tính toán dẫn đường, điều khiển giao thức truyền thông và máy trạng thái.
+Thông số
+Lõi xử lý
+Tần số xung nhịp
+Bộ nhớ
+Ngoại vi giao tiếp
+Bộ điều khiển DMA
+Đóng gói
+
+Giá trị / Đặc tính kỹ thuật
+ARM Cortex-M4 32-bit RISC với FPU & DSP
+168 MHz (Tốc độ xử lý 210 DMIPS)
+1MB Flash, 192KB SRAM
+6x USART/UART, 3x SPI, 3x I2C, 2x CAN Bus
+2x DMA controllers (16 streams)
+LQFP-144 pins
+
+Bảng 3.1 Thông số kỹ thuật vi điều khiển STM32F407ZGT6.
+
+19
+
+Bo Mạch Trung Tâm
+
+Khối Cảm Biến
+
+Lidar Wanji 2D
+(CAN Bus 500Kbps)
+
+CAN1
+
+Cảm biến MGS-16
+(RS485/Modbus)
+
+Modbus/UART2
+
+Đầu đọc RFID
+(RS485/Modbus)
+
+Modbus/UART3
+
+Khối Chấp Hành & Pin
+
+Khối Nguồn
+(Buck 24V-5V, LDO 3.3V)
+
+24V
+
+Pin LiFePO4 24V
+(Sạc tự động)
+Driver Động cơ BLDC
+(RS485/Modbus)
+
+3.3V
+
+Modbus/UART4
+
+Cơ cấu Móc Kéo
+(Relay 24V, IN/OUT)
+
+Vi điều khiển STM32F4
+(FreeRTOS)
+I/O (Relay/ADC)
+
+Modbus/UART6
+
+Modbus/UART5
+
+Hệ Thống Mạng / Giao tiếp
+
+HMI Server
+(Modbus RTU)
+
+PLC Trạm/Sạc
+(Modbus RTU)
+
+Ghi chú Cấu hình MCU:
+- 5 cổng UART chạy ngắt DMA
+Đường Nguồn (Power)
+- Lidar CAN ngắt RX riêng biệt
+- Vòng lặp RTOS định thời 10ms
+
+Chú giải (Legend):
+Luồng dữ liệu / Lệnh
+
+Hình 3.2 Sơ đồ khối kết nối hệ thống phần cứng xe tự hành AGV B400.
+3.1.3.2 b) Cảm biến Laser Lidar 2D Wanji ME-4341Cảm biến quét laser an toàn
+phát hiện vật cản 2D, kết nối trực tiếp qua bus CAN.
+Thông số
+Góc quét
+Chuẩn giao tiếp
+Cơ chế bảo vệ
+Điện áp hoạt động
+
+Giá trị / Đặc tính kỹ thuật
+270◦ , tầm xa quét tối đa 4m–10m
+CAN Bus 2.0B (Tốc độ 500Kbps)
+3 vùng quét động (Smart_channel) theo vận tốc xe
+24VDC ±10%
+
+Bảng 3.2 Thông số kỹ thuật cảm biến Lidar an toàn Wanji ME-4341.
+
+3.1.3.3 c) Cảm biến đường từ MGS-16Mảng cảm biến từ tính 16 bit đặt ở phía Trước
+(MGS_F) và Phía Sau (MGS_R) dò dải từ dán sàn.
+Thông số
+Số điểm cảm ứng
+Độ lệch đường từ
+Điện áp cấp
+
+Giá trị / Đặc tính kỹ thuật
+16 phần tử Hall độ nhạy cao
+Ngõ ra tín hiệu số báo vị trí lệch trái/lệch phải
+12VDC – 24VDC
+
+Bảng 3.3 Thông số kỹ thuật cảm biến đường từ MGS-16.
+
+20
+
+3.1.3.4 d) Đầu đọc RFID & Thẻ từ RFIDĐầu đọc RFID giao tiếp Modbus/Serial đọc
+mã thẻ từ dán dưới sàn định vị trạm dừng.
+Thông số
+Tần số hoạt động
+Định dạng dữ liệu
+Khoảng cách đọc
+
+Giá trị / Đặc tính kỹ thuật
+13.56 MHz / 125 kHz
+Mã Hex 16-bit định danh trạm dừng (RFID_Point)
+20mm – 50mm
+
+Bảng 3.4 Thông số kỹ thuật đầu đọc RFID định vị.
+
+3.1.3.5 e) Bộ điều khiển Driver Động cơ BLDC képDriver điều khiển 2 động cơ di
+chuyển vi sai qua giao thức Modbus RTU Master.
+Thông số
+Công suất điều khiển
+Chuẩn giao tiếp
+Phản hồi
+
+Giá trị / Đặc tính kỹ thuật
+24VDC–48VDC, dòng định mức 30A kép
+Modbus RTU RS485 Master (Control_Port / huart3)
+Tốc độ quay Encoder, dòng điện động cơ, mã lỗi
+
+Bảng 3.5 Thông số kỹ thuật Controller Driver động cơ BLDC.
+
+3.1.3.6 f) Động cơ di chuyển BLDC 24V 400W2 động cơ BLDC công suất cao tích
+hợp hộp số giảm tốc 1:20 và Encoder phản hồi góc quay.
+Thông số
+Công suất định mức
+Điện áp hoạt động
+Tích hợp
+
+Giá trị / Đặc tính kỹ thuật
+400W x 2 động cơ (Hệ di chuyển vi sai)
+24VDC
+Hộp số vi sai 1:20 & Phanh từ an toàn
+
+Bảng 3.6 Thông số kỹ thuật Động cơ di chuyển BLDC 400W.
+
+3.1.3.7 g) Cơ cấu Nâng/Móc kéo xe hàng (Tool)Xi-lanh điện 24V đóng cắt qua Relay
+(Tool_OUT1/OUT2), phản hồi cảm biến hành trình (Tool_IN1/IN2).
+Thông số
+Giá trị / Đặc tính kỹ thuật
+Động cơ hành trình Xi-lanh nâng điện 24VDC, tải trọng kéo 400kg
+Cảm biến phản hồi 2x Cảm biến tiệm cận hành trình trên/dưới
+Bảng 3.7 Thông số kỹ thuật Cơ cấu Nâng/Móc kéo xe hàng.
+
+21
+
+3.1.3.8 h) Mạch phát âm thanh Speak.c & LoaModule MP3 Trigger 5 ngõ vào Digital (Speak1..Speak5) + Loa 4Ω 5W phát tiếng nói cảnh báo Tiếng Việt.
+Thông số
+Giá trị / Đặc tính kỹ thuật
+Điều khiển
+5 ngõ vào kẹp tín hiệu ngắt cứng phát âm thanh
+Công suất loa 4Ω 5W âm lượng công nghiệp
+Bảng 3.8 Thông số kỹ thuật Mạch âm thanh báo hiệu Speak.c.
+
+3.1.3.9 i) Pin LiFePO4 24V, BMS & Chấu sạc tự độngPack Pin Lithium LiFePO4
+24V 50Ah/100Ah tích hợp BMS RS485 và rơ-le sạc tự động (DK_Sac_Pin).
+Thông số
+Dung lượng Pin
+Giao tiếp BMS
+Chấu sạc tự động
+
+Giá trị / Đặc tính kỹ thuật
+LiFePO4 24V 50Ah/100Ah tích hợp Smart BMS
+Modbus RTU RS485 (Battery_Port / huart5)
+Chấu tiếp xúc đồng khí nén/lò xo công suất lớn
+
+Bảng 3.9 Thông số kỹ thuật Khối Pin & Sạc tự động.
+
+3.1.3.10 j) Mạch hạ áp Buck LM2596 & LDO AMS1117-3.3VIC hạ áp Buck 24V
+→ 5V/3A và LDO 3.3V cấp nguồn vi điều khiển và các mạch logic giao tiếp.
+Thông số
+Giá trị / Đặc tính kỹ thuật
+Điện áp vào / ra Buck LM2596 (24V → 5V/3A), LDO AMS1117 (5V → 3.3V/1A)
+Bảo vệ
+Chống ngược cực Diode, lọc nhiễu tụ điện 10µF/22µF
+Bảng 3.10 Thông số kỹ thuật Mạch nguồn bo mạch.
+
+3.1.3.11
+
+Bảng tổng hợp danh mục toàn bộ linh kiện phần cứng AGV B400
+
+3.2
+
+Thiết kế chi tiết hệ thống
+
+3.2.1
+
+Tính toán đáp ứng công suất nguồn
+
+Hệ thống xe AGV B400 được cấp nguồn từ khối Pin LiFePO4 24V (Điện áp danh
+định 25.6V, điện áp đầy 28.4V, khi cạn 21.6V). Điện áp 24V được hạ xuống 5VDC qua
+LM2596 và 3.3VDC qua AMS1117 cấp nguồn cho MCU STM32F4 và các linh kiện
+logic.
+Từ bảng tính toán trên, tổng công suất điều khiển logic (không kể động cơ chính)
+là Plogic ≈ 19.8 W. Với hiệu suất bộ nguồn hạ áp đạt 68%, công suất đầu vào tiêu thụ từ
+
+22
+
+Thiết bị / Module
+
+Mô tả thông số & Vai
+trò
+
+STM32F407ZGT6
+
+ARM
+Cortex-M4
+168MHz, 1MB Flash,
+192KB RAM. Xử lý
+trung tâm.
+
+LM2596 + AMS1117-3.3V
+
+Mạch hạ áp Buck 24V>5V và LDO 3.3V cấp
+nguồn cho MCU &
+logic.
+
+Khối Truyền thông RS485 5x SN65HVD75 / MAX485
+
+5 kênh Modbus RTU
+DMA
+riêng
+biệt
+(Driver, HMI, PLC,
+Sạc, BMS).
+
+Khối Truyền thông CAN
+
+1x SN65HVD230 / VP230
+
+Transceiver CAN Bus
+kết nối cảm biến Lidar
+an toàn ME-4341.
+
+Wanji ME-4341 (CAN)
+
+Cảm biến quét Laser
+an toàn 2D, quét vật
+cản và chuyển vùng
+bảo vệ.
+
+2x MGS-16 / MGS-8
+
+Cảm biến dò dải từ
+tính dán sàn (đặt ở phía
+Trước và Phía Sau xe).
+
+Đầu đọc RFID RS485 + Thẻ
+
+Đọc mã thẻ từ định vị
+tọa độ trạm dừng (Station 1..12, Kho, Sạc).
+
+Controller BLDC/Servo RS485
+
+Bộ điều khiển 2 động
+cơ di chuyển vi sai qua
+cổng Modbus Master.
+
+2x BLDC/Servo 24V 400W
+
+Động cơ công suất di
+chuyển chính tích hợp
+Encoder & Hộp số.
+
+Xi-lanh điện 24V + Limit SW
+
+Nâng/hạ móc kéo
+xe hàng, phản hồi
+cảm biến hành trình
+Tool_IN.
+
+An toàn
+
+Nút EMC, Bumper
+
+Nút ngắt khẩn cấp
+22mm và thanh va
+chạm cơ học ngắt ngắt
+EXTI.
+
+Báo hiệu Âm thanh
+
+23
+MP3 Trigger + Loa 4Ω 5W
+
+Mạch phát âm thanh
+cảnh báo qua 5
+ngõ
+vào
+Digital
+
+Khối chức năng
+
+Khối MCU Trung tâm
+
+Khối Nguồn Bo mạch
+
+Cảm biến Lidar 2D
+
+Cảm biến Đường từ
+
+Định vị RFID
+
+Driver Động cơ
+
+Động cơ Di chuyển
+
+Cơ cấu Nâng/Móc hàng
+
+Pack Pin LiFePO4 24V
+(50Ah/100Ah + BMS)
+
+Contactor & Sạc
+DK_Sac_Pin
+
+Buck LM2596
+(24V → 5VDC / 3A)
+
+LDO AMS1117
+(5V → 3.3VDC / 1A)
+
+Tải 24VDC
+Driver BLDC, Lidar, Tool
+
+Tải 5VDC
+Speak.c, Còi báo
+
+Tải 3.3VDC
+MCU STM32F4, RS485, CAN
+
+Hình 3.3 Sơ đồ khối hệ thống nguồn điện xe AGV B400.
+Linh kiện / Khối tải
+Điện áp (V) Dòng Peak (mA) Công suất Peak (W)
+Bo mạch MCU STM32F4
+3.3
+150
+0.495
+5x Kênh Transceiver RS485
+3.3
+120
+0.396
+1x Transceiver CAN Bus
+3.3
+50
+0.165
+2x Cảm biến đường từ MGS
+24.0
+200
+4.800
+Cảm biến Lidar 2D Wanji
+24.0
+500
+12.000
+Module âm thanh Speak.c
+5.0
+400
+2.000
+2x Động cơ di chuyển BLDC 400W
+24.0
+30000
+720.000
+Xi-lanh điện nâng hàng Tool
+24.0
+3000
+72.000
+TỔNG CÔNG SUẤT TẢI MAX
+
+–
+
+–
+
+811.856 W
+
+Bảng 3.12 Bảng tính toán công suất nguồn ở kịch bản tải cực đại Peak.
+khối Pin khi xe di chuyển bình thường là:
+Pin =
+
+2.46
+≈ 3.62 W
+0.68
+
+(3.2)
+
+Dòng điện đầu vào từ khối Pin ở chế độ điều khiển:
+Iin =
+
+3.62
+≈ 489 mA
+7.4
+
+(3.3)
+
+Thời gian hoạt động lý thuyết với khối Pin LiFePO4 50Ah ở kịch bản vận hành trung
+bình:
+50000 mAh
+Tpeak =
+≈ 10.2 giờ
+(3.4)
+4890 mA
+3.2.2
+
+Thiết kế mạch nguyên lý (Schematic)
+Mạch nguyên lý bo mạch trung tâm AGV B400 bao gồm:
+
+• Khối Vi điều khiển STM32F407ZGT6: Mạch thạch anh ngoài 8MHz (HSE),
+32.768kHz (RTC), các tụ lọc nguồn 0.1µF tại tất cả các chân VDD , cổng nạp chuẩn
+SWD (SWCLK, SWDIO, NRST, GND).
+• Khối Truyền thông 5x RS485 + 1x CAN: Đố nối IC SN65HVD75 kết nối các
+chân UART DMA và IC SN65HVD230 kết nối CAN1 (‘PA11/PA12‘).
+24
+
+• Khối Ngõ vào/Ngõ ra Cách ly: Mạch đọc nút bấm EMC, Bumper ngắt cứng EXTI,
+điều khiển Rơ-le nâng tool và phát âm thanh Speak.c.
+3.2.3
+
+Layout PCB và Bố trí Linh kiện
+
+Mạch in PCB được thiết kế trên 2 lớp (Double-sided PCB) đáp ứng các tiêu chuẩn
+công nghiệp:
+• Đường nguồn công suất 24V và GND được phủ đồng lớn (Ground Pour) giúp tản
+nhiệt và giảm trở kháng đường mạch.
+• Đường tín hiệu vi sai CAN (CAN_H, CAN_L) và RS485 (A, B) được đi song song
+với khoảng cách cố định (Differential Pair Routing).
+• Điện trở bù kết thúc bus 120Ω được đặt ngay tại cổng kết nối bus CAN và RS485.
+
+25
+
+CHƯƠNG 4. KIẾN TRÚC PHẦN MỀM VÀ LUỒNG HOẠT
+ĐỘNG
+
+4.1
+
+Thiết kế Firmware
+
+Firmware nhúng được tổ chức theo cấu trúc cây thư mục (Folder Tree) mô-đun hóa
+trên nền FreeRTOS:
+g Folder Tree - Overview
+
+g Core
+g Drivers
+g Charge
+g Middlewares
+
+g
+AGV_B400_Firmware
+
+g ESA_Driver
+g User
+g Lidar_ME4341
+@ AGV_B400.ioc
+g Modbus_Protocol
+@ README.md
+
+Hình 4.1 Sơ đồ cây thư mục mã nguồn phần mềm nhúng AGV B400.
+Trạng thái di chuyển toàn cục của xe được quản lý qua biến máy trạng thái AGV_Running:
+0x04: AGV_Tool
+Thực thi Nâng/Hạ hàng
+Đến trạm Hoàn thành
+0x00: AGV_Stop
+0x01: AGV_Run
+Start Button / HMI
+Dừng / Chờ lệnh
+Chạy tự động dò từ
+Reset Button
+Sự cố
+
+Hết vật cản Vật cản xa
+
+0x03: AGV_Emc
+0x02: AGV_Wait
+Lỗi / Dừng khẩn EMC/BumperChạm BumperCảnh báo Lidar / Giảm tốc
+
+Hình 4.2 Sơ đồ chuyển trạng thái di chuyển toàn cục của xe AGV B400.
+
+4.2
+
+Thiết kế Software và Các Luồng Hoạt Động
+
+4.2.1
+
+Sơ đồ Luồng Dẫn đường từ & Nhận diện Trạm RFID
+
+Luồng điều khiển di chuyển tự động từ khi nhận lệnh di chuyển cho đến khi nhận
+diện chính xác thẻ từ RFID tại trạm đích:
+
+26
+
+Tên Task
+AGV_RunTask
+
+AGV_ReadTask
+
+StartTask03
+
+StartTask04
+
+StartTask05
+
+TIM9 IRQ
+
+Ưu tiên
+Normal
+
+Normal
+
+Normal
+
+Normal
+
+Normal
+
+Hàm xử lý chính
+
+Chức năng chi tiết
+
+AGV_Control()
+
+Dẫn đường từ, xử lý RFID,
+tính toán tốc độ vi sai bánh
+lái.
+
+Charge_Check()
+
+Đo điện áp Pin (ADC3
++ Kalman), điều khiển tự
+động sạc.
+
+Read_Control()
+
+Modbus Master điều khiển
+& đọc phản hồi Driver
+Động cơ.
+
+EMC_Control()
+
+Giám sát Lidar CAN,
+Bumper, EMC button,
+phát cảnh báo lỗi.
+
+System_Protocol()
+
+Giao
+tiếp
+Modbus
+HMI/Server trung tâm và
+PLC trạm.
+
+Hardware HAL_TIM_PeriodElapsed
+
+Đếm thời gian thực 1ms,
+Timeout truyền thông, nút
+nhấn cứng.
+
+Bảng 4.1 Bảng phân chia các Task đa nhiệm trong FreeRTOS.
+
+27
+
+Bắt đầu di chuyển (AGV_Running = 0x01)
+
+Đọc cảm biến từ MGS_F / MGS_R
+
+Tính toán vi sai góc lái & Tốc độ Speed_Set
+
+Gửi lệnh tốc độ tới Driver qua Modbus Control_Port
+
+Quét được thẻ RFID?
+
+No
+
+Tiếp tục căn lề đường từ
+
+Yes
+
+Khớp trạm đích (Value_RFID)?
+
+No
+
+Yes
+Dừng xe & Chuyển trạng thái nâng 0x04
+
+Hình 4.3 Sơ đồ thuật toán dẫn đường từ và định vị vị trí trạm bằng thẻ RFID.
+
+28
+
+4.2.2
+
+Sơ đồ Luồng Giám sát An toàn & Xử lý Ngắt khẩn
+
+Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar CAN, Bumper và Nút
+EMC:
+Giám sát cảm biến an toàn 24/7
+
+Nhấn nút EMC / Bumper?
+
+Yes
+
+Chuyển AGV_Running = 0x03
+Ngắt Driver & Bật Led_Err
+Phát âm thanh Speak_out(AGV_Emc)
+
+No
+
+Lidar báo vật cản nguy hiểm?
+
+Yes
+
+Chuyển AGV_Running = 0x02
+Giảm tốc độ & Bật còi cảnh báo
+
+No
+Duy trì trạng thái di chuyển bình thường
+
+Hình 4.4 Sơ đồ tuần tự xử lý an toàn Lidar, Bumper và Nút khẩn cấp.
+4.2.3
+
+Sơ đồ Luồng Thực thi Cơ cấu Nâng/Hạ hàng
+Quá trình kéo và giải phóng xe hàng (Trolley) tại trạm dừng:
+
+4.2.4
+
+Sơ đồ Luồng Đo Pin & Tự động Sạc Pin
+Quy trình đo điện áp pin qua bộ lọc Kalman và điều khiển kết nối sạc tự động:
+
+4.2.5
+
+Sơ đồ Giao tiếp Truyền thông Modbus HMI & PLC
+
+Luồng xử lý dữ liệu giữa AGV B400 với Hệ thống trung tâm HMI (System_Port)
+và PLC trạm (PLC_Port):
+
+4.3
+
+Các Sơ đồ Tuần tự (Sequence Diagrams)
+
+Phần này mô tả chi tiết biểu diễn giao tiếp và chuỗi tuần tự sự kiện giữa các tác
+nhân phần mềm và phần cứng trong hệ thống AGV B400. Sơ đồ được trình bày theo
+chuẩn UML trực quan với các tiến trình rõ ràng.
+29
+
+Vào trạm (AGV_Running = 0x04)
+
+Bật ngõ ra Tool_OUT1 / Tool_OUT2 (Kích nâng/hạ)
+
+Cảm biến Tool_IN1/IN2 kích hoạt?
+
+No (Chờ)
+
+Yes
+Đặt tool_status_up = true
+Cập nhật Taget_status chặng mới
+
+Chuyển AGV_Running = 0x01 (Tiếp tục di chuyển)
+
+Hình 4.5 Sơ đồ tuần tự quy trình nâng/hạ móc kéo hàng tự động.
+
+30
+
+Đọc ADC3_IN14 qua DMA
+
+Lọc nhiễu bằng thuật toán Kalman (kalman_update)
+
+No
+
+Pin thấp / Hết ca?
+
+Duy trì hoạt động bình thường
+
+Yes
+AGV tự di chuyển về Trạm Sạc (Point 12)
+
+No
+
+Đã chạm chấu sạc?
+
+Yes
+Đóng rơ-le DK_Sac_Pin & Kết nối Modbus Trạm sạc
+
+Báo Pin đầy (chargeFull = 1)?
+
+No (Đang sạc)
+
+Yes
+Ngắt rơ-le sạc & Trả xe về trạng thái sẵn sàng
+
+Hình 4.6 Sơ đồ tuần tự đo điện áp pin Kalman và chu trình sạc tự động.
+
+31
+
+Ngắt DMA nhận chuỗi Modbus RTU
+
+No (Hủy)
+Kiểm tra CRC-16 chuẩn?
+
+Yes
+
+Khớp Slave ID (System=1, PLC=3)?
+
+Yes
+Đọc/Ghi thanh ghi usSReg_System / usSReg_PLC
+
+Phản hồi khung Modbus qua DMA TX
+
+Hình 4.7 Sơ đồ luồng xử lý giao thức Modbus RTU trên các cổng truyền thông.
+
+32
+
+4.3.1
+
+Sơ đồ tuần tự: Dẫn đường từ tính & Định vị trạm RFID
+HMI/Server
+
+AGV_RunTask
+
+MGS-16
+
+RFID Reader
+
+Motor Driver
+
+Khởi động
+Lệnh Khởi động (0x01)
+
+Chu kỳ Dẫn đường (10ms)
+Đọc từ trường 16-bit
+Giá trị lệch (Trái/Phải)
+Lệnh vận tốc vi sai (Modbus TX)
+ACK & Encoder (Modbus RX)
+
+Định vị Trạm đích
+Quét mã thẻ từ
+Trả về RFID Tag ID
+
+HMI/Server
+
+AGV_RunTask
+
+MGS-16
+
+RFID Reader
+
+Motor Driver
+
+Hình 4.8 Sơ đồ tuần tự quá trình dẫn đường và nhận dạng trạm RFID.
+4.3.2
+
+Sơ đồ tuần tự: An toàn đa tầng & Xử lý dừng khẩn cấp
+
+4.3.3
+
+Sơ đồ tuần tự: Thực thi Cơ cấu nâng/hạ móc kéo
+
+4.3.4
+
+Sơ đồ tuần tự: Đo điện áp Pin & Tự động cập trạm sạc
+
+4.3.5
+
+Sơ đồ tuần tự: Giao tiếp Modbus HMI & PLC
+
+33
+
+Lidar/Bumper
+
+AGV_RunTask
+
+StartTask04
+
+Motor Driver
+
+Speak.c (Loa MP3)
+
+Cảnh báo nguy hiểm (Vật cản Vùng 2)
+Cảnh báo vật cản (CAN 500Kbps)
+Gửi Event: Cảnh báo Lidar (0x02)
+Giảm 50% tốc độ
+Kích hoạt cảnh báo âm thanh
+
+Dừng Khẩn cấp (Vùng 3 / Chạm Bumper)
+Ngắt phần cứng EXTI
+Gửi Event: Sự Cố Khẩn Cấp (0x03)
+Ngắt lệnh chạy, Kích hoạt Phanh từ
+Phát âm thanh ”Có sự cố”
+
+Lidar/Bumper
+
+AGV_RunTask
+
+StartTask04
+
+Motor Driver
+
+Speak.c (Loa MP3)
+
+Hình 4.9 Sơ đồ tuần tự luồng giám sát an toàn và xử lý sự cố khẩn cấp.
+
+AGV_RunTask
+
+Tool_OUT (Rơ-le)
+
+Xi-lanh & Cảm biến
+
+Trạm PLC (Modbus)
+
+Kích hoạt Cơ cấu Nâng/Hạ
+Kích hoạt OUT1 (Nâng móc kéo)
+Cấp nguồn 24V
+Chạm cảm biến hành trình trên (Tool_IN1)
+
+Cập nhật trạng thái
+Ngắt OUT1 (Dừng xi-lanh)
+Gửi cờ ”Đã khóa xe hàng thành công”
+Xác nhận ACK
+
+AGV_RunTask
+
+Tool_OUT (Rơ-le)
+
+Xi-lanh & Cảm biến
+
+Trạm PLC (Modbus)
+
+Hình 4.10 Sơ đồ tuần tự hoạt động của cơ cấu móc kéo xe hàng.
+
+34
+
+ADC3 & Kalman
+
+AGV_ReadTask
+
+Trạm Sạc tự động
+
+AGV_RunTask
+
+DK_Sac_Pin (Rơ-le)
+
+Giám sát dung lượng Pin
+Cung cấp điện áp đã lọc (Vkalman )
+Báo cáo Pin yếu (< 23.0V )
+
+Tiến trình Sạc Pin
+Đóng Contactor sạc
+Lệnh kích hoạt sạc (Modbus)
+
+Hoàn thành sạc
+Báo cáo Pin đầy (≥ 28.4V )
+Ngừng sạc & Mở Contactor
+
+ADC3 & Kalman
+
+AGV_ReadTask
+
+AGV_RunTask
+
+Trạm Sạc tự động
+
+DK_Sac_Pin (Rơ-le)
+
+Hình 4.11 Sơ đồ tuần tự quá trình giám sát Pin và sạc tự động.
+
+HMI Server
+
+UART6 DMA (RX)
+
+Bảng Thanh Ghi
+
+StartTask05
+
+UART6 DMA (TX)
+
+Tiếp nhận & Xử lý Lệnh
+Gửi khung Modbus (Ghi Start)
+Ngắt IDLE (Nhận xong khung)
+Ghi giá trị (AGV_Running=0x01)
+
+Phản hồi Trạng thái
+Đóng gói phản hồi Modbus
+Trả về trạng thái hiện tại (TX DMA)
+
+HMI Server
+
+UART6 DMA (RX)
+
+StartTask05
+
+Bảng Thanh Ghi
+
+UART6 DMA (TX)
+
+Hình 4.12 Sơ đồ tuần tự giao thức truyền thông Modbus RTU.
+
+35
+
+CHƯƠNG 5. KIỂM THỬ HỆ THỐNG VÀ LẤY DỮ LIỆU
+
+5.1
+
+Quy trình kiểm thử
+
+5.1.1
+
+Kiểm tra nguồn
+
+Trước khi cấp nguồn vận hành toàn bộ xe, các bước kiểm tra nguồn điện được thực
+hiện nghiêm ngặt:
+• Đo kiểm điện áp tĩnh: Sử dụng đồng hồ VOM đo điện áp đầu ra của khối Pin
+LiFePO4 (đạt 25.6VDC), điện áp ngõ ra LM2596 (đạt 5.02VDC) và ngõ ra AMS11173.3V (đạt 3.31VDC).
+• Đo nhiễu sụt áp động và kiểm tra Kalman: Quan sát dạng sóng điện áp trên
+Oscilloscope khi 2 động cơ di chuyển khởi động đột ngột. Kết quả cho thấy bộ lọc
+Kalman đã triệt tiêu hoàn toàn các gai sụt áp nhiễu, giữ giá trị đọc ADC3 ổn định.
+5.1.2
+
+Kiểm tra các module
+
+• Thử nghiệm truyền thông 5x RS485 DMA: Gửi chuỗi khung Modbus liên tục ở
+tốc độ baud 9600/115200bps. Tỷ lệ lỗi truyền dữ liệu (Frame error) < 0.01%.
+• Thử nghiệm bus CAN Lidar Wanji: Kiểm tra đáp ứng nhận dữ liệu quét 500Kbps.
+Khi có vật cản xâm nhập vùng bảo vệ, xe chuyển ngay sang trạng thái 0x02 (Giảm
+tốc) hoặc 0x03 (Dừng khẩn) trong dưới 30ms.
+• Thử nghiệm Cảm biến MGS & RFID: Thử nghiệm di chuyển bám dải từ trên
+sàn thử nghiệm. Xe di chuyển êm, căn lề chính xác ±5mm. Đọc thẻ RFID thụ động
+đạt tỷ lệ nhận dạng 100% ở tốc độ 0.8m/s.
+• Thử nghiệm phát âm thanh Speak.c: Kích hoạt các chân Speak1..Speak5, loa
+4Ω 5W phát rõ ràng các bản tin tiếng nói cảnh báo.
+5.1.3
+
+Kiểm thử thiết bị hoàn chỉnh
+
+Đưa xe AGV B400 vào vận hành thử nghiệm chu trình làm việc hoàn chỉnh tại trạm
+sản xuất:
+1. Xe nhận lệnh di chuyển từ HMI (System_Port), di chuyển tự động bám đường từ
+từ Trạm 1 đến Trạm 4.
+2. Khi tới Trạm 4, RFID đọc đúng mã thẻ RFID_Point[4], xe dừng chuẩn xác vị trí
+và kích hoạt nâng cơ cấu kéo xe hàng Trolley (Tool_OUT1).
+36
+
+3. Cảm biến hành trình Tool_IN1 báo nâng thành công, xe tiếp tục kéo xe hàng về
+Kho thành phẩm.
+4. Xe tự động kiểm tra điện áp Pin; khi Pin sụt dưới ngưỡng 22.5V, xe tự rời tuyến
+chính di chuyển về Trạm Sạc, chạm chấu sạc đồng và đóng rơ-le sạc tự động
+DK_Sac_Pin.
+
+37
+
+CHƯƠNG 6. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+
+6.1
+
+Kết quả đạt được
+
+Dự án nghiên cứu, thiết kế và chế tạo xe tự hành công nghiệp AGV B400 đã hoàn
+thiện thành công với các kết quả nổi bật:
+• Thiết kế và làm chủ bo mạch điều khiển nhúng trung tâm sử dụng STM32F407ZGT6
+chạy hệ điều hành thời gian thực FreeRTOS.
+• Tích hợp thành công 5 cổng truyền thông Modbus RTU RS485 DMA và 1 cổng
+CAN Bus giao tiếp Lidar quét an toàn 2D.
+• Xây dựng hoàn chỉnh máy trạng thái di chuyển toàn cục AGV_Running và các thuật
+toán dẫn đường từ MGS, định vị trạm RFID, nâng/hạ móc hàng tự động và tự động
+sạc pin thông minh.
+
+6.2
+
+Hướng phát triển và Khuyến nghị kỹ thuật
+
+6.2.0.1
+
+a) Khuyến nghị thiết kế chống nhiễu phần cứng công nghiệp
+
+1. Cách ly quang (Optocoupler): Sử dụng IC cách ly quang (PC817/6N137) cho toàn
+bộ ngõ vào Digital (Nút nhấn, Bumper, Cảm biến nâng) triệt tiêu nhiễu từ động cơ
+công suất.
+2. Điện trở bù bus: Đặt điện trở bù 120Ω tại hai đầu dây bus CAN và bus RS485
+chống phản xạ tín hiệu.
+3. Bảo vệ nguồn: Bổ sung Diode TVS chống sụt/vọt áp và Diode chống ngược cực
+nguồn 24VDC cấp bo mạch.
+6.2.0.2
+
+b) Định hướng nâng cấp mở rộng trong tương lai
+
+• Tích hợp định vị Slam Lidar 3D / Natural Navigation: Nâng cấp hệ thống định
+vị không dây không phụ thuộc băng từ dán sàn.
+• Kết nối Quản lý Đội xe (Fleet Management Systems - FMS): Tích hợp kết nối
+không dây Wi-Fi/LoRaWAN kết nối hệ thống điều hành sản xuất MES/ERP.
+
+38
+
+Tài liệu
+
+[1] STMicroelectronics, STM32F407xx Reference Manual (RM0090), 2021.
+[2] Real Time Engineers Ltd., FreeRTOS Kernel Reference Manual V10.3.1, 2020.
+[3] Modbus Organization, Modbus Application Protocol Specification V1.1b3, 2012.
+[4] Standard Industrial AGV Design Handbook, ESATECH R&D Internal Documentation, 2023.
+
+39
+
+PHỤ LỤC
+Bảng phân công công việc thực hiện dự án AGV B400
+Hạng mục công việc
+
+Nội dung thực hiện chi tiết
+
+Người thực hiện
+
+PHẦN PHẦN CỨNG (HARDWARE)
+Lựa chọn linh kiện
+
+Chọn MCU STM32F407,
+Driver BLDC, Lidar CAN,
+MGS, RFID, BMS
+
+Hồ Quang Quân
+
+Thiết kế Schematic
+
+Vẽ sơ đồ nguyên lý mạch trung
+tâm MCU, RS485 DMA, CAN
+Bus, Nguồn
+
+Nguyễn Hữu Phong
+
+Layout PCB
+
+Thiết kế PCB 2 lớp, đi dây vi
+sai, phủ mass chống nhiễu
+
+Hồ Xuân Phú
+
+PHẦN FIRMWARE & PHẦN MỀM (FIRMWARE & SOFTWARE)
+Kiến trúc FreeRTOS
+
+Lập trình 5 Task FreeRTOS,
+ngắt TIM9 IRQ 1ms, máy trạng
+thái AGV_Running
+
+Hồ Quang Quân
+
+Lập trình truyền thông
+
+Lập trình 5 kênh Modbus RTU
+RS485 DMA
+
+Hồ Quang Quân
+
+Lập trình Lidar CAN
+
+Đọc dữ liệu vùng bảo vệ Lidar
+CAN Wanji ME-4341 qua ngắt
+CAN
+
+Hồ Quang Quân
+
+Lập trình Dẫn đường
+
+Thuật toán bám đường từ MGS16 & tra cứu ma trận thẻ RFID
+
+Dương Huyền Ninh
+
+Bộ lọc Kalman
+
+Thuật toán Kalman lọc nhiễu
+điện áp ADC3_IN14 đo pin
+
+Hồ Quang Quân
+
+KIỂM THỬ THỰC TẾ (TESTING & SYSTEM INTEGRATION)
+Kiểm tra nguồn & phần cứng
+
+Đo đạc điện áp tĩnh/động 24V,
+5V, 3.3V, đo tín hiệu bus
+RS485/CAN
+
+Hồ Xuân Phú
+
+Thử nghiệm chạy xe
+
+Chạy thử nghiệm bám dải từ,
+cập trạm RFID, kéo hàng & sạc
+tự động
+
+Cả nhóm
+
+Bảng 6.1 Bảng phân công nhiệm vụ thực hiện dự án xe tự hành AGV B400.
+
+40
+
+
