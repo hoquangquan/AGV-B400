@@ -751,21 +751,21 @@ Trạng thái di chuyển toàn cục của xe được quản lý qua biến m�
 \begin{figure}[!htbp]
 \centering
 \scalebox{0.75}{%
-\begin{tikzpicture}[node distance=2cm, auto, >=stealth']
+\begin{tikzpicture}[node distance=3cm and 4.5cm, auto, >=stealth']
     \node [process, fill=ui_grey, draw=ui_darkgrey!50] (s0) {\textbf{0x00: AGV\_Stop}\\Dừng / Chờ lệnh};
     \node [process, fill=ui_green, draw=ui_darkgreen!50, right=of s0] (s1) {\textbf{0x01: AGV\_Run}\\Chạy tự động dò từ};
     \node [process, fill=ui_yellow, draw=ui_orange!50, below=of s1] (s2) {\textbf{0x02: AGV\_Wait}\\Cảnh báo Lidar / Giảm tốc};
     \node [process, fill=ui_red, draw=ui_darkred!50, left=of s2] (s3) {\textbf{0x03: AGV\_Emc}\\Lỗi / Dừng khẩn EMC/Bumper};
     \node [process, fill=ui_blue, draw=ui_darkblue!50, above=of s1] (s4) {\textbf{0x04: AGV\_Tool}\\Thực thi Nâng/Hạ hàng};
 
-    \draw [->, thick] (s0) -- node {Start Button / HMI} (s1);
-    \draw [->, thick] (s1) -- node [right] {Vật cản xa} (s2);
-    \draw [->, thick] (s2) -- node [left] {Hết vật cản} (s1);
-    \draw [->, thick] (s1) -- node {Đến trạm} (s4);
-    \draw [->, thick] (s4) -- node {Hoàn thành} (s1);
-    \draw [->, thick] (s1) -- node {Sự cố} (s3);
-    \draw [->, thick] (s2) -- node {Chạm Bumper} (s3);
-    \draw [->, thick] (s3) -- node {Reset Button} (s0);
+    \draw [->, thick] (s0) -- node[above] {Start Button / HMI} (s1);
+    \draw [->, thick] (s1) to[bend left=15] node[right] {Vật cản xa} (s2);
+    \draw [->, thick] (s2) to[bend left=15] node[left] {Hết vật cản} (s1);
+    \draw [->, thick] (s1) to[bend left=15] node[left] {Đến trạm} (s4);
+    \draw [->, thick] (s4) to[bend left=15] node[right] {Hoàn thành} (s1);
+    \draw [->, thick] (s1) -- node[above, sloped] {Sự cố} (s3);
+    \draw [->, thick] (s2) -- node[above] {Chạm Bumper} (s3);
+    \draw [->, thick] (s3) -- node[left] {Reset Button} (s0);
 \end{tikzpicture}%
 }
 \caption{Sơ đồ chuyển trạng thái di chuyển toàn cục của xe AGV B400.}
