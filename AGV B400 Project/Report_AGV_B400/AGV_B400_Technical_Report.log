@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  8 OCT 2026 11:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  9 OCT 2026 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1622,7 +1622,7 @@ Overfull \hbox (26.675pt too wide) in paragraph at lines 749--750
 [26
 
 {C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fr
-ee1.enc}] [27] [28] (seq_diagrams.tex [29] [30] [31] [32]) [33] [34]
+ee1.enc}] [27] [28] (seq_diagrams.tex [29] [30] [31] [32] [33] [34])
 [35]
 Overfull \hbox (15.98907pt too wide) in paragraph at lines 933--934
 \T5/ptm/m/n/13 LiFePO4 (^^_¤t $\OT1/ztmcm/m/n/13 25\OML/ztmcm/m/it/13 :\OT1/ztm
@@ -1683,7 +1683,7 @@ ograms/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/asus/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/asus/AppData/Local/P
 rograms/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb><C:/Users/asus/AppData/Local
 /Programs/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on AGV_B400_Technical_Report.pdf (41 pages, 382648 bytes).
+Output written on AGV_B400_Technical_Report.pdf (41 pages, 382712 bytes).
 PDF statistics:
  637 PDF objects out of 1000 (max. 8388607)
  143 named destinations out of 1000 (max. 500000)
