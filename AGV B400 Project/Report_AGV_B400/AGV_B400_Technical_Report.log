@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  9 OCT 2026 09:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.8)  9 OCT 2026 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1622,12 +1622,14 @@ Overfull \hbox (26.675pt too wide) in paragraph at lines 749--750
 [26
 
 {C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fr
-ee1.enc}] [27] [28] [29] [30] [31]
+ee1.enc}] [27] [28
+
+] [29] [30] [31]
 Overfull \vbox (114.17899pt too high) has occurred while \output is active []
 
 
 [32] (seq_diagrams.tex [33] [34] [35] [36]) [37] [38]
-Overfull \hbox (15.98907pt too wide) in paragraph at lines 933--934
+Overfull \hbox (15.98907pt too wide) in paragraph at lines 934--935
 \T5/ptm/m/n/13 LiFePO4 (^^_¤t $\OT1/ztmcm/m/n/13 25\OML/ztmcm/m/it/13 :\OT1/ztm
 cm/m/n/13 6[]$\T5/ptm/m/n/13 ), ^^_i»n ¡p ngã ra LM2596 (^^_¤t $\OT1/ztmcm/m/n/
 13 5\OML/ztmcm/m/it/13 :\OT1/ztmcm/m/n/13 02[]$\T5/ptm/m/n/13 ) v  ngã ra AMS11
@@ -1635,7 +1637,7 @@ cm/m/n/13 6[]$\T5/ptm/m/n/13 ), ^^_i»n ¡p ngã ra LM2596 (^^_¤t $\OT1/ztmcm/m/n/
  []
 
 
-Overfull \hbox (1.32611pt too wide) in paragraph at lines 940--941
+Overfull \hbox (1.32611pt too wide) in paragraph at lines 941--942
 []\T5/ptm/b/n/13 Thû nghi»m bus CAN Li-dar Wanji: \T5/ptm/m/n/13 Kiºm tra ^^_¡p
  ùng nhªn dú li»u qu²t 500Kbps.
  []
@@ -1643,7 +1645,7 @@ Overfull \hbox (1.32611pt too wide) in paragraph at lines 940--941
 [39
 
 ] [40]
-Overfull \hbox (8.77354pt too wide) in paragraph at lines 969--970
+Overfull \hbox (8.77354pt too wide) in paragraph at lines 970--971
 []\T5/ptm/m/n/13 Thi¸t k¸ v  l m chõ bo m¤ch ^^_i·u khiºn nhóng trung t¥m sû dö
 ng \T5/ptm/b/n/13 STM32F407ZGT6
  []
@@ -1651,7 +1653,7 @@ ng \T5/ptm/b/n/13 STM32F407ZGT6
 [41
 
 ] [42]
-Underfull \hbox (badness 1859) in paragraph at lines 1032--1032
+Underfull \hbox (badness 1859) in paragraph at lines 1033--1033
 []|\T5/ptm/m/n/11.86258 Thuªt to¡n Kalman låc nhi¹u ^^_i»n ¡p
  []
 
@@ -1667,7 +1669,7 @@ ed.
 Here is how much of TeX's memory you used:
  45073 strings out of 467871
  1028911 string characters out of 5418861
- 1633510 words of memory out of 5000000
+ 1625431 words of memory out of 5000000
  73054 multiletter control sequences out of 15000+600000
  722333 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
