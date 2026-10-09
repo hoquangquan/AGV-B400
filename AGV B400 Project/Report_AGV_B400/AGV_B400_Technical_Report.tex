@@ -271,7 +271,7 @@ Từ phân tích thực tế nhà máy sản xuất, hệ thống AGV B400 phả
 \subsubsection{Tổng quan hệ thống}
 Hệ thống phần cứng AGV B400 được thiết kế dạng module hóa xoay quanh Bo mạch trung tâm STM32F407ZGT6, kết nối với 6 khối chức năng chính bao gồm Khối Nguồn, Khối Truyền thông, Khối Cảm biến, Khối Động cơ \& Cơ cấu, Khối Pin \& Sạc tự động và Khối An toàn báo hiệu.
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 \centering
 \scalebox{0.8}{%
 \begin{tikzpicture}[
@@ -300,7 +300,7 @@ Hệ thống phần cứng AGV B400 được thiết kế dạng module hóa xoa
 \subsubsection{Sơ đồ khối hệ thống}
 Sơ đồ khối thể hiện chi tiết sự kết nối tương tác giữa MCU trung tâm với các khối thiết bị:
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[
@@ -679,7 +679,7 @@ Mạch in PCB được thiết kế trên 2 lớp (Double-sided PCB) đáp ứng
 \subsection{Thiết kế Firmware}
 Firmware nhúng được tổ chức theo cấu trúc cây thư mục (Folder Tree) mô-đun hóa trên nền FreeRTOS:
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[
@@ -748,7 +748,7 @@ TIM9 IRQ & Hardware & HAL\_TIM\_PeriodElapsed & Đếm thời gian thực 1ms, T
 
 Trạng thái di chuyển toàn cục của xe được quản lý qua biến máy trạng thái \texttt{AGV\_Running}:
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 \centering
 \scalebox{0.75}{%
 \begin{tikzpicture}[node distance=3cm and 4.5cm, auto, >=stealth']
@@ -777,10 +777,10 @@ Trạng thái di chuyển toàn cục của xe được quản lý qua biến m�
 \subsubsection{Sơ đồ Luồng Dẫn đường từ \& Nhận diện Trạm RFID}
 Luồng điều khiển di chuyển tự động từ khi nhận lệnh di chuyển cho đến khi nhận diện chính xác thẻ từ RFID tại trạm đích:
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 \centering
-\scalebox{0.75}{%
-\begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
+\scalebox{0.9}{%
+\begin{tikzpicture}[node distance=2.1cm, auto, >=stealth']
     \node [startstop] (start) {Bắt đầu di chuyển (\texttt{AGV\_Running = 0x01})};
     \node [process, below=of start] (mgs) {Đọc cảm biến từ \texttt{MGS\_F} / \texttt{MGS\_R}};
     \node [process, below=of mgs] (steer) {Tính toán vi sai góc lái \& Tốc độ \texttt{Speed\_Set}};
@@ -808,10 +808,10 @@ Luồng điều khiển di chuyển tự động từ khi nhận lệnh di chuy�
 \subsubsection{Sơ đồ Luồng Giám sát An toàn \& Xử lý Ngắt khẩn}
 Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar CAN, Bumper và Nút EMC:
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 \centering
-\scalebox{0.75}{%
-\begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
+\scalebox{0.9}{%
+\begin{tikzpicture}[node distance=2.1cm, auto, >=stealth']
     \node [process, fill=ui_grey, draw=ui_darkgrey!50] (poll) {Giám sát cảm biến an toàn 24/7};
     \node [decision, below=of poll] (chk_emc) {Nhấn nút EMC / Bumper?};
     \node [decision, below=of chk_emc] (chk_lidar) {Lidar báo vật cản nguy hiểm?};
@@ -833,10 +833,10 @@ Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar 
 \subsubsection{Sơ đồ Luồng Thực thi Cơ cấu Nâng/Hạ hàng}
 Quá trình kéo và giải phóng xe hàng (Trolley) tại trạm dừng:
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 \centering
-\scalebox{0.75}{%
-\begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
+\scalebox{0.9}{%
+\begin{tikzpicture}[node distance=2.1cm, auto, >=stealth']
     \node [startstop] (start) {Vào trạm (\texttt{AGV\_Running = 0x04})};
     \node [process, below=of start] (out) {Bật ngõ ra \texttt{Tool\_OUT1} / \texttt{Tool\_OUT2} (Kích nâng/hạ)};
     \node [decision, below=of out] (sensor) {Cảm biến \texttt{Tool\_IN1/IN2} kích hoạt?};
@@ -857,10 +857,10 @@ Quá trình kéo và giải phóng xe hàng (Trolley) tại trạm dừng:
 \subsubsection{Sơ đồ Luồng Đo Pin \& Tự động Sạc Pin}
 Quy trình đo điện áp pin qua bộ lọc Kalman và điều khiển kết nối sạc tự động:
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 \centering
-\scalebox{0.75}{%
-\begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
+\scalebox{0.9}{%
+\begin{tikzpicture}[node distance=2.1cm, auto, >=stealth']
     \node [process] (adc) {Đọc ADC3\_IN14 qua DMA};
     \node [process, below=of adc] (kalman) {Lọc nhiễu bằng thuật toán Kalman (\texttt{kalman\_update})};
     \node [decision, below=of kalman] (low) {Pin thấp / Hết ca?};
@@ -890,10 +890,10 @@ Quy trình đo điện áp pin qua bộ lọc Kalman và điều khiển kết n
 \subsubsection{Sơ đồ Giao tiếp Truyền thông Modbus HMI \& PLC}
 Luồng xử lý dữ liệu giữa AGV B400 với Hệ thống trung tâm HMI (\texttt{System\_Port}) và PLC trạm (\texttt{PLC\_Port}):
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 \centering
-\scalebox{0.75}{%
-\begin{tikzpicture}[node distance=1.5cm, auto, >=stealth']
+\scalebox{0.9}{%
+\begin{tikzpicture}[node distance=2.1cm, auto, >=stealth']
     \node [process] (rx) {Ngắt DMA nhận chuỗi Modbus RTU};
     \node [decision, below=of rx] (crc) {Kiểm tra CRC-16 chuẩn?};
     \node [decision, below=of crc] (id) {Khớp Slave ID (System=1, PLC=3)?};
