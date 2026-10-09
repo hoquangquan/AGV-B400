@@ -5,13 +5,13 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Sơ đồ khối hệ thống nguồn điện xe AGV B400.}}{24}{figure.caption.21}%
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Sơ đồ cây thư mục mã nguồn phần mềm nhúng AGV B400.}}{26}{figure.caption.23}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Sơ đồ chuyển trạng thái di chuyển toàn cục của xe AGV B400.}}{26}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Sơ đồ thuật toán dẫn đường từ và định vị vị trí trạm bằng thẻ RFID.}}{29}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Sơ đồ tuần tự xử lý an toàn Lidar, Bumper và Nút khẩn cấp.}}{30}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Sơ đồ tuần tự quy trình nâng/hạ móc kéo hàng tự động.}}{31}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Sơ đồ tuần tự đo điện áp pin Kalman và chu trình sạc tự động.}}{32}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Sơ đồ luồng xử lý giao thức Modbus RTU trên các cổng truyền thông.}}{33}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Sơ đồ tuần tự quá trình dẫn đường và nhận dạng trạm RFID.}}{34}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Sơ đồ tuần tự luồng giám sát an toàn và xử lý sự cố khẩn cấp.}}{35}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Sơ đồ tuần tự hoạt động của cơ cấu móc kéo xe hàng.}}{36}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Sơ đồ tuần tự quá trình giám sát Pin và sạc tự động.}}{37}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Sơ đồ tuần tự giao thức truyền thông Modbus RTU.}}{38}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Sơ đồ thuật toán dẫn đường từ và định vị vị trí trạm bằng thẻ RFID.}}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Sơ đồ tuần tự xử lý an toàn Lidar, Bumper và Nút khẩn cấp.}}{29}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sơ đồ tuần tự quy trình nâng/hạ móc kéo hàng tự động.}}{30}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Sơ đồ tuần tự đo điện áp pin Kalman và chu trình sạc tự động.}}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Sơ đồ luồng xử lý giao thức Modbus RTU trên các cổng truyền thông.}}{32}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Sơ đồ tuần tự quá trình dẫn đường và nhận dạng trạm RFID.}}{33}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Sơ đồ tuần tự luồng giám sát an toàn và xử lý sự cố khẩn cấp.}}{34}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Sơ đồ tuần tự hoạt động của cơ cấu móc kéo xe hàng.}}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Sơ đồ tuần tự quá trình giám sát Pin và sạc tự động.}}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Sơ đồ tuần tự giao thức truyền thông Modbus RTU.}}{37}{figure.caption.35}%
