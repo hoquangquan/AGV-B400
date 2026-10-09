@@ -827,7 +827,7 @@ Hệ thống an toàn đa tầng liên tục lắng nghe tín hiệu từ Lidar 
     \draw [->, thick] (chk_lidar) -- node {No} (normal);
 \end{tikzpicture}%
 }
-\caption{Sơ đồ tuần tự xử lý an toàn Lidar, Bumper và Nút khẩn cấp.}
+\caption{Sơ đồ luồng xử lý an toàn Lidar, Bumper và Nút khẩn cấp.}
 \label{fig:seq_safety}
 \end{figure}
 
@@ -851,7 +851,7 @@ Quá trình kéo và giải phóng xe hàng (Trolley) tại trạm dừng:
     \draw [->, thick] (done) -- (run);
 \end{tikzpicture}%
 }
-\caption{Sơ đồ tuần tự quy trình nâng/hạ móc kéo hàng tự động.}
+\caption{Sơ đồ luồng quy trình nâng/hạ móc kéo hàng tự động.}
 \label{fig:seq_tool}
 \end{figure}
 
@@ -884,7 +884,7 @@ Quy trình đo điện áp pin qua bộ lọc Kalman và điều khiển kết n
     \draw [->, thick] (full.east) -- ++(1,0) node [above] {No (Đang sạc)} |- (relay.east);
 \end{tikzpicture}%
 }
-\caption{Sơ đồ tuần tự đo điện áp pin Kalman và chu trình sạc tự động.}
+\caption{Sơ đồ luồng đo điện áp pin Kalman và chu trình sạc tự động.}
 \label{fig:seq_charge}
 \end{figure}
 
